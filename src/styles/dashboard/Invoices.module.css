@@ -1,0 +1,145 @@
+/* BANNER IMAGE */
+.banner_img,
+.imgChild {
+  position: relative !important;
+}
+/*     -------------------------     TEXT AREA      ----------------------------    */
+.inner_input_date_picker:hover,
+.inner_input_date_picker:focus {
+  border-color: var(--btn-background);
+  border-inline-end-width: 1px;
+}
+.dateParent,
+.inner_input_date_picker {
+  width: 100% !important;
+  margin-top: 10px;
+}
+
+.invoices {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  margin-top: 42px;
+  margin-bottom: 20px;
+}
+.manage {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  margin: 30px 0px;
+}
+
+/* DATE SECTION CSS */
+.backgroundLight {
+  background-color: var(--header-background-color);
+  margin: 50px 0px;
+}
+.heading {
+  /* height: 130px; */
+  border-bottom: 1px solid var(--header-background-color);
+}
+.tableRow,
+.columnRow {
+  color: var(--light-font-color);
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  text-align: center;
+  font-size: 0.9rem;
+  border-bottom: 1px solid var(--header-background-color);
+  /* height: 80px; */
+  vertical-align: middle;
+}
+.columnRow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.start,
+.type,
+.end,
+.price {
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  color: var(--black-color);
+  vertical-align: middle;
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  padding-top: 12px;
+  margin-bottom: 20px;
+}
+
+.search_by_golf_input_search_by_tourni {
+  height: auto;
+  border-radius: 4px;
+  width: 90%;
+  justify-content: space-between;
+  color: var(--dark-grey-font);
+  padding: 10px;
+}
+.imageParent {
+  width: 22px;
+  height: auto;
+  margin-left: 20px;
+}
+.tableHead {
+  height: 70px;
+  vertical-align: middle;
+}
+.headingB {
+  background-color: var(--header-background-color);
+  height: 70px;
+  vertical-align: middle !important;
+  text-align: center;
+}
+.tableB {
+  margin-bottom: 80px;
+}
+.order {
+  width: 12%;
+  padding-left: 20px !important;
+}
+.date,
+.bilfor,
+.status,
+.pay {
+  width: 12%;
+}
+.biltyp {
+  width: 14%;
+}
+.total,
+.action {
+  width: 8%;
+}
+
+/* PAGINATION  */
+.pagination_container {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.oldTown {
+  color: var(--btn-background-secondary);
+  font-weight: 500;
+}
+
+.no_reservation_text {
+  margin-top: 20px;
+  font-family: var(--font-Nunito);
+}
+
+@media only screen and (max-width: 1200px) {
+  .reservation_table_td {
+    min-width: 150px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .heading {
+    /* height: 460px; */
+  }
+  .columnRow {
+    padding-top: 12px;
+  }
+}

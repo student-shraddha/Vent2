@@ -1,0 +1,118 @@
+.headerReg .ant-modal-title {
+  background: var(--btn-background-secondary) !important;
+  padding: 0% !important;
+  margin: 0% !important;
+}
+
+.form_items {
+  margin-bottom: 0;
+}
+
+.inputParent {
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+}
+.inputA {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px 8px 0px 0px;
+  border: 1px solid var(--light-font-color) !important;
+  color: var(--light-font-color);
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.inputB {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--light-font-color) !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-radius: 0px;
+  color: var(--light-font-color);
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.inputC {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--light-font-color) !important;
+  border-bottom: none !important;
+  border-radius: 0px;
+  color: var(--light-font-color);
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.inputDParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-left: 0px !important;
+}
+
+.inputD {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--light-font-color) !important;
+  height: auto;
+  border-radius: 0px 0px 8px 8px;
+  color: var(--light-font-color);
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.inputDParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-left: 0px !important;
+}
+.agreeBox {
+  margin-top: 20px;
+}
+
+.agreeOptionB {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--black-color);
+  font-weight: var(--font-Nunito);
+  margin-bottom: 14px;
+  /* padding: 0px 20px; */
+}
+
+.registerLink {
+  text-decoration: none;
+}
+.registBtnParent {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+.registerBtn:hover {
+  background: var(--black-btn-color);
+  color: var(--white-font-color) !important;
+}
+.registerBtn {
+  background: var(--btn-background-secondary);
+  color: var(--white-font-color);
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: var(--font-Nunito);
+  text-align: center;
+  border-radius: 8px;
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

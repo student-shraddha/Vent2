@@ -1,0 +1,175 @@
+.about_us_section {
+}
+
+.about_us_section_banner_container {
+  position: relative;
+}
+
+.about_us_section_banner_img {
+  position: relative !important;
+}
+
+/* VACATION SECTION */
+.about_us_vacation_center_main_heading {
+  font-family: var(--font-Montserrat);
+  margin: 4rem 0;
+  font-weight: 600;
+}
+
+.about_us_vacation_center_cols_div {
+  margin-bottom: 2rem;
+}
+.about_us_vacation_center_cols_headings {
+  font-family: var(--font-Montserrat);
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.about_us_vacation_center_cols_para {
+  font-family: var(--font-Nunito);
+  font-size: 15px;
+  color: var(--light-font-color);
+  /* margin: 0; */
+}
+
+/* ABOUT SECTION */
+.about_golfhom_section {
+  margin: 7rem 0;
+  background-color: var(--light-grey);
+}
+
+.about_golfhom_main_container {
+  padding: 4rem 0;
+}
+
+.about_golfhom_heading {
+  font-family: var(--font-Montserrat);
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.about_golfhom_para {
+  font-family: var(--font-Nunito);
+  font-size: 15px;
+  color: var(--light-font-color);
+}
+
+/* STAFF CARD SECTION */
+
+.viewText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* STAFF REVIEW SECTION */
+.staffCard_title {
+  font-family: var(--font-Montserrat);
+  font-weight: 600;
+}
+
+.parentOf_img_textCard {
+  position: relative !important;
+}
+
+.parentReview {
+  padding: 40px 0px 200px 0px;
+  min-width: 320px;
+}
+
+.cardReview {
+  border-radius: 12px;
+}
+
+.cardTextParent {
+  overflow: hidden;
+  background: var(--white-background);
+  width: 70%;
+  padding: 16px;
+  position: absolute;
+  top: 206px;
+  margin-left: 16px;
+}
+
+.contact_div {
+  margin-bottom: 3px;
+  position: relative;
+  right: 4px;
+}
+
+.bookmarkDiv {
+  position: relative;
+  right: 1px;
+}
+
+.card_title {
+  font-weight: 700;
+  font-family: var(--font-Montserrat);
+  font-size: 15px;
+}
+
+.byAdmin {
+  color: var(--card-text-color);
+  font-size: 0.9rem;
+  font-family: var(--font-Nunito);
+  font-size: 12px;
+}
+
+.bookmark_text {
+  font-family: var(--font-Nunito);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--btn-background-secondary);
+}
+
+.learnbtn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.learnbtn_text {
+  color: var(--card-text-secondary);
+  margin-right: 10px;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.learnIcon {
+  position: relative;
+  top: 5px;
+}
+
+.viewallBtnParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  text-decoration: none !important;
+}
+
+.viewallBtn {
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color);
+  padding: 1.6% 3.6%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  text-decoration: none !important;
+  width: 140px;
+  height: 40px;
+  justify-content: center;
+}
+
+.viewallBtn:hover {
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color) !important;
+  text-decoration: none !important;
+}
+
+.linkUnderline {
+  text-decoration: none;
+}

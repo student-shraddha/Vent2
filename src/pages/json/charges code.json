@@ -1,0 +1,8630 @@
+{
+  "propertyTypes": [
+    {
+      "name": {
+        "en": "Home"
+      },
+      "typeCode": "WNG"
+    },
+    {
+      "name": {
+        "en": "Albergaria"
+      },
+      "typeCode": "ALB"
+    },
+    {
+      "name": {
+        "en": "Aparthotel"
+      },
+      "typeCode": "APO"
+    },
+    {
+      "name": {
+        "en": "Apartment"
+      },
+      "typeCode": "APP"
+    },
+    {
+      "name": {
+        "en": "Bed & Breakfast"
+      },
+      "typeCode": "BNB"
+    },
+    {
+      "name": {
+        "en": "Bungalow"
+      },
+      "typeCode": "BNG"
+    },
+    {
+      "name": {
+        "en": "Farm"
+      },
+      "typeCode": "BRY"
+    },
+    {
+      "name": {
+        "en": "Cabin"
+      },
+      "typeCode": "CAB"
+    },
+    {
+      "name": {
+        "en": "Camping"
+      },
+      "typeCode": "CAM"
+    },
+    {
+      "name": {
+        "en": "(Sta)caravan"
+      },
+      "typeCode": "CAR"
+    },
+    {
+      "name": {
+        "en": "Chalet"
+      },
+      "typeCode": "CHA"
+    },
+    {
+      "name": {
+        "en": "Camper"
+      },
+      "typeCode": "CPR"
+    },
+    {
+      "name": {
+        "en": "Cruise"
+      },
+      "typeCode": "CRU"
+    },
+    {
+      "name": {
+        "en": "Estate"
+      },
+      "typeCode": "EAE"
+    },
+    {
+      "name": {
+        "en": "Estalagem"
+      },
+      "typeCode": "EST"
+    },
+    {
+      "name": {
+        "en": "Gasthof"
+      },
+      "typeCode": "GHF"
+    },
+    {
+      "name": {
+        "en": "Guesthouse"
+      },
+      "typeCode": "GUE"
+    },
+    {
+      "name": {
+        "en": "Hostel"
+      },
+      "typeCode": "HOS"
+    },
+    {
+      "name": {
+        "en": "Hotel"
+      },
+      "typeCode": "HOT"
+    },
+    {
+      "name": {
+        "en": "Cottage"
+      },
+      "typeCode": "HUI"
+    },
+    {
+      "name": {
+        "en": "Castle"
+      },
+      "typeCode": "KAS"
+    },
+    {
+      "name": {
+        "en": "Maisonnette"
+      },
+      "typeCode": "MAI"
+    },
+    {
+      "name": {
+        "en": "Motel"
+      },
+      "typeCode": "MOT"
+    },
+    {
+      "name": {
+        "en": "Pension"
+      },
+      "typeCode": "PEN"
+    },
+    {
+      "name": {
+        "en": "Pousada"
+      },
+      "typeCode": "POU"
+    },
+    {
+      "name": {
+        "en": "Residence "
+      },
+      "typeCode": "RES"
+    },
+    {
+      "name": {
+        "en": "Room (in a hotel)"
+      },
+      "typeCode": "ROO"
+    },
+    {
+      "name": {
+        "en": "Serviced Apartment"
+      },
+      "typeCode": "SAP"
+    },
+    {
+      "name": {
+        "en": "Ship/boat "
+      },
+      "typeCode": "SCH"
+    },
+    {
+      "name": {
+        "en": "Tent"
+      },
+      "typeCode": "TNT"
+    },
+    {
+      "name": {
+        "en": "Villa"
+      },
+      "typeCode": "VIL"
+    },
+    {
+      "name": {
+        "en": "Condominium"
+      },
+      "typeCode": "CON"
+    },
+    {
+      "name": {
+        "en": "Holiday Park"
+      },
+      "typeCode": "PRK"
+    },
+    {
+      "name": {
+        "en": "Lodge"
+      },
+      "typeCode": "LOD"
+    },
+    {
+      "name": {
+        "en": "Studio"
+      },
+      "typeCode": "STU"
+    },
+    {
+      "name": {
+        "en": "Resort"
+      },
+      "typeCode": "RST"
+    }
+  ],
+  "propertyAmenities": [
+    {
+      "name": {
+        "en": "Airconditioning"
+      },
+      "amenityCode": "A01",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Garden"
+      },
+      "amenityCode": "G03",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Smoking allowed"
+      },
+      "amenityCode": "S37",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Yes"
+          }
+        },
+        {
+          "attribute": "N",
+          "label": {
+            "en": "No"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Suitable for air sport"
+      },
+      "amenityCode": "A03",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Artificial piste"
+      },
+      "amenityCode": "A04",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Air conditioning in living room"
+      },
+      "amenityCode": "A05",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Air conditioning in bedroom(s)"
+      },
+      "amenityCode": "A06",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Number of additional beds"
+      },
+      "amenityCode": "A07",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Alarm clock"
+      },
+      "amenityCode": "A08",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "ATM on site"
+      },
+      "amenityCode": "A09",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Airport shuttle"
+      },
+      "amenityCode": "A10",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "F",
+          "label": {
+            "en": "Free"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "Surcharge"
+          }
+        },
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Available"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Accessible parking"
+      },
+      "amenityCode": "A11",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Number of bathrooms"
+      },
+      "amenityCode": "B01",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Number of bedrooms"
+      },
+      "amenityCode": "B02",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Boat (for rent)"
+      },
+      "amenityCode": "B03",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Free"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "Surcharge"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Length of boat (in feet)"
+      },
+      "amenityCode": "B04",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Power of boat (in HP)"
+      },
+      "amenityCode": "B05",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Number of bunk beds"
+      },
+      "amenityCode": "B06",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Bath"
+      },
+      "amenityCode": "B07",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "spa bath"
+          }
+        },
+        {
+          "attribute": "A",
+          "label": {
+            "en": "adaptive"
+          }
+        },
+        {
+          "attribute": "H",
+          "label": {
+            "en": "hot spring"
+          }
+        },
+        {
+          "attribute": "P",
+          "label": {
+            "en": "public"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Bicycles"
+      },
+      "amenityCode": "B08",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Free"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "Surcharge"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Barbecue"
+      },
+      "amenityCode": "B09",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Available"
+          }
+        },
+        {
+          "attribute": "C",
+          "label": {
+            "en": "Charcoal"
+          }
+        },
+        {
+          "attribute": "G",
+          "label": {
+            "en": "Gas"
+          }
+        },
+        {
+          "attribute": "E",
+          "label": {
+            "en": "Electric"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Baby bath"
+      },
+      "amenityCode": "B10",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Balcony"
+      },
+      "amenityCode": "B11",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Burglar alarm"
+      },
+      "amenityCode": "B12",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Number of sleeping spots in bunk beds"
+      },
+      "amenityCode": "B13",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Business house"
+      },
+      "amenityCode": "B14",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Baby bed"
+      },
+      "amenityCode": "B15",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Blender"
+      },
+      "amenityCode": "B16",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Total number of beds"
+      },
+      "amenityCode": "B17",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Bed Linen provided"
+      },
+      "amenityCode": "B18",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Beach view"
+      },
+      "amenityCode": "B19",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Baggage Storage"
+      },
+      "amenityCode": "B20",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Bar"
+      },
+      "amenityCode": "B21",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Bowling"
+      },
+      "amenityCode": "B22",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Breakfast"
+      },
+      "amenityCode": "B23",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Available"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "Surcharge"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "Free"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Breakfast in the room"
+      },
+      "amenityCode": "B24",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Business center"
+      },
+      "amenityCode": "B25",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Badminton equipment"
+      },
+      "amenityCode": "B26",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Beach Front Location"
+      },
+      "amenityCode": "B27",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Located on the Beach"
+      },
+      "amenityCode": "B28",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Blu-ray player"
+      },
+      "amenityCode": "B29",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Bathroom amenities (free toiletries)"
+      },
+      "amenityCode": "B30",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House is suitable for children"
+      },
+      "amenityCode": "C01",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Yes"
+          }
+        },
+        {
+          "attribute": "U",
+          "label": {
+            "en": "children not welcome"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Cleaning service"
+      },
+      "amenityCode": "C02",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House is extra comfortable"
+      },
+      "amenityCode": "C03",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Canoeing"
+      },
+      "amenityCode": "C04",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House has a special appearance"
+      },
+      "amenityCode": "C05",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Cross-country skiing"
+      },
+      "amenityCode": "C06",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Bicycle routes"
+      },
+      "amenityCode": "C07",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Kitchen stove"
+      },
+      "amenityCode": "C08",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "C",
+          "label": {
+            "en": "ceramic"
+          }
+        },
+        {
+          "attribute": "E",
+          "label": {
+            "en": "electric"
+          }
+        },
+        {
+          "attribute": "G",
+          "label": {
+            "en": "gas"
+          }
+        },
+        {
+          "attribute": "I",
+          "label": {
+            "en": "induction"
+          }
+        },
+        {
+          "attribute": "U",
+          "label": {
+            "en": "type unknown"
+          }
+        },
+        {
+          "attribute": "W",
+          "label": {
+            "en": "wood"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Number of cooker kernels/hobs"
+      },
+      "amenityCode": "C09",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "CD player"
+      },
+      "amenityCode": "C10",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Cars not allowed"
+      },
+      "amenityCode": "C12",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Child's bed(s)/baby cot(s) on request"
+      },
+      "amenityCode": "C13",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Baby chair(s)/highchair(s) on request"
+      },
+      "amenityCode": "C14",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Computer/PC"
+      },
+      "amenityCode": "C15",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Children swimming Pool"
+      },
+      "amenityCode": "C16",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Cooking basics (pots and pans)"
+      },
+      "amenityCode": "C17",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Carbon monoxide detector"
+      },
+      "amenityCode": "C18",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Canal view"
+      },
+      "amenityCode": "C19",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "City view"
+      },
+      "amenityCode": "C20",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Courtyard view"
+      },
+      "amenityCode": "C21",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Car Rental"
+      },
+      "amenityCode": "C22",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Casino"
+      },
+      "amenityCode": "C23",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Concierge desk"
+      },
+      "amenityCode": "C24",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Currency exchange"
+      },
+      "amenityCode": "C25",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Dishwasher"
+      },
+      "amenityCode": "D01",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Number of double beds"
+      },
+      "amenityCode": "D02",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Tumble dryer"
+      },
+      "amenityCode": "D03",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House is specially adapted for disabled people"
+      },
+      "amenityCode": "D04",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House is well suited to go diving"
+      },
+      "amenityCode": "D05",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Shower"
+      },
+      "amenityCode": "D06",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        },
+        {
+          "attribute": "O",
+          "label": {
+            "en": "shower only"
+          }
+        },
+        {
+          "attribute": "R",
+          "label": {
+            "en": "roll in shower"
+          }
+        },
+        {
+          "attribute": "W",
+          "label": {
+            "en": "walk in shower"
+          }
+        },
+        {
+          "attribute": "N",
+          "label": {
+            "en": "rain shower"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "DVD player"
+      },
+      "amenityCode": "D07",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Dryer"
+      },
+      "amenityCode": "D08",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Number of sleeping spots in double beds"
+      },
+      "amenityCode": "D09",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Desert view"
+      },
+      "amenityCode": "D10",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Darts"
+      },
+      "amenityCode": "D12",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Designated smoking area"
+      },
+      "amenityCode": "D13",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Located Downtown"
+      },
+      "amenityCode": "D14",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Electric kettle"
+      },
+      "amenityCode": "E01",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Completely on the ground floor"
+      },
+      "amenityCode": "E02",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Elevator"
+      },
+      "amenityCode": "E03",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Evening Entertainment"
+      },
+      "amenityCode": "E04",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Express Check-in/Check-out"
+      },
+      "amenityCode": "E05",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Electric vehicle charging station"
+      },
+      "amenityCode": "E06",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Fax"
+      },
+      "amenityCode": "F01",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Fireplace or heater"
+      },
+      "amenityCode": "F02",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House is well suited to go fishing"
+      },
+      "amenityCode": "F03",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Fenced area"
+      },
+      "amenityCode": "F05",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Freezer"
+      },
+      "amenityCode": "F06",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Capacity freezer (in litre)"
+      },
+      "amenityCode": "F07",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Fenced garden"
+      },
+      "amenityCode": "F08",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Height of garden fence/gate (in centimetres)"
+      },
+      "amenityCode": "F09",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Flat-screen TV"
+      },
+      "amenityCode": "F10",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Fan"
+      },
+      "amenityCode": "F11",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Fitness/Gym"
+      },
+      "amenityCode": "F12",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "First Aid Kit"
+      },
+      "amenityCode": "F13",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Fire extinguisher"
+      },
+      "amenityCode": "F14",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Number of king size beds"
+      },
+      "amenityCode": "G02",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Garden furniture"
+      },
+      "amenityCode": "G04",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Playroom"
+      },
+      "amenityCode": "G05",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Game Console"
+      },
+      "amenityCode": "G06",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        },
+        {
+          "attribute": "PS3",
+          "label": {
+            "en": "PlayStation 3"
+          }
+        },
+        {
+          "attribute": "PS4",
+          "label": {
+            "en": "PlayStation 4"
+          }
+        },
+        {
+          "attribute": "PS5",
+          "label": {
+            "en": "PlayStation 5"
+          }
+        },
+        {
+          "attribute": "ONE",
+          "label": {
+            "en": "Xbox One"
+          }
+        },
+        {
+          "attribute": "360",
+          "label": {
+            "en": "Xbox 360"
+          }
+        },
+        {
+          "attribute": "WII",
+          "label": {
+            "en": "Nintento Wii"
+          }
+        },
+        {
+          "attribute": "PS2",
+          "label": {
+            "en": "PlayStation 2"
+          }
+        },
+        {
+          "attribute": "SWI",
+          "label": {
+            "en": "Nintento Switch"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Golf"
+      },
+      "amenityCode": "G07",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Garden view"
+      },
+      "amenityCode": "G08",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Gulf view"
+      },
+      "amenityCode": "G09",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Grocery shopping service"
+      },
+      "amenityCode": "G10",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Located on Golf Course"
+      },
+      "amenityCode": "G11",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Stable"
+      },
+      "amenityCode": "H02",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Horse riding (riding school)"
+      },
+      "amenityCode": "H03",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Certified ITS"
+      },
+      "amenityCode": "H04",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Certified NBAV"
+      },
+      "amenityCode": "H05",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: On a sloping path"
+      },
+      "amenityCode": "H06",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: On an unpaved path"
+      },
+      "amenityCode": "H07",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Slope or sloping path to the entry"
+      },
+      "amenityCode": "H08",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Some stairs at the entry"
+      },
+      "amenityCode": "H09",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: 3 or more steps at the entry"
+      },
+      "amenityCode": "H10",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Duckboard/wheelchair slope at entry"
+      },
+      "amenityCode": "H11",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: House entry - passage >= 80cm"
+      },
+      "amenityCode": "H12",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: House entry - passage >= 90cm"
+      },
+      "amenityCode": "H13",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: House entry - passage less than 80cm"
+      },
+      "amenityCode": "H14",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Garden/terrace - passage >= 80cm"
+      },
+      "amenityCode": "H15",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Living room - passage >= 80cm"
+      },
+      "amenityCode": "H16",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Living room - passage >= 90cm"
+      },
+      "amenityCode": "H17",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Bedroom-passage (at least 1) >= 80cm"
+      },
+      "amenityCode": "H18",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Bedroom-passage (at least 1) >= 90cm"
+      },
+      "amenityCode": "H19",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Space next to bed >= 90 cm"
+      },
+      "amenityCode": "H20",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Raised bed (from 50cm)"
+      },
+      "amenityCode": "H21",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Kitchen-passage >= 80cm"
+      },
+      "amenityCode": "H22",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Bathroom-passage >= 80cm"
+      },
+      "amenityCode": "H23",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Bathroom-passage >= 90cm"
+      },
+      "amenityCode": "H24",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Free space under washbasin >= 70 cm"
+      },
+      "amenityCode": "H25",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Wheelchair-accessible douche"
+      },
+      "amenityCode": "H26",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Shower seat or stool"
+      },
+      "amenityCode": "H27",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Toilet space-passage >= 80cm"
+      },
+      "amenityCode": "H28",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Handles near toilet"
+      },
+      "amenityCode": "H29",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Raised toilet (from 47cm)"
+      },
+      "amenityCode": "H30",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Lift access >= 80cm"
+      },
+      "amenityCode": "H31",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Lift access >= 90cm"
+      },
+      "amenityCode": "H32",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Lift depth >= 120 cm"
+      },
+      "amenityCode": "H33",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Stairlift"
+      },
+      "amenityCode": "H34",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Platform lift"
+      },
+      "amenityCode": "H35",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: Hoist"
+      },
+      "amenityCode": "H36",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Handicapped: No thresholds"
+      },
+      "amenityCode": "H37",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House is suitable for horse riding"
+      },
+      "amenityCode": "H38",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Hair dryer"
+      },
+      "amenityCode": "H41",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Hangers"
+      },
+      "amenityCode": "H42",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Harbor view"
+      },
+      "amenityCode": "H43",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Hill view"
+      },
+      "amenityCode": "H44",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Housekeeping - daily"
+      },
+      "amenityCode": "H45",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Hypoallergenic room available"
+      },
+      "amenityCode": "H46",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Iron"
+      },
+      "amenityCode": "I03",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Ironing board"
+      },
+      "amenityCode": "I04",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Ironing service"
+      },
+      "amenityCode": "I05",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Jetty"
+      },
+      "amenityCode": "J02",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Jeu de Boules"
+      },
+      "amenityCode": "J03",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Number of (extra) cots / kids beds"
+      },
+      "amenityCode": "K01",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Number of (extra) kids chairs"
+      },
+      "amenityCode": "K02",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Kitchen"
+      },
+      "amenityCode": "K04",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Number of sleeping spots in King beds"
+      },
+      "amenityCode": "K05",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Shared Kitchen"
+      },
+      "amenityCode": "K07",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Kitchen utensils"
+      },
+      "amenityCode": "K08",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Bathtub"
+      },
+      "amenityCode": "L01",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "with spray jets"
+          }
+        },
+        {
+          "attribute": "B",
+          "label": {
+            "en": "bathtub only"
+          }
+        },
+        {
+          "attribute": "G",
+          "label": {
+            "en": "grecian tub"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "House has a luxurious appearance"
+      },
+      "amenityCode": "L02",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Available for letting for a longer period"
+      },
+      "amenityCode": "L04",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Local guide"
+      },
+      "amenityCode": "L05",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Laptop friendly"
+      },
+      "amenityCode": "L06",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Lagoon view"
+      },
+      "amenityCode": "L07",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Lake view"
+      },
+      "amenityCode": "L08",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Landmark view"
+      },
+      "amenityCode": "L09",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Library"
+      },
+      "amenityCode": "L10",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Lockers"
+      },
+      "amenityCode": "L11",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Shared lounge/TV area"
+      },
+      "amenityCode": "L12",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Lakefront Location"
+      },
+      "amenityCode": "L13",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Number of mattresses"
+      },
+      "amenityCode": "M01",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Microwave oven"
+      },
+      "amenityCode": "M02",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Marina"
+      },
+      "amenityCode": "M03",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House is suitable for mountaineering"
+      },
+      "amenityCode": "M04",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Magnetron with oven"
+      },
+      "amenityCode": "M05",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House with a mountain view"
+      },
+      "amenityCode": "M06",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Conference room available"
+      },
+      "amenityCode": "M07",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Capacity conference room (in persons)"
+      },
+      "amenityCode": "M08",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Marina view"
+      },
+      "amenityCode": "M09",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Massage"
+      },
+      "amenityCode": "M10",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Meeting facilities"
+      },
+      "amenityCode": "M11",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Minigolf"
+      },
+      "amenityCode": "M12",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Minibar"
+      },
+      "amenityCode": "M13",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House is for non-smokers"
+      },
+      "amenityCode": "N01",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Crèche/day care"
+      },
+      "amenityCode": "N02",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House has neighbouring houses"
+      },
+      "amenityCode": "N03",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House cannot be rented by schools"
+      },
+      "amenityCode": "N04",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House is not suitable for groups of young people"
+      },
+      "amenityCode": "N05",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Nightclub/DJ"
+      },
+      "amenityCode": "N06",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Netflix"
+      },
+      "amenityCode": "N07",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Outdoor kitchen"
+      },
+      "amenityCode": "O02",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Ocean view"
+      },
+      "amenityCode": "O03",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Located Near the Ocean"
+      },
+      "amenityCode": "O04",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Ocean Front Location"
+      },
+      "amenityCode": "O05",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House with a panoramic view"
+      },
+      "amenityCode": "P01",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Telephone"
+      },
+      "amenityCode": "P03",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Surface area of house (in m2)"
+      },
+      "amenityCode": "P06",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Surface area of plot (in m2)"
+      },
+      "amenityCode": "P07",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Playground"
+      },
+      "amenityCode": "P08",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Private swimming pool, can be inside or outside"
+      },
+      "amenityCode": "P09",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Heated swimming pool"
+      },
+      "amenityCode": "P10",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House with 100% privacy"
+      },
+      "amenityCode": "P11",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Size of swimming pool (in m2)"
+      },
+      "amenityCode": "P12",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Number of parking lots"
+      },
+      "amenityCode": "P13",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Playpen"
+      },
+      "amenityCode": "P14",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Number of parking places street side"
+      },
+      "amenityCode": "P15",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Pool/Snooker"
+      },
+      "amenityCode": "P16",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Patio"
+      },
+      "amenityCode": "P17",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Swimming pool"
+      },
+      "amenityCode": "P18",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        },
+        {
+          "attribute": "R",
+          "label": {
+            "en": "rooftop pool"
+          }
+        },
+        {
+          "attribute": "I",
+          "label": {
+            "en": "infinity pool"
+          }
+        },
+        {
+          "attribute": "V",
+          "label": {
+            "en": "pool with a view"
+          }
+        },
+        {
+          "attribute": "P",
+          "label": {
+            "en": "plunge pool"
+          }
+        },
+        {
+          "attribute": "A",
+          "label": {
+            "en": "Accessible"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Private entrance"
+      },
+      "amenityCode": "P19",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Surface area of house (in sqft)"
+      },
+      "amenityCode": "P20",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Park view"
+      },
+      "amenityCode": "P22",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Partial Lake view"
+      },
+      "amenityCode": "P23",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Partial Ocean view"
+      },
+      "amenityCode": "P24",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Partial Sea view"
+      },
+      "amenityCode": "P25",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Pool view"
+      },
+      "amenityCode": "P26",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Quiet"
+      },
+      "amenityCode": "Q01",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Number of Queen beds"
+      },
+      "amenityCode": "Q02",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Radio"
+      },
+      "amenityCode": "R01",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "satellite"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "House has a romantic appearance"
+      },
+      "amenityCode": "R02",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Rowing"
+      },
+      "amenityCode": "R03",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Rating"
+      },
+      "amenityCode": "R04",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Number of ratings (related to R04)"
+      },
+      "amenityCode": "R05",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Room service"
+      },
+      "amenityCode": "R06",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Total number of rooms"
+      },
+      "amenityCode": "R07",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Renovated"
+      },
+      "amenityCode": "R08",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Resort view"
+      },
+      "amenityCode": "R09",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "River view"
+      },
+      "amenityCode": "R10",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Sauna"
+      },
+      "amenityCode": "S01",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Number of single beds"
+      },
+      "amenityCode": "S02",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Number of sofas"
+      },
+      "amenityCode": "S03",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Solarium"
+      },
+      "amenityCode": "S04",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Satellite TV"
+      },
+      "amenityCode": "S05",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House with sea view"
+      },
+      "amenityCode": "S06",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House is well suited to go sailing"
+      },
+      "amenityCode": "S07",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Skating rink"
+      },
+      "amenityCode": "S08",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Squash"
+      },
+      "amenityCode": "S09",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House is well suited to go surfing"
+      },
+      "amenityCode": "S10",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House is suitable for sole occupancy"
+      },
+      "amenityCode": "S11",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Stereo"
+      },
+      "amenityCode": "S12",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Situation: Detached"
+      },
+      "amenityCode": "S13",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Situation: Semi detached"
+      },
+      "amenityCode": "S14",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Situation: On a farm"
+      },
+      "amenityCode": "S15",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Situation: On a working farm"
+      },
+      "amenityCode": "S16",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Situation: On an island"
+      },
+      "amenityCode": "S17",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Situation: In the countryside"
+      },
+      "amenityCode": "S18",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Situation: In the mountains > 1000 m."
+      },
+      "amenityCode": "S19",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Situation: Residential area"
+      },
+      "amenityCode": "S20",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Situation: On holiday park"
+      },
+      "amenityCode": "S21",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Situation: On an estate"
+      },
+      "amenityCode": "S22",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Situation: Bed&Breakfast"
+      },
+      "amenityCode": "S23",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Situation: On a residence"
+      },
+      "amenityCode": "S24",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Sub type: Part of house, sole occupancy"
+      },
+      "amenityCode": "S25",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Sub type: Part of house, multiple occupancy"
+      },
+      "amenityCode": "S26",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Service facilities"
+      },
+      "amenityCode": "S27",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Height above sea level (in meters)"
+      },
+      "amenityCode": "S28",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Standard number of persons"
+      },
+      "amenityCode": "S29",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Number of sleeping spots in single beds"
+      },
+      "amenityCode": "S30",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Number of sleeping spots on sofas/sofabeds"
+      },
+      "amenityCode": "S31",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Safe"
+      },
+      "amenityCode": "S32",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Stretching"
+      },
+      "amenityCode": "S33",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Lounge beds"
+      },
+      "amenityCode": "S34",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Number of single sofa beds (1 person)"
+      },
+      "amenityCode": "S35",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Number of double sofa beds (2 persons)"
+      },
+      "amenityCode": "S36",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Swing"
+      },
+      "amenityCode": "S38",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House is suitable for school camp"
+      },
+      "amenityCode": "S39",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House is suitable for parties"
+      },
+      "amenityCode": "S40",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House is suitable for weddings"
+      },
+      "amenityCode": "S41",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Steambath"
+      },
+      "amenityCode": "S42",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Spa"
+      },
+      "amenityCode": "S43",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Smoke alarm"
+      },
+      "amenityCode": "S44",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Safety card"
+      },
+      "amenityCode": "S45",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Shoeshine"
+      },
+      "amenityCode": "S47",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Shops (on site)"
+      },
+      "amenityCode": "S48",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Ski equipment hire (on site)"
+      },
+      "amenityCode": "S49",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Ski in Property Location"
+      },
+      "amenityCode": "S50",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Ski out Property Location"
+      },
+      "amenityCode": "S51",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Ski pass vendor"
+      },
+      "amenityCode": "S52",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Ski school"
+      },
+      "amenityCode": "S53",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Ski storage"
+      },
+      "amenityCode": "S54",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Skiing"
+      },
+      "amenityCode": "S55",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Snack bar"
+      },
+      "amenityCode": "S56",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Snorkeling"
+      },
+      "amenityCode": "S57",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Souvenir/Gift Shop"
+      },
+      "amenityCode": "S58",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Snowboarding"
+      },
+      "amenityCode": "S59",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Stars (like hotel rating)"
+      },
+      "amenityCode": "S60",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Terrace"
+      },
+      "amenityCode": "T02",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Toys"
+      },
+      "amenityCode": "T03",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Table tennis"
+      },
+      "amenityCode": "T04",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Private tennis court"
+      },
+      "amenityCode": "T05",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Toaster"
+      },
+      "amenityCode": "T06",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Number of toilets"
+      },
+      "amenityCode": "T07",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Houses are located together"
+      },
+      "amenityCode": "T08",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Shared tennis court"
+      },
+      "amenityCode": "T09",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Number of trundles"
+      },
+      "amenityCode": "T10",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Trampoline"
+      },
+      "amenityCode": "T11",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Towels provided"
+      },
+      "amenityCode": "T12",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Tennis equipment"
+      },
+      "amenityCode": "T13",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Tour Desk"
+      },
+      "amenityCode": "T14",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Trouser press"
+      },
+      "amenityCode": "T15",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "24-hour front desk"
+      },
+      "amenityCode": "T16",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Located in Town"
+      },
+      "amenityCode": "T17",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Video"
+      },
+      "amenityCode": "V01",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House with a scenic view"
+      },
+      "amenityCode": "V02",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Vacuum cleaner"
+      },
+      "amenityCode": "V03",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "No-pets version possible"
+      },
+      "amenityCode": "V04",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Non-smoking version possible"
+      },
+      "amenityCode": "V05",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "CNSLD friendly version possible"
+      },
+      "amenityCode": "V06",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Pet-friendly version possible"
+      },
+      "amenityCode": "V07",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Valley view"
+      },
+      "amenityCode": "V08",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Vineyard view"
+      },
+      "amenityCode": "V09",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Vending Machine"
+      },
+      "amenityCode": "V11",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Located in a Village"
+      },
+      "amenityCode": "V12",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Washing machine"
+      },
+      "amenityCode": "W01",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Free aquadrome in neighbourhood"
+      },
+      "amenityCode": "W02",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House with access for wheelchairs"
+      },
+      "amenityCode": "W03",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Whirlpool"
+      },
+      "amenityCode": "W04",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Walking routes"
+      },
+      "amenityCode": "W05",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Water-skiing"
+      },
+      "amenityCode": "W06",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Capacity whirlpool (in persons)"
+      },
+      "amenityCode": "W08",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Available for longer stay in winter"
+      },
+      "amenityCode": "W09",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House is located at the water"
+      },
+      "amenityCode": "W10",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House with water view"
+      },
+      "amenityCode": "W11",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Windsurfing"
+      },
+      "amenityCode": "W12",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Located on the Waterfront"
+      },
+      "amenityCode": "W13",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Year in which the accommodation was built"
+      },
+      "amenityCode": "Y01",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Year in which the accommodation was modernised for the last time"
+      },
+      "amenityCode": "Y02",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Coffee maker"
+      },
+      "amenityCode": "C11",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "E",
+          "label": {
+            "en": "espresso"
+          }
+        },
+        {
+          "attribute": "M",
+          "label": {
+            "en": "moka"
+          }
+        },
+        {
+          "attribute": "R",
+          "label": {
+            "en": "regular"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "Senseo"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Parking"
+      },
+      "amenityCode": "G01",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Free"
+          }
+        },
+        {
+          "attribute": "C",
+          "label": {
+            "en": "Carport"
+          }
+        },
+        {
+          "attribute": "G",
+          "label": {
+            "en": "Garage"
+          }
+        },
+        {
+          "attribute": "P",
+          "label": {
+            "en": "Private Parking Place"
+          }
+        },
+        {
+          "attribute": "O",
+          "label": {
+            "en": "Outside the plot"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "Street parking/nearby parking"
+          }
+        },
+        {
+          "attribute": "R",
+          "label": {
+            "en": "Secured"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "Free offsite parking"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Parking (reservation needed)"
+      },
+      "amenityCode": "P21",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Free"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "Surcharge"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Indoor parking"
+      },
+      "amenityCode": "P27",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Free"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "Surcharge"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Valet Parking"
+      },
+      "amenityCode": "V10",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Free"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "Surcharge"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Wifi"
+      },
+      "amenityCode": "W07",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Free"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "Surcharge"
+          }
+        },
+        {
+          "attribute": "R",
+          "label": {
+            "en": "at the reception"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Kitchenette"
+      },
+      "amenityCode": "K03",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        },
+        {
+          "attribute": "B",
+          "label": {
+            "en": "hot and cold water"
+          }
+        },
+        {
+          "attribute": "C",
+          "label": {
+            "en": "cold water"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Fridge"
+      },
+      "amenityCode": "F04",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "with freezer"
+          }
+        },
+        {
+          "attribute": "H",
+          "label": {
+            "en": "with hood"
+          }
+        },
+        {
+          "attribute": "I",
+          "label": {
+            "en": "with ice maker"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Television"
+      },
+      "amenityCode": "T01",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        },
+        {
+          "attribute": "C",
+          "label": {
+            "en": "cable"
+          }
+        },
+        {
+          "attribute": "D",
+          "label": {
+            "en": "satellite"
+          }
+        },
+        {
+          "attribute": "R",
+          "label": {
+            "en": "for rent"
+          }
+        },
+        {
+          "attribute": "E",
+          "label": {
+            "en": "Digital"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Laundromat"
+      },
+      "amenityCode": "L03",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        },
+        {
+          "attribute": "C",
+          "label": {
+            "en": "in the city"
+          }
+        },
+        {
+          "attribute": "P",
+          "label": {
+            "en": "park facility"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "service"
+          }
+        },
+        {
+          "attribute": "D",
+          "label": {
+            "en": "Available with detergents"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Indoor swimming pool"
+      },
+      "amenityCode": "P04",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        },
+        {
+          "attribute": "P",
+          "label": {
+            "en": "private"
+          }
+        },
+        {
+          "attribute": "C",
+          "label": {
+            "en": "communal"
+          }
+        },
+        {
+          "attribute": "A",
+          "label": {
+            "en": "all year"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "seasonal"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Outdoor swimming pool"
+      },
+      "amenityCode": "P05",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        },
+        {
+          "attribute": "P",
+          "label": {
+            "en": "private"
+          }
+        },
+        {
+          "attribute": "C",
+          "label": {
+            "en": "communal"
+          }
+        },
+        {
+          "attribute": "A",
+          "label": {
+            "en": "all year"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "seasonal"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Heating"
+      },
+      "amenityCode": "H40",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "C",
+          "label": {
+            "en": "central heating"
+          }
+        },
+        {
+          "attribute": "E",
+          "label": {
+            "en": "electric"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "floor"
+          }
+        },
+        {
+          "attribute": "G",
+          "label": {
+            "en": "gas"
+          }
+        },
+        {
+          "attribute": "H",
+          "label": {
+            "en": "hot air"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "stove"
+          }
+        },
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Ethernet Internet"
+      },
+      "amenityCode": "I02",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        },
+        {
+          "attribute": "A",
+          "label": {
+            "en": "ADSL"
+          }
+        },
+        {
+          "attribute": "C",
+          "label": {
+            "en": "cable"
+          }
+        },
+        {
+          "attribute": "I",
+          "label": {
+            "en": "ISDN"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "satellite"
+          }
+        },
+        {
+          "attribute": "R",
+          "label": {
+            "en": "at the reception"
+          }
+        },
+        {
+          "attribute": "P",
+          "label": {
+            "en": "Public Areas"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Check-out (hh:mm AM/PM)"
+      },
+      "amenityCode": "C27",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Oven"
+      },
+      "amenityCode": "O01",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        },
+        {
+          "attribute": "E",
+          "label": {
+            "en": "electric"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "fan"
+          }
+        },
+        {
+          "attribute": "G",
+          "label": {
+            "en": "gas"
+          }
+        },
+        {
+          "attribute": "M",
+          "label": {
+            "en": "microwave"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Restaurant"
+      },
+      "amenityCode": "R11",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Singular"
+          }
+        },
+        {
+          "attribute": "M",
+          "label": {
+            "en": "Multiple"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Jacuzzi"
+      },
+      "amenityCode": "J01",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        },
+        {
+          "attribute": "I",
+          "label": {
+            "en": "indoor available"
+          }
+        },
+        {
+          "attribute": "O",
+          "label": {
+            "en": "outdoor available"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Contactless check-in and checkout"
+      },
+      "amenityCode": "C28",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Disinfectant is used when cleaning the property"
+      },
+      "amenityCode": "D15",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Enhanced cleaning practices are used"
+      },
+      "amenityCode": "E07",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Property is vacant for at least 24 hours between reservations"
+      },
+      "amenityCode": "G12",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Property is vacant for at least 48 hours between reservations"
+      },
+      "amenityCode": "G13",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Property is vacant for at least 72 hours between reservations"
+      },
+      "amenityCode": "G14",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Hand sanitiser in guest accommodation and key areas"
+      },
+      "amenityCode": "H47",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Process in place to check health of guests"
+      },
+      "amenityCode": "H48",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Property is cleaned by professional cleaning companies"
+      },
+      "amenityCode": "P28",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Staff follow all safety protocols as directed by local authorities"
+      },
+      "amenityCode": "S61",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Guest accommodation sealed after cleaning"
+      },
+      "amenityCode": "S62",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Beach"
+      },
+      "amenityCode": "B31",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House is suitable for pets"
+      },
+      "amenityCode": "P02",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Yes"
+          }
+        },
+        {
+          "attribute": "R",
+          "label": {
+            "en": "on request"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "24-hour security"
+      },
+      "amenityCode": "S63",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Access to health care professionals"
+      },
+      "amenityCode": "A12",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Adult only"
+      },
+      "amenityCode": "A13",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Aerobics"
+      },
+      "amenityCode": "A14",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "All plates, cutlery, glasses and other tableware have been sanitised"
+      },
+      "amenityCode": "A15",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Archery"
+      },
+      "amenityCode": "A16",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Auditory Guidance"
+      },
+      "amenityCode": "A17",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Check-in (hh:mm AM/PM)"
+      },
+      "amenityCode": "C26",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Golf Course View"
+      },
+      "amenityCode": "G15",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Bathrobe"
+      },
+      "amenityCode": "A02",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Bath or Shower"
+      },
+      "amenityCode": "A18",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Bidet"
+      },
+      "amenityCode": "A19",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Available"
+          }
+        },
+        {
+          "attribute": "E",
+          "label": {
+            "en": "Electronic"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Connecting Rooms"
+      },
+      "amenityCode": "A20",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Cordless Phone"
+      },
+      "amenityCode": "A21",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Desk"
+      },
+      "amenityCode": "A22",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        },
+        {
+          "attribute": "L",
+          "label": {
+            "en": "with lamp"
+          }
+        },
+        {
+          "attribute": "X",
+          "label": {
+            "en": "large"
+          }
+        },
+        {
+          "attribute": "E",
+          "label": {
+            "en": "with electrical outlet"
+          }
+        },
+        {
+          "attribute": "C",
+          "label": {
+            "en": "with chair"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Fireplace - built in"
+      },
+      "amenityCode": "A23",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Laptop"
+      },
+      "amenityCode": "A24",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Movies/Videos"
+      },
+      "amenityCode": "A25",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Available"
+          }
+        },
+        {
+          "attribute": "O",
+          "label": {
+            "en": "On Demand"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "Free"
+          }
+        },
+        {
+          "attribute": "P",
+          "label": {
+            "en": "Pay per view"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Phone in bathroom"
+      },
+      "amenityCode": "A26",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "CNN available"
+      },
+      "amenityCode": "A27",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Plates and bowls"
+      },
+      "amenityCode": "A28",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Sitting area"
+      },
+      "amenityCode": "A29",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "with sofa/chair"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Speaker phone"
+      },
+      "amenityCode": "A30",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Telephone for hearing impaired"
+      },
+      "amenityCode": "A31",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Video games"
+      },
+      "amenityCode": "A32",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Wake-up calls"
+      },
+      "amenityCode": "A33",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Widescreen TV"
+      },
+      "amenityCode": "A34",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "HD Flat Panel TV - 32 inches or greater"
+      },
+      "amenityCode": "A35",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Luxury linen"
+      },
+      "amenityCode": "A36",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Slippers"
+      },
+      "amenityCode": "A37",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Closet"
+      },
+      "amenityCode": "A38",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "separate"
+          }
+        },
+        {
+          "attribute": "M",
+          "label": {
+            "en": "multiple"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Soundproofed room"
+      },
+      "amenityCode": "A39",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Table and chairs"
+      },
+      "amenityCode": "A40",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Ceiling fan"
+      },
+      "amenityCode": "A41",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Ipod/Iphone docking station"
+      },
+      "amenityCode": "A42",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Mini-refrigerator"
+      },
+      "amenityCode": "A43",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Bathroom"
+      },
+      "amenityCode": "A44",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "P",
+          "label": {
+            "en": "Private"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "Shared"
+          }
+        },
+        {
+          "attribute": "M",
+          "label": {
+            "en": "Marble"
+          }
+        },
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Available"
+          }
+        },
+        {
+          "attribute": "A",
+          "label": {
+            "en": "Accessible"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Separate toilet area"
+      },
+      "amenityCode": "A45",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Self-controlled heating/cooling system"
+      },
+      "amenityCode": "A46",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "List of movie channels available"
+      },
+      "amenityCode": "A47",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Baby safety gates"
+      },
+      "amenityCode": "A48",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Back massage"
+      },
+      "amenityCode": "A49",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Bathroom emergency pull cord"
+      },
+      "amenityCode": "A50",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Beauty services"
+      },
+      "amenityCode": "A51",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Bicycle tour"
+      },
+      "amenityCode": "A52",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Bingo"
+      },
+      "amenityCode": "A53",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Board games/puzzles"
+      },
+      "amenityCode": "A54",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Body scrub"
+      },
+      "amenityCode": "A55",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Body treatments"
+      },
+      "amenityCode": "A56",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Body wrap"
+      },
+      "amenityCode": "A57",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Book/DVD/Music library for children"
+      },
+      "amenityCode": "A58",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Bottle of water"
+      },
+      "amenityCode": "A59",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Bridal suite"
+      },
+      "amenityCode": "A60",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Breakfast takeaway containers"
+      },
+      "amenityCode": "A61",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Bicycles parking"
+      },
+      "amenityCode": "A62",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Cashless payment available"
+      },
+      "amenityCode": "A63",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "CCTV in common areas"
+      },
+      "amenityCode": "A64",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "CCTV outside property"
+      },
+      "amenityCode": "A65",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Chapel/shrine"
+      },
+      "amenityCode": "A66",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Children television networks"
+      },
+      "amenityCode": "A67",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Chocolate/cookies"
+      },
+      "amenityCode": "A68",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Cooking class"
+      },
+      "amenityCode": "A69",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Couples massage"
+      },
+      "amenityCode": "A70",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Dry cleaning"
+      },
+      "amenityCode": "A71",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Available"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "Surcharge"
+          }
+        },
+        {
+          "attribute": "R",
+          "label": {
+            "en": "On Request"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Face masks for guests available"
+      },
+      "amenityCode": "A72",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Events ticket service"
+      },
+      "amenityCode": "A73",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Family rooms"
+      },
+      "amenityCode": "A74",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Fence around pool"
+      },
+      "amenityCode": "A75",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Fitness classes"
+      },
+      "amenityCode": "A76",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Fitness/spa locker rooms"
+      },
+      "amenityCode": "A77",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Foot bath"
+      },
+      "amenityCode": "A78",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Foot massage"
+      },
+      "amenityCode": "A79",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Fruits"
+      },
+      "amenityCode": "A80",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Full body massage"
+      },
+      "amenityCode": "A81",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Gaming room"
+      },
+      "amenityCode": "A82",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Head massage"
+      },
+      "amenityCode": "A83",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Hand massage"
+      },
+      "amenityCode": "A84",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Hair treatments"
+      },
+      "amenityCode": "A85",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Hair styling"
+      },
+      "amenityCode": "A86",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Hair dresser-beautician"
+      },
+      "amenityCode": "A87",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Hair cut"
+      },
+      "amenityCode": "A88",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Hair coloring"
+      },
+      "amenityCode": "A89",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Guest accommodation cleaning can be avoided on request"
+      },
+      "amenityCode": "A90",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Indoor play area"
+      },
+      "amenityCode": "A91",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Invoices Provided"
+      },
+      "amenityCode": "A92",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Karaoke"
+      },
+      "amenityCode": "A93",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Key access"
+      },
+      "amenityCode": "A94",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Key card access"
+      },
+      "amenityCode": "A95",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Yoga classes"
+      },
+      "amenityCode": "A96",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Wine/Champagne"
+      },
+      "amenityCode": "A97",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Waxing services"
+      },
+      "amenityCode": "A98",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Visual aids: Tactile Signs"
+      },
+      "amenityCode": "A99",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Visual aids: Braille"
+      },
+      "amenityCode": "B32",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Use of cleaning chemicals that are effective against Coronavirus"
+      },
+      "amenityCode": "B33",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Towels Changed Upon Request [Sustainable practice]"
+      },
+      "amenityCode": "B34",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Tour or class about local culture"
+      },
+      "amenityCode": "B35",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Thermometers for guests provided by property"
+      },
+      "amenityCode": "B36",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Swimming pool toys"
+      },
+      "amenityCode": "B37",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Sun umbrellas"
+      },
+      "amenityCode": "B38",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Sun terrace"
+      },
+      "amenityCode": "B39",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Sun loungers or beach chairs"
+      },
+      "amenityCode": "B40",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Strollers"
+      },
+      "amenityCode": "B41",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Spa/wellness packages"
+      },
+      "amenityCode": "B42",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Spa lounge/relaxation area"
+      },
+      "amenityCode": "B43",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Spa Facilities"
+      },
+      "amenityCode": "B44",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Ski Shuttle"
+      },
+      "amenityCode": "B45",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Available"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "Free"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "Surcharge"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Shallow end pool"
+      },
+      "amenityCode": "B46",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Screens or physical barriers placed between staff and guests in appropriate areas"
+      },
+      "amenityCode": "B47",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Salt-water pool"
+      },
+      "amenityCode": "B48",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Private beach area"
+      },
+      "amenityCode": "B49",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Pool towels"
+      },
+      "amenityCode": "B50",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Pool cover"
+      },
+      "amenityCode": "B51",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Pool bar"
+      },
+      "amenityCode": "B52",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Picnic area"
+      },
+      "amenityCode": "B53",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Physical distancing in dining areas"
+      },
+      "amenityCode": "B54",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Physical distancing following guidelines from local authorities"
+      },
+      "amenityCode": "B55",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Pet bowls"
+      },
+      "amenityCode": "B56",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Pet basket"
+      },
+      "amenityCode": "B57",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Personal trainer"
+      },
+      "amenityCode": "B58",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Pedicure"
+      },
+      "amenityCode": "B59",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Packed Lunches"
+      },
+      "amenityCode": "B60",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Outdoor furniture"
+      },
+      "amenityCode": "B61",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Open-air bath"
+      },
+      "amenityCode": "B62",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "No Single-Use Toiletries [Sustainable practice]"
+      },
+      "amenityCode": "B63",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "No plastic straws [Sustainable practice]"
+      },
+      "amenityCode": "B64",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "No plastic stirrers [Sustainable practice]"
+      },
+      "amenityCode": "B65",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "No plastic cutlery [Sustainable practice]"
+      },
+      "amenityCode": "B66",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "No plastic cups [Sustainable practice]"
+      },
+      "amenityCode": "B67",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "No plastic bottles for water [Sustainable practice]"
+      },
+      "amenityCode": "B68",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "No plastic bottles for non-water beverages [Sustainable practice]"
+      },
+      "amenityCode": "B69",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Newspapers"
+      },
+      "amenityCode": "B70",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Neck massage"
+      },
+      "amenityCode": "B71",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Minimarket on site"
+      },
+      "amenityCode": "B72",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Massage chair"
+      },
+      "amenityCode": "B73",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Manicure"
+      },
+      "amenityCode": "B74",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Make up services"
+      },
+      "amenityCode": "B75",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Low bathroom sink"
+      },
+      "amenityCode": "B76",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Light therapy"
+      },
+      "amenityCode": "B77",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Kids outdoor play equipment"
+      },
+      "amenityCode": "B78",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Keycard for room electricity [Sustainable practice]"
+      },
+      "amenityCode": "B79",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Pay-per-view Channels"
+      },
+      "amenityCode": "B80",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Hot Tub"
+      },
+      "amenityCode": "B81",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Extra long beds (> 2 meter)"
+      },
+      "amenityCode": "B82",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Dressing room"
+      },
+      "amenityCode": "B83",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Carpeted floor"
+      },
+      "amenityCode": "B84",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Additional Toilet"
+      },
+      "amenityCode": "B85",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Laptop Safe Box"
+      },
+      "amenityCode": "B86",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Tiled / Marble floor"
+      },
+      "amenityCode": "B87",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Wooden / Parquet floor"
+      },
+      "amenityCode": "B88",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Dining area"
+      },
+      "amenityCode": "B89",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Mosquito net"
+      },
+      "amenityCode": "B90",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "iPad"
+      },
+      "amenityCode": "B91",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Cleaning products"
+      },
+      "amenityCode": "B92",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Available"
+          }
+        },
+        {
+          "attribute": "E",
+          "label": {
+            "en": "Eco Friendly"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Electric blankets"
+      },
+      "amenityCode": "B93",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Additional Bathroom"
+      },
+      "amenityCode": "B94",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Outdoor dining area"
+      },
+      "amenityCode": "B95",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Private flat in block of flats"
+      },
+      "amenityCode": "B96",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Clothes Rack"
+      },
+      "amenityCode": "B97",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Clothes drying rack"
+      },
+      "amenityCode": "B98",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Toilet paper"
+      },
+      "amenityCode": "B99",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Child safety socket covers"
+      },
+      "amenityCode": "C29",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Trash cans"
+      },
+      "amenityCode": "C30",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Wine glasses"
+      },
+      "amenityCode": "C31",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Accessible by Lift"
+      },
+      "amenityCode": "C32",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Toothbrush"
+      },
+      "amenityCode": "C33",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Shampoo"
+      },
+      "amenityCode": "C34",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Conditioner"
+      },
+      "amenityCode": "C35",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Body soap"
+      },
+      "amenityCode": "C36",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Shower cap"
+      },
+      "amenityCode": "C37",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Shower chair"
+      },
+      "amenityCode": "C38",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Non-allergenic room"
+      },
+      "amenityCode": "C39",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Executive Lounge Access"
+      },
+      "amenityCode": "C40",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Pajamas"
+      },
+      "amenityCode": "C41",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Yukata/Kimono"
+      },
+      "amenityCode": "C42",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Socket near the bed"
+      },
+      "amenityCode": "C43",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Dining table"
+      },
+      "amenityCode": "C44",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Pillow type"
+      },
+      "amenityCode": "C45",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "F",
+          "label": {
+            "en": "feather"
+          }
+        },
+        {
+          "attribute": "N",
+          "label": {
+            "en": "non-feather"
+          }
+        },
+        {
+          "attribute": "H",
+          "label": {
+            "en": "hypoallergenic"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Quiet street view"
+      },
+      "amenityCode": "C46",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Electronic key card access"
+      },
+      "amenityCode": "C47",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Reading light"
+      },
+      "amenityCode": "C48",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Earplugs"
+      },
+      "amenityCode": "C49",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Air purifiers available"
+      },
+      "amenityCode": "C50",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Shuttle service"
+      },
+      "amenityCode": "C51",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "available"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "free"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "surcharge"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Facial treatments"
+      },
+      "amenityCode": "C52",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Water park"
+      },
+      "amenityCode": "C53",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Available"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "Free"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "Surcharge"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Water slide"
+      },
+      "amenityCode": "C54",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Water Sport Facilities (on site)"
+      },
+      "amenityCode": "C55",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Refillable water stations"
+      },
+      "amenityCode": "C56",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Diving"
+      },
+      "amenityCode": "C57",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Cycling"
+      },
+      "amenityCode": "C58",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Kids club"
+      },
+      "amenityCode": "C59",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "F",
+          "label": {
+            "en": "Free"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "Surcharge"
+          }
+        },
+        {
+          "attribute": "G",
+          "label": {
+            "en": "Generic"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Fishing"
+      },
+      "amenityCode": "C60",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Outdoor fireplace or fire pit"
+      },
+      "amenityCode": "C61",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Hiking"
+      },
+      "amenityCode": "C62",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Ski-to-door access"
+      },
+      "amenityCode": "C63",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Baby sitting"
+      },
+      "amenityCode": "C64",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Walking tours"
+      },
+      "amenityCode": "C65",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Smart TV"
+      },
+      "amenityCode": "C66",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Office"
+      },
+      "amenityCode": "C67",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Printer"
+      },
+      "amenityCode": "C68",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Childcare"
+      },
+      "amenityCode": "C69",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Meal delivery"
+      },
+      "amenityCode": "C70",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Baby monitor"
+      },
+      "amenityCode": "C71",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Kitchen island"
+      },
+      "amenityCode": "C72",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Kitchen utensils for kids"
+      },
+      "amenityCode": "C73",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Closet/cabinet locks"
+      },
+      "amenityCode": "C74",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "All windows are double-glazed"
+      },
+      "amenityCode": "C75",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Kid meals"
+      },
+      "amenityCode": "C76",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Steam room"
+      },
+      "amenityCode": "C77",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "All Spaces Non-Smoking (public and private)"
+      },
+      "amenityCode": "C78",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Vegetarian options available at the property"
+      },
+      "amenityCode": "C79",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Vegan options available at the property"
+      },
+      "amenityCode": "C80",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Green spaces such as gardens/rooftop gardens on the property"
+      },
+      "amenityCode": "C81",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "On-site coffee house"
+      },
+      "amenityCode": "C82",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Private Check-in/Check-out"
+      },
+      "amenityCode": "C83",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Public transport tickets"
+      },
+      "amenityCode": "C84",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Kid-friendly buffet"
+      },
+      "amenityCode": "C85",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Live music/performance"
+      },
+      "amenityCode": "C86",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Live sports events (broadcast)"
+      },
+      "amenityCode": "C87",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Linens, towels and laundry washed in accordance with local authorities guidelines"
+      },
+      "amenityCode": "C88",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Books/Reading materials"
+      },
+      "amenityCode": "C89",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Children toilet seat"
+      },
+      "amenityCode": "C90",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Baby bottle warmer"
+      },
+      "amenityCode": "C91",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Baby changing mat"
+      },
+      "amenityCode": "C92",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Foldable/Roll away bed"
+      },
+      "amenityCode": "C93",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Available"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "Free"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "Surcharge"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Garden/Outdoor shower"
+      },
+      "amenityCode": "C94",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Egg cooker"
+      },
+      "amenityCode": "C95",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Sandwich maker"
+      },
+      "amenityCode": "C96",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Sink/Wash basin"
+      },
+      "amenityCode": "C97",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Available"
+          }
+        },
+        {
+          "attribute": "D",
+          "label": {
+            "en": "Double"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Cooking spices/condiments"
+      },
+      "amenityCode": "C98",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Outdoor barbeque/grill"
+      },
+      "amenityCode": "C99",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Available"
+          }
+        },
+        {
+          "attribute": "C",
+          "label": {
+            "en": "Charcoal"
+          }
+        },
+        {
+          "attribute": "G",
+          "label": {
+            "en": "Gas"
+          }
+        },
+        {
+          "attribute": "E",
+          "label": {
+            "en": "Electric"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Armchair"
+      },
+      "amenityCode": "D11",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "WiFi speed"
+      },
+      "amenityCode": "D16",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "U",
+          "label": {
+            "en": "Unknown"
+          }
+        },
+        {
+          "attribute": "A",
+          "label": {
+            "en": "25 MB"
+          }
+        },
+        {
+          "attribute": "B",
+          "label": {
+            "en": "50 MB"
+          }
+        },
+        {
+          "attribute": "C",
+          "label": {
+            "en": "100 MB"
+          }
+        },
+        {
+          "attribute": "D",
+          "label": {
+            "en": "250 MB"
+          }
+        },
+        {
+          "attribute": "E",
+          "label": {
+            "en": "500 MB"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Baby travel cot/crib"
+      },
+      "amenityCode": "D17",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Available"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "Free"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "Surcharge"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Music library"
+      },
+      "amenityCode": "D18",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Foosball/Football table"
+      },
+      "amenityCode": "D19",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Snow sports gear"
+      },
+      "amenityCode": "D20",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Water sports gear"
+      },
+      "amenityCode": "D21",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Private chef/cook"
+      },
+      "amenityCode": "D22",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Available"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "Surcharge"
+          }
+        },
+        {
+          "attribute": "R",
+          "label": {
+            "en": "On Request"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Driver/Chauffeur"
+      },
+      "amenityCode": "D23",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Historical appearance"
+      },
+      "amenityCode": "D24",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Basketball court"
+      },
+      "amenityCode": "D25",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Deepsea fishing"
+      },
+      "amenityCode": "D26",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Hunting"
+      },
+      "amenityCode": "D27",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Jet skiing"
+      },
+      "amenityCode": "D28",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Mountain biking"
+      },
+      "amenityCode": "D29",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Mountain climbing"
+      },
+      "amenityCode": "D30",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Parasailing/Gliding"
+      },
+      "amenityCode": "D31",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Rafting"
+      },
+      "amenityCode": "D32",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Snowmobiling"
+      },
+      "amenityCode": "D33",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Spelunking"
+      },
+      "amenityCode": "D34",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Car/vehicle suggestion"
+      },
+      "amenityCode": "D35",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Necessary"
+          }
+        },
+        {
+          "attribute": "R",
+          "label": {
+            "en": "Recommended"
+          }
+        },
+        {
+          "attribute": "N",
+          "label": {
+            "en": "Not necessary"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Situation: Rural area"
+      },
+      "amenityCode": "D36",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "House with no wheelchair access"
+      },
+      "amenityCode": "D37",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Bird Watching"
+      },
+      "amenityCode": "D38",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Eco Tourism"
+      },
+      "amenityCode": "D39",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Outlet Shopping"
+      },
+      "amenityCode": "D40",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Paddle Boating"
+      },
+      "amenityCode": "D41",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Snow Sledding"
+      },
+      "amenityCode": "D42",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Whale Watching"
+      },
+      "amenityCode": "D43",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Wildlife Watching"
+      },
+      "amenityCode": "D44",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Hospital / Medical Center (on site)"
+      },
+      "amenityCode": "D45",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "High-touch surfaces cleaned with disinfectant (like countertops, light switches, handles, and faucets)"
+      },
+      "amenityCode": "D46",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Number of living rooms"
+      },
+      "amenityCode": "D47",
+      "amenityType": "number"
+    },
+    {
+      "name": {
+        "en": "Piano"
+      },
+      "amenityCode": "D48",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Sound System/Bar"
+      },
+      "amenityCode": "D49",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Fireplace Guards"
+      },
+      "amenityCode": "D50",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Portable/Pocket Wifi"
+      },
+      "amenityCode": "D51",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Barbeque Utensils"
+      },
+      "amenityCode": "D52",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Coffee & Tea Available"
+      },
+      "amenityCode": "D53",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Trash Compactor"
+      },
+      "amenityCode": "D54",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Beach essentials. Beach towels, umbrella, beach blanket, snorkeling gear"
+      },
+      "amenityCode": "D55",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Boat dock/pier/slip"
+      },
+      "amenityCode": "D56",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Hammock"
+      },
+      "amenityCode": "D57",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Kayak"
+      },
+      "amenityCode": "D58",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Outdoor bathroom"
+      },
+      "amenityCode": "D59",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Kids Supervised Activities"
+      },
+      "amenityCode": "D60",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Porch in Front"
+      },
+      "amenityCode": "D61",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Beach Volleyball"
+      },
+      "amenityCode": "D62",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "O",
+          "label": {
+            "en": "On site"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "Off site"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Beach Yoga"
+      },
+      "amenityCode": "D63",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "O",
+          "label": {
+            "en": "On site"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "Off site"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Bicycles Rental"
+      },
+      "amenityCode": "D64",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "O",
+          "label": {
+            "en": "On site"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "Off site"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Golf Equipment"
+      },
+      "amenityCode": "D65",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Golf Lessons"
+      },
+      "amenityCode": "D66",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "O",
+          "label": {
+            "en": "On site"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "Off site"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Volleyball"
+      },
+      "amenityCode": "D67",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "O",
+          "label": {
+            "en": "On Site"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "Off Site"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Winery"
+      },
+      "amenityCode": "D68",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Sky diving"
+      },
+      "amenityCode": "D69",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "O",
+          "label": {
+            "en": "On Site"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "Off Site"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Zip Lining"
+      },
+      "amenityCode": "D70",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "O",
+          "label": {
+            "en": "On Site"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "Off Site"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Safari"
+      },
+      "amenityCode": "D71",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "O",
+          "label": {
+            "en": "On Site"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "Off Site"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Boat Tours"
+      },
+      "amenityCode": "D72",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "O",
+          "label": {
+            "en": "On Site"
+          }
+        },
+        {
+          "attribute": "F",
+          "label": {
+            "en": "Off Site"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Nearby Airport"
+      },
+      "amenityCode": "D73",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Nearby Zoo"
+      },
+      "amenityCode": "D74",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Butler Service"
+      },
+      "amenityCode": "D75",
+      "amenityType": "options",
+      "options": [
+        {
+          "attribute": "Y",
+          "label": {
+            "en": "Available"
+          }
+        },
+        {
+          "attribute": "S",
+          "label": {
+            "en": "Surcharge"
+          }
+        },
+        {
+          "attribute": "R",
+          "label": {
+            "en": "On Request"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Nearby Theater"
+      },
+      "amenityCode": "D76",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Washing Machine Shared"
+      },
+      "amenityCode": "D77",
+      "amenityType": "boolean"
+    },
+    {
+      "name": {
+        "en": "Dryer Shared"
+      },
+      "amenityCode": "D78",
+      "amenityType": "boolean"
+    }
+  ],
+  "propertyNearestPlaces": [
+    {
+      "name": {
+        "en": "Airport"
+      },
+      "typeCode": "AIR"
+    },
+    {
+      "name": {
+        "en": "Automated teller machine (ATM)"
+      },
+      "typeCode": "ATM"
+    },
+    {
+      "name": {
+        "en": "Bakery"
+      },
+      "typeCode": "BAK"
+    },
+    {
+      "name": {
+        "en": "Bike rental"
+      },
+      "typeCode": "BIK"
+    },
+    {
+      "name": {
+        "en": "Bus station"
+      },
+      "typeCode": "BST"
+    },
+    {
+      "name": {
+        "en": "Bus stop"
+      },
+      "typeCode": "BUS"
+    },
+    {
+      "name": {
+        "en": "Buyings"
+      },
+      "typeCode": "BUY"
+    },
+    {
+      "name": {
+        "en": "Capitol"
+      },
+      "typeCode": "CAP"
+    },
+    {
+      "name": {
+        "en": "Cosmetic/beauty salon"
+      },
+      "typeCode": "COS"
+    },
+    {
+      "name": {
+        "en": "Centre (village/city)"
+      },
+      "typeCode": "CTR"
+    },
+    {
+      "name": {
+        "en": "City"
+      },
+      "typeCode": "CTY"
+    },
+    {
+      "name": {
+        "en": "Darts"
+      },
+      "typeCode": "DAR"
+    },
+    {
+      "name": {
+        "en": "Food shop"
+      },
+      "typeCode": "FDS"
+    },
+    {
+      "name": {
+        "en": "Fitness"
+      },
+      "typeCode": "FIT"
+    },
+    {
+      "name": {
+        "en": "Forest"
+      },
+      "typeCode": "FOR"
+    },
+    {
+      "name": {
+        "en": "Fishing"
+      },
+      "typeCode": "FSH"
+    },
+    {
+      "name": {
+        "en": "Golf course"
+      },
+      "typeCode": "GFC"
+    },
+    {
+      "name": {
+        "en": "Entertainment opportunity"
+      },
+      "typeCode": "GOT"
+    },
+    {
+      "name": {
+        "en": "Horse riding"
+      },
+      "typeCode": "HRS"
+    },
+    {
+      "name": {
+        "en": "Indoor swimming pool"
+      },
+      "typeCode": "IPL"
+    },
+    {
+      "name": {
+        "en": "Lake"
+      },
+      "typeCode": "LAK"
+    },
+    {
+      "name": {
+        "en": "Cross-country skiing / Langlaufloipe"
+      },
+      "typeCode": "LLL"
+    },
+    {
+      "name": {
+        "en": "Minigolf / Midgetgolf"
+      },
+      "typeCode": "MGF"
+    },
+    {
+      "name": {
+        "en": "Market"
+      },
+      "typeCode": "MKT"
+    },
+    {
+      "name": {
+        "en": "Motorway"
+      },
+      "typeCode": "MOT"
+    },
+    {
+      "name": {
+        "en": "Outdoor swimming pool"
+      },
+      "typeCode": "OPL"
+    },
+    {
+      "name": {
+        "en": "Playground"
+      },
+      "typeCode": "PLG"
+    },
+    {
+      "name": {
+        "en": "Public transport"
+      },
+      "typeCode": "PTR"
+    },
+    {
+      "name": {
+        "en": "Restaurants"
+      },
+      "typeCode": "RES"
+    },
+    {
+      "name": {
+        "en": "Rifle range"
+      },
+      "typeCode": "RIF"
+    },
+    {
+      "name": {
+        "en": "Railway station"
+      },
+      "typeCode": "RWS"
+    },
+    {
+      "name": {
+        "en": "Sea"
+      },
+      "typeCode": "SEA"
+    },
+    {
+      "name": {
+        "en": "Beach/see/lake"
+      },
+      "typeCode": "SEL"
+    },
+    {
+      "name": {
+        "en": "Shops"
+      },
+      "typeCode": "SHP"
+    },
+    {
+      "name": {
+        "en": "Ski area"
+      },
+      "typeCode": "SKI"
+    },
+    {
+      "name": {
+        "en": "Ski bus"
+      },
+      "typeCode": "SKB"
+    },
+    {
+      "name": {
+        "en": "Ski lift"
+      },
+      "typeCode": "SKL"
+    },
+    {
+      "name": {
+        "en": "Ski school"
+      },
+      "typeCode": "SKS"
+    },
+    {
+      "name": {
+        "en": "Spa / Thermal source"
+      },
+      "typeCode": "SPA"
+    },
+    {
+      "name": {
+        "en": "Swimming"
+      },
+      "typeCode": "SWI"
+    },
+    {
+      "name": {
+        "en": "Taxi stand"
+      },
+      "typeCode": "TAX"
+    },
+    {
+      "name": {
+        "en": "Theme park"
+      },
+      "typeCode": "THP"
+    },
+    {
+      "name": {
+        "en": "Tennis court"
+      },
+      "typeCode": "TNS"
+    },
+    {
+      "name": {
+        "en": "Train stop (small station)"
+      },
+      "typeCode": "TRN"
+    },
+    {
+      "name": {
+        "en": "Tourist Information Service"
+      },
+      "typeCode": "TSI"
+    },
+    {
+      "name": {
+        "en": "Vineyard"
+      },
+      "typeCode": "VYD"
+    },
+    {
+      "name": {
+        "en": "Wellness centre"
+      },
+      "typeCode": "WLN"
+    },
+    {
+      "name": {
+        "en": "Water sports"
+      },
+      "typeCode": "WSP"
+    },
+    {
+      "name": {
+        "en": "Water"
+      },
+      "typeCode": "WTR"
+    },
+    {
+      "name": {
+        "en": "Bay/Golf"
+      },
+      "typeCode": "BAY"
+    },
+    {
+      "name": {
+        "en": "Laundry"
+      },
+      "typeCode": "LAU"
+    },
+    {
+      "name": {
+        "en": "Duty Free Shops"
+      },
+      "typeCode": "DUT"
+    },
+    {
+      "name": {
+        "en": "Marina/Harbor/Port"
+      },
+      "typeCode": "MAR"
+    },
+    {
+      "name": {
+        "en": "Museum"
+      },
+      "typeCode": "MUS"
+    },
+    {
+      "name": {
+        "en": "Water Park"
+      },
+      "typeCode": "WPK"
+    },
+    {
+      "name": {
+        "en": "Winery Tour"
+      },
+      "typeCode": "WIT"
+    },
+    {
+      "name": {
+        "en": "Zoo"
+      },
+      "typeCode": "ZOO"
+    }
+  ],
+  "propertyFees": [
+    {
+      "name": {
+        "en": "Air conditioning"
+      },
+      "feeCode": "AIR"
+    },
+    {
+      "name": {
+        "en": "Bath linen "
+      },
+      "feeCode": "BAT"
+    },
+    {
+      "name": {
+        "en": "Baby bed"
+      },
+      "feeCode": "BBE"
+    },
+    {
+      "name": {
+        "en": "Bed linen"
+      },
+      "feeCode": "BED"
+    },
+    {
+      "name": {
+        "en": "Bed making"
+      },
+      "feeCode": "BEM"
+    },
+    {
+      "name": {
+        "en": "Bikes "
+      },
+      "feeCode": "BIK"
+    },
+    {
+      "name": {
+        "en": "Breakfast"
+      },
+      "feeCode": "BRF"
+    },
+    {
+      "name": {
+        "en": "Basket "
+      },
+      "feeCode": "BSK"
+    },
+    {
+      "name": {
+        "en": "Final cleaning at a stay of less than 6 nights"
+      },
+      "feeCode": "C6N"
+    },
+    {
+      "name": {
+        "en": "Child bed"
+      },
+      "feeCode": "CBE"
+    },
+    {
+      "name": {
+        "en": "Credit Card Fee"
+      },
+      "feeCode": "CCF"
+    },
+    {
+      "name": {
+        "en": "Child chair "
+      },
+      "feeCode": "CCH"
+    },
+    {
+      "name": {
+        "en": "Surcharge child-friendly home"
+      },
+      "feeCode": "CFR"
+    },
+    {
+      "name": {
+        "en": "Child package (chair and bed)"
+      },
+      "feeCode": "CHP"
+    },
+    {
+      "name": {
+        "en": "Car parking"
+      },
+      "feeCode": "CRP"
+    },
+    {
+      "name": {
+        "en": "Non-refundable damage protection waiver"
+      },
+      "feeCode": "DAM"
+    },
+    {
+      "name": {
+        "en": "Dishcloths"
+      },
+      "feeCode": "DCL"
+    },
+    {
+      "name": {
+        "en": "Deposit"
+      },
+      "feeCode": "DEP"
+    },
+    {
+      "name": {
+        "en": "Price difference"
+      },
+      "feeCode": "DIF"
+    },
+    {
+      "name": {
+        "en": "Electricity"
+      },
+      "feeCode": "ELC"
+    },
+    {
+      "name": {
+        "en": "Energy use"
+      },
+      "feeCode": "ENE"
+    },
+    {
+      "name": {
+        "en": "Energy use in summer"
+      },
+      "feeCode": "ENS"
+    },
+    {
+      "name": {
+        "en": "Environment tax"
+      },
+      "feeCode": "ENV"
+    },
+    {
+      "name": {
+        "en": "Energy use in winter "
+      },
+      "feeCode": "ENW"
+    },
+    {
+      "name": {
+        "en": "Fishing boat/10 hp"
+      },
+      "feeCode": "F10"
+    },
+    {
+      "name": {
+        "en": "Fishing boat/15 hp"
+      },
+      "feeCode": "F15"
+    },
+    {
+      "name": {
+        "en": "Fishing boat/15 hp (small)"
+      },
+      "feeCode": "F1S"
+    },
+    {
+      "name": {
+        "en": "Fishing boat/25 hp"
+      },
+      "feeCode": "F25"
+    },
+    {
+      "name": {
+        "en": "Fishing boat/25 hp (maxi boat)"
+      },
+      "feeCode": "F2M"
+    },
+    {
+      "name": {
+        "en": "Cleaning Fee"
+      },
+      "feeCode": "FIN"
+    },
+    {
+      "name": {
+        "en": "Firewood"
+      },
+      "feeCode": "FIR"
+    },
+    {
+      "name": {
+        "en": "Garage"
+      },
+      "feeCode": "GAR"
+    },
+    {
+      "name": {
+        "en": "Gas"
+      },
+      "feeCode": "GAS"
+    },
+    {
+      "name": {
+        "en": "Heating "
+      },
+      "feeCode": "HEA"
+    },
+    {
+      "name": {
+        "en": "Half-board"
+      },
+      "feeCode": "HLF"
+    },
+    {
+      "name": {
+        "en": "Hot tub"
+      },
+      "feeCode": "HOT"
+    },
+    {
+      "name": {
+        "en": "Interim cleaning "
+      },
+      "feeCode": "ICL"
+    },
+    {
+      "name": {
+        "en": "Internet"
+      },
+      "feeCode": "INT"
+    },
+    {
+      "name": {
+        "en": "Kayak"
+      },
+      "feeCode": "KAY"
+    },
+    {
+      "name": {
+        "en": "Kitchen linen"
+      },
+      "feeCode": "KIT"
+    },
+    {
+      "name": {
+        "en": "Bed- en bath linen at a stay of less than 6 nights "
+      },
+      "feeCode": "L6N"
+    },
+    {
+      "name": {
+        "en": "Legoland® ticket, adult "
+      },
+      "feeCode": "LAD"
+    },
+    {
+      "name": {
+        "en": "Layette (baby)"
+      },
+      "feeCode": "LAY"
+    },
+    {
+      "name": {
+        "en": "Legoland® ticket, child"
+      },
+      "feeCode": "LCH"
+    },
+    {
+      "name": {
+        "en": "Linen (First set bed - en bath linen)"
+      },
+      "feeCode": "LIN"
+    },
+    {
+      "name": {
+        "en": "Local taxes"
+      },
+      "feeCode": "LOC"
+    },
+    {
+      "name": {
+        "en": "Weekly change linen (bed- and bath linen) "
+      },
+      "feeCode": "LWC"
+    },
+    {
+      "name": {
+        "en": "Motorboat"
+      },
+      "feeCode": "MBO"
+    },
+    {
+      "name": {
+        "en": "Motor"
+      },
+      "feeCode": "MOT"
+    },
+    {
+      "name": {
+        "en": "Oil"
+      },
+      "feeCode": "OIL"
+    },
+    {
+      "name": {
+        "en": "Pet Cleaning Fee"
+      },
+      "feeCode": "PCL"
+    },
+
+    {
+      "name": {
+        "en": "Vacation Rental Damage Protection"
+      },
+      "feeCode": "Vacation Rental Damage Protection - $199",
+      "_comment": "new code added custom"
+    },
+    {
+      "name": {
+        "en": "Vacation Rental Damage Protection"
+      },
+      "feeCode": "Vacation Rental Damage Protection - $99",
+      "_comment": "new code added custom"
+    },
+    {
+      "name": {
+        "en": "Pet Deposit"
+      },
+      "feeCode": "petDeposit",
+      "_comment": "new code added custom"
+    },
+    {
+      "name": {
+        "en": "Cleaning Fee"
+      },
+      "feeCode": "cleaningFee",
+      "_comment": "new code added custom"
+    },
+    {
+      "name": {
+        "en": "Pets"
+      },
+      "feeCode": "PET"
+    },
+    {
+      "name": {
+        "en": "Pool heating"
+      },
+      "feeCode": "PLH"
+    },
+    {
+      "name": {
+        "en": "Resort fee"
+      },
+      "feeCode": "PRC"
+    },
+    {
+      "name": {
+        "en": "Rowing boat "
+      },
+      "feeCode": "ROW"
+    },
+    {
+      "name": {
+        "en": "Satellite TV"
+      },
+      "feeCode": "SAT"
+    },
+    {
+      "name": {
+        "en": "Service package"
+      },
+      "feeCode": "SER"
+    },
+    {
+      "name": {
+        "en": "Swimming pool entrance"
+      },
+      "feeCode": "SWI"
+    },
+    {
+      "name": {
+        "en": "Telephone"
+      },
+      "feeCode": "TEL"
+    },
+    {
+      "name": {
+        "en": "Tourist tax children"
+      },
+      "feeCode": "TOC"
+    },
+    {
+      "name": {
+        "en": "Tourist tax  adults"
+      },
+      "feeCode": "TOU"
+    },
+    {
+      "name": {
+        "en": "Towels"
+      },
+      "feeCode": "TWL"
+    },
+    {
+      "name": {
+        "en": "Towel package (bath sheet and bath towel)"
+      },
+      "feeCode": "TWP"
+    },
+    {
+      "name": {
+        "en": "Water"
+      },
+      "feeCode": "WAT"
+    },
+    {
+      "name": {
+        "en": "Extra bed"
+      },
+      "feeCode": "XBD"
+    },
+    {
+      "name": {
+        "en": "Extra parking place"
+      },
+      "feeCode": "XCP"
+    },
+    {
+      "name": {
+        "en": "Extra car at the general parking"
+      },
+      "feeCode": "XGP"
+    },
+    {
+      "name": {
+        "en": "Extra parking card"
+      },
+      "feeCode": "XPA"
+    },
+    {
+      "name": {
+        "en": "Custom"
+      },
+      "feeCode": "EXT"
+    },
+    {
+      "name": {
+        "en": "Cancellation insurance"
+      },
+      "feeCode": "CIN"
+    },
+    {
+      "name": {
+        "en": "Reservation fee"
+      },
+      "feeCode": "RES"
+    },
+    {
+      "name": {
+        "en": "Extra person"
+      },
+      "feeCode": "XPT"
+    },
+    {
+      "name": {
+        "en": "Plus package (bath and kitchen linen, made beds)"
+      },
+      "feeCode": "PLU"
+    },
+    {
+      "name": {
+        "en": "Pet (on request)"
+      },
+      "feeCode": "POR"
+    },
+    {
+      "name": {
+        "en": "General Discount"
+      },
+      "feeCode": "DGE"
+    },
+    {
+      "name": {
+        "en": "Preference Charges"
+      },
+      "feeCode": "PRF"
+    },
+    {
+      "name": {
+        "en": "Child Package (bed, playpen,chair,bath)"
+      },
+      "feeCode": "CPX"
+    },
+    {
+      "name": {
+        "en": "baby package (bed,playpen,chair,bath)"
+      },
+      "feeCode": "BPA"
+    },
+    {
+      "name": {
+        "en": "playpen"
+      },
+      "feeCode": "BOX"
+    }
+  ],
+  "propertyTaxes": [
+    {
+      "name": {
+        "en": "Assessment tax"
+      },
+      "taxCode": "ASSESSMENT"
+    },
+    {
+      "name": {
+        "en": "Rental rate (and generic) tax rate"
+      },
+      "taxCode": "Rental rate (and generic) tax rate",
+      "_comment": "new code added custom code"
+    },
+    {
+      "name": {
+        "en": "City tax"
+      },
+      "taxCode": "CITY"
+    },
+    {
+      "name": {
+        "en": "County tax"
+      },
+      "taxCode": "COUNTY"
+    },
+    {
+      "name": {
+        "en": "District tax"
+      },
+      "taxCode": "DISTRICT"
+    },
+    {
+      "name": {
+        "en": "Federal tax"
+      },
+      "taxCode": "FEDERAL"
+    },
+    {
+      "name": {
+        "en": "Hotel Residential tax"
+      },
+      "taxCode": "HOTEL-RESIDENTIAL"
+    },
+    {
+      "name": {
+        "en": "Reservation fee"
+      },
+      "taxCode": "RES"
+    },
+    {
+      "name": {
+        "en": "State tax"
+      },
+      "taxCode": "STATE"
+    },
+    {
+      "name": {
+        "en": "Any other taxes"
+      },
+      "taxCode": "TAX"
+    },
+    {
+      "name": {
+        "en": "Value-added tax"
+      },
+      "taxCode": "VAT"
+    },
+    {
+      "name": {
+        "en": "Lodging"
+      },
+      "taxCode": "LODGING"
+    }
+  ],
+  "propertyImages": [
+    {
+      "name": {
+        "en": "House (generic picture)"
+      },
+      "typeCode": "house"
+    },
+    {
+      "name": {
+        "en": "Activities"
+      },
+      "typeCode": "activities"
+    },
+    {
+      "name": {
+        "en": "Area"
+      },
+      "typeCode": "area"
+    },
+    {
+      "name": {
+        "en": "Balcony/terrace"
+      },
+      "typeCode": "balcony-terrace"
+    },
+    {
+      "name": {
+        "en": "Bar"
+      },
+      "typeCode": "bar"
+    },
+    {
+      "name": {
+        "en": "Bathroom"
+      },
+      "typeCode": "bathroom"
+    },
+    {
+      "name": {
+        "en": "BBQ facilities"
+      },
+      "typeCode": "bbq-facilities"
+    },
+    {
+      "name": {
+        "en": "Beach"
+      },
+      "typeCode": "beach"
+    },
+    {
+      "name": {
+        "en": "Bed"
+      },
+      "typeCode": "bed"
+    },
+    {
+      "name": {
+        "en": "Bedroom"
+      },
+      "typeCode": "bedroom"
+    },
+    {
+      "name": {
+        "en": "Billiard"
+      },
+      "typeCode": "billiard"
+    },
+    {
+      "name": {
+        "en": "Breakfast"
+      },
+      "typeCode": "breakfast"
+    },
+    {
+      "name": {
+        "en": "Bunk bed"
+      },
+      "typeCode": "bunk-bed"
+    },
+    {
+      "name": {
+        "en": "City view"
+      },
+      "typeCode": "city-view"
+    },
+    {
+      "name": {
+        "en": "Dining room"
+      },
+      "typeCode": "dining-room"
+    },
+    {
+      "name": {
+        "en": "Exterior"
+      },
+      "typeCode": "exterior"
+    },
+    {
+      "name": {
+        "en": "Family"
+      },
+      "typeCode": "family"
+    },
+    {
+      "name": {
+        "en": "Fireplace room"
+      },
+      "typeCode": "fireplace-room"
+    },
+    {
+      "name": {
+        "en": "Fishing"
+      },
+      "typeCode": "fishing"
+    },
+    {
+      "name": {
+        "en": "Fitness"
+      },
+      "typeCode": "fitness"
+    },
+    {
+      "name": {
+        "en": "Floor plan"
+      },
+      "typeCode": "floor-plan"
+    },
+    {
+      "name": {
+        "en": "Game room"
+      },
+      "typeCode": "game-room"
+    },
+    {
+      "name": {
+        "en": "Garden"
+      },
+      "typeCode": "garden"
+    },
+    {
+      "name": {
+        "en": "Golf"
+      },
+      "typeCode": "golf"
+    },
+    {
+      "name": {
+        "en": "Groceries"
+      },
+      "typeCode": "groceries"
+    },
+    {
+      "name": {
+        "en": "Hot tub"
+      },
+      "typeCode": "hot-tub"
+    },
+    {
+      "name": {
+        "en": "Indoor swimming pool"
+      },
+      "typeCode": "indoor-swimming-pool"
+    },
+    {
+      "name": {
+        "en": "Interior"
+      },
+      "typeCode": "interior"
+    },
+    {
+      "name": {
+        "en": "Kids club"
+      },
+      "typeCode": "kids-club"
+    },
+    {
+      "name": {
+        "en": "Kitchen"
+      },
+      "typeCode": "kitchen"
+    },
+    {
+      "name": {
+        "en": "Kitchen/diner"
+      },
+      "typeCode": "kitchen-diner"
+    },
+    {
+      "name": {
+        "en": "Lake view"
+      },
+      "typeCode": "lake-view"
+    },
+    {
+      "name": {
+        "en": "Living/dining room"
+      },
+      "typeCode": "living-dining-room"
+    },
+    {
+      "name": {
+        "en": "Living room"
+      },
+      "typeCode": "living-room"
+    },
+    {
+      "name": {
+        "en": "Lobby"
+      },
+      "typeCode": "lobby"
+    },
+    {
+      "name": {
+        "en": "Lounge"
+      },
+      "typeCode": "lounge"
+    },
+    {
+      "name": {
+        "en": "Meeting rooms"
+      },
+      "typeCode": "meeting-rooms"
+    },
+    {
+      "name": {
+        "en": "Model"
+      },
+      "typeCode": "model"
+    },
+    {
+      "name": {
+        "en": "Mountain view"
+      },
+      "typeCode": "mountain-view"
+    },
+    {
+      "name": {
+        "en": "Multimedia"
+      },
+      "typeCode": "multimedia"
+    },
+    {
+      "name": {
+        "en": "Natural landscape"
+      },
+      "typeCode": "natural-landscape"
+    },
+    {
+      "name": {
+        "en": "On-site shops"
+      },
+      "typeCode": "on-site-shops"
+    },
+    {
+      "name": {
+        "en": "Other"
+      },
+      "typeCode": "other"
+    },
+    {
+      "name": {
+        "en": "Outside"
+      },
+      "typeCode": "outside"
+    },
+    {
+      "name": {
+        "en": "Pool view"
+      },
+      "typeCode": "pool-view"
+    },
+    {
+      "name": {
+        "en": "Resort"
+      },
+      "typeCode": "resort"
+    },
+    {
+      "name": {
+        "en": "Restaurant"
+      },
+      "typeCode": "restaurant"
+    },
+    {
+      "name": {
+        "en": "River view"
+      },
+      "typeCode": "river-view"
+    },
+    {
+      "name": {
+        "en": "Sauna"
+      },
+      "typeCode": "sauna"
+    },
+    {
+      "name": {
+        "en": "Sea view"
+      },
+      "typeCode": "sea-view"
+    },
+    {
+      "name": {
+        "en": "Shower"
+      },
+      "typeCode": "shower"
+    },
+    {
+      "name": {
+        "en": "Skiing"
+      },
+      "typeCode": "skiing"
+    },
+    {
+      "name": {
+        "en": "Street view"
+      },
+      "typeCode": "street-view"
+    },
+    {
+      "name": {
+        "en": "Summer"
+      },
+      "typeCode": "summer"
+    },
+    {
+      "name": {
+        "en": "Pool"
+      },
+      "typeCode": "pool"
+    },
+    {
+      "name": {
+        "en": "Table tennis"
+      },
+      "typeCode": "table-tennis"
+    },
+    {
+      "name": {
+        "en": "Tennis"
+      },
+      "typeCode": "tennis"
+    },
+    {
+      "name": {
+        "en": "Terrace"
+      },
+      "typeCode": "terrace"
+    },
+    {
+      "name": {
+        "en": "Toilet"
+      },
+      "typeCode": "toilet"
+    },
+    {
+      "name": {
+        "en": "View from room"
+      },
+      "typeCode": "view-from-room"
+    },
+    {
+      "name": {
+        "en": "Whirlpool"
+      },
+      "typeCode": "whirlpool"
+    },
+    {
+      "name": {
+        "en": "Winter"
+      },
+      "typeCode": "winter"
+    },
+    {
+      "name": {
+        "en": "Branding Logo"
+      },
+      "typeCode": "brand-logo"
+    }
+  ],
+  "propertySubrooms": [
+    {
+      "name": {
+        "en": "Alcove"
+      },
+      "typeCode": "ALK"
+    },
+    {
+      "name": {
+        "en": "Bar"
+      },
+      "typeCode": "BAR"
+    },
+    {
+      "name": {
+        "en": "Basement"
+      },
+      "typeCode": "BAS"
+    },
+    {
+      "name": {
+        "en": "Bathroom"
+      },
+      "typeCode": "BAT"
+    },
+    {
+      "name": {
+        "en": "Bedroom"
+      },
+      "typeCode": "BED"
+    },
+    {
+      "name": {
+        "en": "Bedroom with bathroom"
+      },
+      "typeCode": "BBA"
+    },
+    {
+      "name": {
+        "en": "Cabin"
+      },
+      "typeCode": "CAB"
+    },
+    {
+      "name": {
+        "en": "Carport"
+      },
+      "typeCode": "CAR"
+    },
+    {
+      "name": {
+        "en": "Childrens bedroom"
+      },
+      "typeCode": "CBD"
+    },
+    {
+      "name": {
+        "en": "Childrens pool inside"
+      },
+      "typeCode": "CPI"
+    },
+    {
+      "name": {
+        "en": "Childrens pool outside"
+      },
+      "typeCode": "CPO"
+    },
+    {
+      "name": {
+        "en": "Corridor"
+      },
+      "typeCode": "COR"
+    },
+    {
+      "name": {
+        "en": "Covered terrace"
+      },
+      "typeCode": "COV"
+    },
+    {
+      "name": {
+        "en": "Dining room"
+      },
+      "typeCode": "DIN"
+    },
+    {
+      "name": {
+        "en": "Fitness room"
+      },
+      "typeCode": "FIT"
+    },
+    {
+      "name": {
+        "en": "Gallery bedroom"
+      },
+      "typeCode": "GBD"
+    },
+    {
+      "name": {
+        "en": "Games room"
+      },
+      "typeCode": "GAM"
+    },
+    {
+      "name": {
+        "en": "Garage"
+      },
+      "typeCode": "GAR"
+    },
+    {
+      "name": {
+        "en": "General"
+      },
+      "typeCode": "GEN"
+    },
+    {
+      "name": {
+        "en": "Hall"
+      },
+      "typeCode": "HAL"
+    },
+    {
+      "name": {
+        "en": "Hall/parlor"
+      },
+      "typeCode": "HLL"
+    },
+    {
+      "name": {
+        "en": "Interconnecting bedroom"
+      },
+      "typeCode": "IBD"
+    },
+    {
+      "name": {
+        "en": "Jacuzzi"
+      },
+      "typeCode": "JAC"
+    },
+    {
+      "name": {
+        "en": "Jetty"
+      },
+      "typeCode": "JET"
+    },
+    {
+      "name": {
+        "en": "Kitchen"
+      },
+      "typeCode": "KIT"
+    },
+    {
+      "name": {
+        "en": "Kitchen diner"
+      },
+      "typeCode": "KDI"
+    },
+    {
+      "name": {
+        "en": "Kitchenette"
+      },
+      "typeCode": "KTC"
+    },
+    {
+      "name": {
+        "en": "Landing"
+      },
+      "typeCode": "LAN"
+    },
+    {
+      "name": {
+        "en": "Laundry room"
+      },
+      "typeCode": "LAU"
+    },
+    {
+      "name": {
+        "en": "Library"
+      },
+      "typeCode": "LIB"
+    },
+    {
+      "name": {
+        "en": "Living room"
+      },
+      "typeCode": "LIV"
+    },
+    {
+      "name": {
+        "en": "Living/bedroom"
+      },
+      "typeCode": "LBD"
+    },
+    {
+      "name": {
+        "en": "Living/dining room"
+      },
+      "typeCode": "LDI"
+    },
+    {
+      "name": {
+        "en": "Loft"
+      },
+      "typeCode": "LOF"
+    },
+    {
+      "name": {
+        "en": "Mezzanine"
+      },
+      "typeCode": "MEZ"
+    },
+    {
+      "name": {
+        "en": "Open plan kitchen"
+      },
+      "typeCode": "OPK"
+    },
+    {
+      "name": {
+        "en": "Outside bath"
+      },
+      "typeCode": "OUB"
+    },
+    {
+      "name": {
+        "en": "Outside kitchen"
+      },
+      "typeCode": "OUK"
+    },
+    {
+      "name": {
+        "en": "Pool area"
+      },
+      "typeCode": "PLA"
+    },
+    {
+      "name": {
+        "en": "Recreation room"
+      },
+      "typeCode": "REC"
+    },
+    {
+      "name": {
+        "en": "Relax area"
+      },
+      "typeCode": "RLX"
+    },
+    {
+      "name": {
+        "en": "Sauna"
+      },
+      "typeCode": "SAU"
+    },
+    {
+      "name": {
+        "en": "Sitting room"
+      },
+      "typeCode": "SIT"
+    },
+    {
+      "name": {
+        "en": "Ski storage"
+      },
+      "typeCode": "SKI"
+    },
+    {
+      "name": {
+        "en": "Stables"
+      },
+      "typeCode": "STB"
+    },
+    {
+      "name": {
+        "en": "Storage room"
+      },
+      "typeCode": "STO"
+    },
+    {
+      "name": {
+        "en": "Study"
+      },
+      "typeCode": "STU"
+    },
+    {
+      "name": {
+        "en": "Sun terrace"
+      },
+      "typeCode": "SUN"
+    },
+    {
+      "name": {
+        "en": "Tea kitchen"
+      },
+      "typeCode": "TEA"
+    },
+    {
+      "name": {
+        "en": "Television room"
+      },
+      "typeCode": "TVR"
+    },
+    {
+      "name": {
+        "en": "Terrace"
+      },
+      "typeCode": "TER"
+    },
+    {
+      "name": {
+        "en": "Tool room"
+      },
+      "typeCode": "TOO"
+    },
+    {
+      "name": {
+        "en": "Turkish bath"
+      },
+      "typeCode": "TUR"
+    },
+    {
+      "name": {
+        "en": "Utility room"
+      },
+      "typeCode": "UTI"
+    },
+    {
+      "name": {
+        "en": "Veranda"
+      },
+      "typeCode": "VER"
+    },
+    {
+      "name": {
+        "en": "WC/Toilet"
+      },
+      "typeCode": "TOI"
+    },
+    {
+      "name": {
+        "en": "Half  Bathroom"
+      },
+      "typeCode": "HBA"
+    }
+  ],
+  "subroomItems": [
+    {
+      "name": {
+        "en": "Balcony"
+      },
+      "typeCode": "ITM001"
+    },
+    {
+      "name": {
+        "en": "Balcony and terrace"
+      },
+      "typeCode": "ITM002"
+    },
+    {
+      "name": {
+        "en": "Bathtub"
+      },
+      "typeCode": "ITM003"
+    },
+    {
+      "name": {
+        "en": "Biological toilet"
+      },
+      "typeCode": "ITM004"
+    },
+    {
+      "name": {
+        "en": "Bunk bed"
+      },
+      "typeCode": "ITM005"
+    },
+    {
+      "name": {
+        "en": "Chemical toilet"
+      },
+      "typeCode": "ITM006"
+    },
+    {
+      "name": {
+        "en": "Covered terrace"
+      },
+      "typeCode": "ITM007"
+    },
+    {
+      "name": {
+        "en": "Double bed"
+      },
+      "typeCode": "ITM008"
+    },
+    {
+      "name": {
+        "en": "Futon or mattress"
+      },
+      "typeCode": "ITM009"
+    },
+    {
+      "name": {
+        "en": "Grand lit"
+      },
+      "typeCode": "ITM010"
+    },
+    {
+      "name": {
+        "en": "Hand shower"
+      },
+      "typeCode": "ITM011"
+    },
+    {
+      "name": {
+        "en": "Hand shower and bathtub"
+      },
+      "typeCode": "ITM012"
+    },
+    {
+      "name": {
+        "en": "Hot and cold water"
+      },
+      "typeCode": "ITM013"
+    },
+    {
+      "name": {
+        "en": "King bed"
+      },
+      "typeCode": "ITM014"
+    },
+    {
+      "name": {
+        "en": "No shower or bathtub"
+      },
+      "typeCode": "ITM015"
+    },
+    {
+      "name": {
+        "en": "Open and covered terrace"
+      },
+      "typeCode": "ITM016"
+    },
+    {
+      "name": {
+        "en": "Open terrace"
+      },
+      "typeCode": "ITM017"
+    },
+    {
+      "name": {
+        "en": "Partly covered terrace"
+      },
+      "typeCode": "ITM018"
+    },
+    {
+      "name": {
+        "en": "Porch"
+      },
+      "typeCode": "ITM019"
+    },
+    {
+      "name": {
+        "en": "Privy"
+      },
+      "typeCode": "ITM020"
+    },
+    {
+      "name": {
+        "en": "Queen bed"
+      },
+      "typeCode": "ITM021"
+    },
+    {
+      "name": {
+        "en": "Shared terrace or balcony"
+      },
+      "typeCode": "ITM022"
+    },
+    {
+      "name": {
+        "en": "Shower"
+      },
+      "typeCode": "ITM023"
+    },
+    {
+      "name": {
+        "en": "Shower and bathtub"
+      },
+      "typeCode": "ITM024"
+    },
+    {
+      "name": {
+        "en": "Shower, tub, shower over bath"
+      },
+      "typeCode": "ITM025"
+    },
+    {
+      "name": {
+        "en": "Single bed"
+      },
+      "typeCode": "ITM026"
+    },
+    {
+      "name": {
+        "en": "Sofa bed"
+      },
+      "typeCode": "ITM027"
+    },
+    {
+      "name": {
+        "en": "Terrace or balcony"
+      },
+      "typeCode": "ITM028"
+    },
+    {
+      "name": {
+        "en": "Toilet with cold water"
+      },
+      "typeCode": "ITM030"
+    },
+    {
+      "name": {
+        "en": "Toilet with hot and cold water"
+      },
+      "typeCode": "ITM031"
+    },
+    {
+      "name": {
+        "en": "Toilet without sink"
+      },
+      "typeCode": "ITM032"
+    },
+    {
+      "name": {
+        "en": "Twin bed"
+      },
+      "typeCode": "ITM029"
+    },
+    {
+      "name": {
+        "en": "Crib (baby bed)"
+      },
+      "typeCode": "ITM033"
+    },
+    {
+      "name": {
+        "en": "Toddler bed"
+      },
+      "typeCode": "ITM034"
+    }
+  ],
+  "propertyChargeModes": [
+    {
+      "name": {
+        "en": "Price per refuse bag"
+      },
+      "typeCode": "BAG"
+    },
+    {
+      "name": {
+        "en": "Price per cubic meter"
+      },
+      "typeCode": "CUB"
+    },
+    {
+      "name": {
+        "en": "Price per day "
+      },
+      "typeCode": "DAY"
+    },
+    {
+      "name": {
+        "en": "Price per day per unit"
+      },
+      "typeCode": "DAU"
+    },
+    {
+      "name": {
+        "en": "Price per hour"
+      },
+      "typeCode": "HOU"
+    },
+    {
+      "name": {
+        "en": "Price per kWh "
+      },
+      "typeCode": "KWH"
+    },
+    {
+      "name": {
+        "en": "Price per litre"
+      },
+      "typeCode": "LIT"
+    },
+    {
+      "name": {
+        "en": "Price per month "
+      },
+      "typeCode": "MON"
+    },
+    {
+      "name": {
+        "en": "Price per night"
+      },
+      "typeCode": "NIG"
+    },
+    {
+      "name": {
+        "en": "Entity not relevant"
+      },
+      "typeCode": "NOR"
+    },
+    {
+      "name": {
+        "en": "Price per set"
+      },
+      "typeCode": "PAC"
+    },
+    {
+      "name": {
+        "en": "Price per pet per night"
+      },
+      "typeCode": "PEN"
+    },
+    {
+      "name": {
+        "en": "Price per person"
+      },
+      "typeCode": "PER"
+    },
+    {
+      "name": {
+        "en": "Price per pet (per stay)"
+      },
+      "typeCode": "PET"
+    },
+    {
+      "name": {
+        "en": "Price per pet per week"
+      },
+      "typeCode": "PEW"
+    },
+    {
+      "name": {
+        "en": "Price per person per day"
+      },
+      "typeCode": "PPD"
+    },
+    {
+      "name": {
+        "en": "Price per person per hour"
+      },
+      "typeCode": "PPH"
+    },
+    {
+      "name": {
+        "en": "Price per person per night"
+      },
+      "typeCode": "PPN"
+    },
+    {
+      "name": {
+        "en": "Price per person per stay"
+      },
+      "typeCode": "PPS"
+    },
+    {
+      "name": {
+        "en": "Price per person per week"
+      },
+      "typeCode": "PPW"
+    },
+    {
+      "name": {
+        "en": "Price per stay "
+      },
+      "typeCode": "STA"
+    },
+    {
+      "name": {
+        "en": "Price per stay per unit"
+      },
+      "typeCode": "STU"
+    },
+    {
+      "name": {
+        "en": "Price per unit"
+      },
+      "typeCode": "UNI"
+    },
+    {
+      "name": {
+        "en": "Based on usage"
+      },
+      "typeCode": "USE"
+    },
+    {
+      "name": {
+        "en": "Price per week "
+      },
+      "typeCode": "WEE"
+    },
+    {
+      "name": {
+        "en": "Price per week per unit"
+      },
+      "typeCode": "WEU"
+    },
+    {
+      "name": {
+        "en": "Price per gallon"
+      },
+      "typeCode": "GAL"
+    },
+    {
+      "name": {
+        "en": "Price per Gigabyte"
+      },
+      "typeCode": "GIB"
+    },
+    {
+      "name": {
+        "en": "Price per cubic foot"
+      },
+      "typeCode": "CUF"
+    }
+  ],
+  "propertyChargeTypes": [
+    {
+      "name": {
+        "en": "Available in surroundings"
+      },
+      "typeCode": "AIS"
+    },
+    {
+      "name": {
+        "en": "Included in rent"
+      },
+      "typeCode": "INC"
+    },
+    {
+      "name": {
+        "en": "Obligatory"
+      },
+      "typeCode": "MAN"
+    },
+    {
+      "name": {
+        "en": "Mandatory for children"
+      },
+      "typeCode": "MAC"
+    },
+    {
+      "name": {
+        "en": "Mandatory for pets"
+      },
+      "typeCode": "MAP"
+    },
+    {
+      "name": {
+        "en": "Not applicable"
+      },
+      "typeCode": "NOA"
+    },
+    {
+      "name": {
+        "en": "Optional at location"
+      },
+      "typeCode": "OPL"
+    },
+    {
+      "name": {
+        "en": "Optional"
+      },
+      "typeCode": "OPT"
+    },
+    {
+      "name": {
+        "en": "Pay at location"
+      },
+      "typeCode": "PAL"
+    },
+    {
+      "name": {
+        "en": "Regulate self"
+      },
+      "typeCode": "SED"
+    },
+    {
+      "name": {
+        "en": "Take along self"
+      },
+      "typeCode": "SEL"
+    },
+    {
+      "name": {
+        "en": "Regulate self or let do"
+      },
+      "typeCode": "SOD"
+    },
+    {
+      "name": {
+        "en": "Take along self or rent"
+      },
+      "typeCode": "SOR"
+    },
+    {
+      "name": {
+        "en": "To book, pay at location"
+      },
+      "typeCode": "XPL"
+    },
+    {
+      "name": {
+        "en": "To book"
+      },
+      "typeCode": "XTR"
+    }
+  ],
+  "propertyDescriptionTypes": [
+    {
+      "name": {
+        "en": "Additional costs"
+      },
+      "typeCode": "additional-costs"
+    },
+    {
+      "name": {
+        "en": "Area"
+      },
+      "typeCode": "area"
+    },
+    {
+      "name": {
+        "en": "Arrival days"
+      },
+      "typeCode": "arrival-days"
+    },
+    {
+      "name": {
+        "en": "Driving directions"
+      },
+      "typeCode": "driving-directions"
+    },
+    {
+      "name": {
+        "en": "Discounts"
+      },
+      "typeCode": "discounts"
+    },
+    {
+      "name": {
+        "en": "Distances"
+      },
+      "typeCode": "distances"
+    },
+    {
+      "name": {
+        "en": "Environment"
+      },
+      "typeCode": "environment"
+    },
+    {
+      "name": {
+        "en": "Fine print"
+      },
+      "typeCode": "fine-print"
+    },
+    {
+      "name": {
+        "en": "Headline"
+      },
+      "typeCode": "headline"
+    },
+    {
+      "name": {
+        "en": "House"
+      },
+      "typeCode": "house"
+    },
+    {
+      "name": {
+        "en": "Interior"
+      },
+      "typeCode": "interior"
+    },
+    {
+      "name": {
+        "en": "Minimum stay length"
+      },
+      "typeCode": "minimum-stay-length"
+    },
+    {
+      "name": {
+        "en": "Opening hours"
+      },
+      "typeCode": "opening-hours"
+    },
+    {
+      "name": {
+        "en": "Optional costs"
+      },
+      "typeCode": "optional-costs"
+    },
+    {
+      "name": {
+        "en": "Price table"
+      },
+      "typeCode": "price-table"
+    },
+    {
+      "name": {
+        "en": "Remarks"
+      },
+      "typeCode": "remarks"
+    },
+    {
+      "name": {
+        "en": "Short introduction"
+      },
+      "typeCode": "short-introduction"
+    },
+    {
+      "name": {
+        "en": "Short winter text"
+      },
+      "typeCode": "short-winter-text"
+    },
+    {
+      "name": {
+        "en": "Tips of the owner"
+      },
+      "typeCode": "tips-of-the-owner"
+    },
+    {
+      "name": {
+        "en": "Unique benefits"
+      },
+      "typeCode": "unique-benefits"
+    },
+    {
+      "name": {
+        "en": "Why this property?"
+      },
+      "typeCode": "why-this-property"
+    },
+    {
+      "name": {
+        "en": "Winter text"
+      },
+      "typeCode": "winter-text"
+    }
+  ],
+  "paymentMethods": [
+    {
+      "name": {
+        "en": "Alipay"
+      },
+      "typeCode": "ALI001"
+    },
+    {
+      "name": {
+        "en": "American Express"
+      },
+      "typeCode": "AME001"
+    },
+    {
+      "name": {
+        "en": "American Express (virtual credit card)"
+      },
+      "typeCode": "AME002"
+    },
+    {
+      "name": {
+        "en": "Apple Pay"
+      },
+      "typeCode": "APP001"
+    },
+    {
+      "name": {
+        "en": "BC-Card"
+      },
+      "typeCode": "BCC001"
+    },
+    {
+      "name": {
+        "en": "Carte Bleue"
+      },
+      "typeCode": "CAR001"
+    },
+    {
+      "name": {
+        "en": "CartaSi"
+      },
+      "typeCode": "CAR003"
+    },
+    {
+      "name": {
+        "en": "Cash"
+      },
+      "typeCode": "CAS001"
+    },
+    {
+      "name": {
+        "en": "Diners Club"
+      },
+      "typeCode": "DIN001"
+    },
+    {
+      "name": {
+        "en": "Discover"
+      },
+      "typeCode": "DIS001"
+    },
+    {
+      "name": {
+        "en": "EC-Card"
+      },
+      "typeCode": "ECC001"
+    },
+    {
+      "name": {
+        "en": "Euro/Mastercard"
+      },
+      "typeCode": "EUR001"
+    },
+    {
+      "name": {
+        "en": "iDeal"
+      },
+      "typeCode": "IDE001"
+    },
+    {
+      "name": {
+        "en": "JCB"
+      },
+      "typeCode": "JCB001"
+    },
+    {
+      "name": {
+        "en": "Maestro"
+      },
+      "typeCode": "MAE001"
+    },
+    {
+      "name": {
+        "en": "MasterCard (virtual credit card)"
+      },
+      "typeCode": "MAS001"
+    },
+    {
+      "name": {
+        "en": "PayPal"
+      },
+      "typeCode": "PAY001"
+    },
+    {
+      "name": {
+        "en": "PIN"
+      },
+      "typeCode": "PIN001"
+    },
+    {
+      "name": {
+        "en": "Red 6000"
+      },
+      "typeCode": "RED001"
+    },
+    {
+      "name": {
+        "en": "UnionPay debit card"
+      },
+      "typeCode": "UNI002"
+    },
+    {
+      "name": {
+        "en": "UnionPay credit card"
+      },
+      "typeCode": "UNI003"
+    },
+    {
+      "name": {
+        "en": "Visa"
+      },
+      "typeCode": "VIS001"
+    },
+    {
+      "name": {
+        "en": "Visa (virtual credit card)"
+      },
+      "typeCode": "VIS002"
+    },
+    {
+      "name": {
+        "en": "Western Union"
+      },
+      "typeCode": "WES001"
+    }
+  ]
+}

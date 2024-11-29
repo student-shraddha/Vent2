@@ -1,0 +1,203 @@
+.my_reservation_main_section {
+  margin-bottom: 120px;
+}
+
+/* BANNER IMAGE  */
+.banner_img,
+.imageChild {
+  position: relative !important;
+}
+
+.no_reservation_img_div {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.no_reservation_text {
+  margin-top: 20px;
+  font-family: var(--font-Nunito);
+}
+
+/*     -------------------------     TEXT AREA      ----------------------------    */
+.reservation {
+  font-family: var(--font-Montserrat);
+  font-weight: 600;
+  margin-top: 42px;
+  margin-bottom: 20px;
+}
+.manage {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  margin: 30px 0px;
+}
+.heading {
+  background-color: #f7f7f7;
+}
+
+.heading_table {
+  height: 90px;
+}
+.bodyRow {
+  text-align: center;
+}
+
+.reservation_table_td_others {
+  min-width: 80px;
+}
+
+.imgChild {
+}
+
+.blank {
+  width: 6%;
+}
+.id,
+.guest,
+.pet,
+.subtotal {
+  width: 10%;
+}
+.address {
+  width: 16%;
+}
+.status,
+.checkin {
+  min-width: 100px;
+}
+.checkout {
+  min-width: 130px;
+}
+.address {
+  min-width: 200px;
+}
+.action {
+  width: 12%;
+}
+.tableHead {
+  color: var(--black-color);
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  font-size: 1rem;
+  vertical-align: middle;
+}
+.tableRow {
+  color: var(--light-font-color);
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  font-size: 0.9rem;
+  border-bottom: 1px solid var(--dark-grey-color);
+  height: 70px;
+  vertical-align: middle;
+}
+.oldTown {
+  color: var(--btn-background-secondary);
+  text-decoration: underline;
+  font-weight: 500;
+}
+.detailBtn {
+  background-color: var(--btn-background-secondary) !important;
+  color: var(--white-font-color);
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+  border: none;
+  padding: 6px 18px !important;
+  border-radius: 4px;
+}
+.under {
+  color: var(--white-font-color);
+  background: #eca600 !important;
+  border-radius: 20px;
+  padding: 4px 7px !important;
+  border: none;
+}
+.Completed {
+  color: var(--success-green);
+  background: var(--white-font-color) !important;
+  border-radius: 20px;
+  font-weight: 600;
+  border: none;
+  cursor: default;
+}
+.expired {
+  color: red;
+  background: var(--white-font-color) !important;
+  border-radius: 20px;
+  font-weight: 600;
+  border: none;
+  cursor: default;
+}
+
+.table_date {
+  color: var(--btn-background-secondary);
+  font-weight: 600;
+  min-width: 70px;
+}
+.dollar {
+  font-weight: 600;
+}
+
+/* DATE SECTION CSS */
+.backgroundLight {
+  background-color: var(--header-background-color);
+  margin: 50px 0px;
+}
+.heading {
+  border-bottom: 1px solid var(--header-background-color);
+}
+.tableRow,
+.columnRow {
+  color: var(--light-font-color);
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  text-align: center;
+  font-size: 0.9rem;
+  border-bottom: 1px solid var(--header-background-color);
+  /* height: 80px; */
+  vertical-align: middle;
+}
+.columnRow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.start,
+.type,
+.end,
+.price {
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  color: var(--black-color);
+  vertical-align: middle;
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  padding-top: 12px;
+  margin-bottom: 20px;
+}
+.inner_input_date_picker:hover,
+.inner_input_date_picker:focus {
+  border-color: var(--btn-background);
+  border-inline-end-width: 1px;
+}
+.dateParent,
+.inner_input_date_picker {
+  width: 100% !important;
+  margin-top: 10px;
+}
+
+/* PAGINATION  */
+.pagination_container {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .reservation_table_td {
+    min-width: 150px;
+  }
+}

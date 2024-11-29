@@ -1,0 +1,95 @@
+.parent_container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact_us_input_main_container {
+}
+
+.contact_us_input_heading {
+  font-family: var(--font-Montserrat);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.contact_us_input_subheading {
+  font-family: var(--font-Montserrat);
+  font-style: italic;
+  font-size: 13px;
+  color: var(--light-font-color);
+}
+
+.contact_our_staff_text {
+  font-family: var(--font-Nunito);
+}
+
+.input_label {
+  margin-bottom: 1rem;
+  font-family: var(--font-Nunito);
+}
+
+.contact_us_input {
+  border: 1px solid var(--light-font-color);
+}
+
+.contact_us_send_btn {
+  color: var(--white-btn-font-color);
+  border: none !important;
+  font-weight: 500;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: var(--btn-background-secondary);
+}
+
+.contact_us_send_btn:hover {
+  color: var(--white-btn-font-color) !important;
+  background-color: var(--black-btn-color) !important;
+}
+
+.contact_us_bannerimg_container,
+.contact_us_bannerimg {
+  position: relative !important;
+}
+
+.contact_us_input_section {
+  margin: 3rem 0;
+}
+
+.contact_us_input_container {
+  margin: 0.7rem 0;
+  flex-direction: column;
+}
+
+/* THANKS FOR REACHING SECTION */
+.contact_us_thanks_main_section {
+  margin: 5rem 0;
+}
+
+.contact_us_thanks_row {
+  align-items: center;
+}
+
+.contact_us_thanks_cols {
+  margin-bottom: 1rem;
+}
+.contact_us_thanks_heading {
+  font-weight: 500;
+  margin-bottom: 2rem;
+  font-family: var(--font-Montserrat);
+}
+.contact_us_thanks_para {
+  font-family: var(--font-Nunito);
+  font-size: 13px;
+}
+
+.contact_us_thanks_freq_ask_para {
+  color: red;
+  font-family: var(--font-Nunito);
+  font-size: 20px;
+}
+
+.contact_us_thanks_img {
+  position: relative !important;
+  max-width: 700px;
+}

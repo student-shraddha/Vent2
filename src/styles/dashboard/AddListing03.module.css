@@ -1,0 +1,73 @@
+/* BANNER IMAGE */
+
+.banner_img {
+  position: relative !important;
+}
+/*     -------------------------     TEXT AREA      ----------------------------    */
+.addListing {
+  font-family: var(--font-Montserrat);
+  font-weight: 600;
+  margin-top: 42px;
+  margin-bottom: 20px;
+}
+.info {
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+  margin: 40px 0px 30px;
+}
+.checkWord {
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  display: flex;
+  gap: 14px;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+.tickbox {
+  width: 22px;
+  height: 22px;
+}
+.twobtn {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+.savebtn {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 5px;
+  background: var(--white-font-color);
+  border: 1px solid #999494;
+  height: auto;
+}
+.savebtn:hover {
+  background: var(--btn-background-secondary) !important;
+  border: 1px solid var(--btn-background-secondary) !important;
+  color: var(--white-font-color) !important;
+  font-weight: 500;
+}
+.addbtnparent {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 0px;
+}
+.addbtn {
+  font-family: var(--font-Nunito);
+  font-weight: 580;
+  letter-spacing: 0.8px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color) !important;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: 1px solid var(--btn-background-secondary);
+  height: auto;
+}
+.addbtn:hover {
+  background-color: var(--black-btn-color);
+  border: 1px solid var(--black-btn-color);
+}

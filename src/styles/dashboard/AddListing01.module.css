@@ -1,0 +1,157 @@
+/* BANNER IMAGE */
+.banner_img {
+  position: relative !important;
+}
+/*     -------------------------     TEXT AREA      ----------------------------    */
+.addListing {
+  font-family: var(--font-Montserrat);
+  font-weight: 700;
+  margin-top: 42px;
+  margin-bottom: 20px;
+}
+.info {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  margin: 40px 0px 30px;
+}
+.title {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  margin: 20px 0px;
+}
+.listing {
+  padding: 10px 12px;
+}
+.colParent {
+  margin-bottom: 18px;
+}
+.weekly {
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 20px;
+  font-family: var(--font-Nunito);
+}
+.name,
+.price,
+.type {
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 20px;
+  font-family: var(--font-Nunito);
+  color: var(--light-font-color);
+}
+.btnparent {
+  display: flex;
+  justify-content: flex-start;
+  margin: 30px 0px;
+}
+.addbtnparent {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 0px;
+}
+.deletebtn,
+.addbtn {
+  font-family: var(--font-Nunito);
+  height: auto;
+  font-weight: 580;
+  letter-spacing: 0.8px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color) !important;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: 1px solid var(--btn-background-secondary);
+}
+.plus {
+  padding-top: 4px;
+}
+.radio {
+  margin-top: 46px;
+}
+.twobtn {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+.savebtn {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 5px;
+  background: var(--white-font-color);
+  border: 1px solid #999494;
+  height: auto;
+}
+.savebtn:hover {
+  background: var(--btn-background-secondary) !important;
+  border: 1px solid var(--btn-background-secondary) !important;
+  color: var(--white-font-color) !important;
+  font-weight: 500;
+}
+.deletebtn:hover,
+.addbtn:hover {
+  background-color: var(--black-btn-color);
+  border: 1px solid var(--black-btn-color) !important;
+}
+.twoinputDropdown {
+  border: 1px solid var(--light-font-color);
+  border-radius: 10px;
+  padding: 34px 16px 0px;
+  background-color: #dfdfdf;
+}
+.radioA {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  border: 1px solid var(--dark-grey-font);
+  border-radius: 5px;
+  padding: 10px 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.radioA:hover {
+  border: 1px solid var(--btn-background-secondary);
+}
+.circle {
+  padding-left: 50px;
+}
+.daily {
+  margin-bottom: 0px;
+  color: var(--dark-grey-font);
+  font-weight: 400;
+  font-family: var(--font-Nunito);
+}
+.perStay {
+  margin-bottom: 0px;
+  color: var(--btn-background-secondary);
+  font-weight: 400;
+  font-family: var(--font-Nunito);
+}
+.dot {
+  color: var(--btn-background-secondary);
+}
+.search_by_golf_input_search_by_tourni {
+  height: auto;
+  border-radius: 4px;
+  width: 90%;
+  justify-content: space-between;
+  color: var(--dark-grey-font);
+  padding: 10px;
+}
+/*    ---------------------------------         MEDIA QUERY        ---------------------------------             */
+@media only screen and (max-width: 768px) {
+  .listing {
+    margin-bottom: 18px;
+  }
+  .twoinputDropdown {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .deletebtn {
+    width: 28%;
+  }
+}

@@ -1,0 +1,174 @@
+/*------------------------ SEARCH BY TOURNAMENT TOP IMAGE------------------------ */
+.topImage {
+  width: 100%;
+  height: auto;
+}
+
+.topImgChild {
+  position: relative !important;
+  margin-bottom: 20px;
+}
+
+.textArea {
+  margin-bottom: 50px;
+}
+
+/* ---------------         DROPDOWN CONTENT          ---------------*/
+
+.searchTitle {
+  font-family: var(--font-Montserrat);
+  font-weight: 500;
+  margin: 20px 0px;
+}
+
+.checkOut {
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  color: var(--dark-grey-font);
+  margin: 10px 0px;
+}
+
+.edit_room_dropdown_btn {
+  width: 100%;
+  margin-top: 20px;
+  font-family: var(--font-Nunito);
+  color: var(--light-font-color) !important;
+  background-color: var(--white-font-color) !important;
+  font-weight: 400;
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+
+.edit_room_dropdown_btn:hover {
+  border: 1px solid black;
+  color: var(--light-font-color) !important;
+  background-color: var(--white-font-color);
+}
+
+.edit_room_dropdown_btn_space {
+  width: 100%;
+  justify-content: space-between;
+  font-family: var(--font-Nunito);
+  color: var(--black-color);
+  background-color: var(--white-font-color);
+  font-weight: 400;
+}
+
+.edit_room_dropdown_icon {
+  display: flex;
+}
+
+.search {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--btn-background-secondary) !important;
+  color: var(--white-font-color);
+  border: none;
+}
+
+.search:hover {
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color);
+  border: none;
+}
+
+/*  -----------------     PAGINATION CONTAINER     -----------------   */
+
+.pagination_container {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.pagination {
+}
+
+.buildings {
+  /* max-width: 1560px;
+   height: auto; */
+}
+
+.buildingImg {
+  position: relative !important;
+}
+
+.mapParent {
+  flex: 1;
+  padding: 140px 0px 147px 22px;
+}
+
+.map {
+  position: relative !important;
+}
+
+/*    ----------------      CARD MAP SECTION      -------------------   */
+
+.search_main_section {
+  background-color: rgb(249, 249, 249);
+}
+.containerBack {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.orlandoHead {
+  padding: 32px 14px;
+  font-family: var(--font-Nunito);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.mainOrland {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.horizontaLine {
+  border-top: 2px solid rgb(225, 220, 220);
+}
+
+.sortSection {
+  display: flex;
+  justify-content: space-between;
+  margin: 22px 0px;
+  flex-wrap: wrap;
+}
+
+.cardCol {
+  height: auto;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rental {
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+}
+
+.iconImg {
+  display: flex;
+  width: 38%;
+}
+
+.sort {
+  align-self: center;
+  margin-right: 10px;
+  font-family: var(--font-Nunito);
+}
+
+.sortdiv {
+  display: flex;
+  margin-right: 20px;
+}
+
+.default,
+.default:hover {
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+  color: #2f2f2f;
+  font-weight: 500;
+}

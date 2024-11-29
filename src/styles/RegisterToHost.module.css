@@ -1,0 +1,351 @@
+/* TOP IMAGE SECTION */
+.targetBall {
+  width: 100%;
+  height: auto;
+}
+
+/* REGISTER COLUMN CONTAINER */
+.imgTargetBall {
+  position: relative !important;
+}
+
+.columnA {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.golfheading {
+  font-family: var(--font-Montserrat);
+  font-weight: 600;
+}
+
+.para {
+  font-family: var(--font-Nunito);
+  color: var(--light-font-color);
+}
+
+.registerParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.columnB {
+  position: relative;
+  bottom: 84px;
+  box-shadow: 2px 2px 6px rgba(1, 0.6, 0.4, 0.2);
+}
+
+.registerTitle {
+  background: var(--btn-background-secondary);
+  color: var(--white-font-color);
+  font-family: var(--font-Montserrat);
+  padding: 30px 16px;
+  font-weight: 500;
+}
+
+.registerContent {
+  padding: 20px;
+}
+
+.inputParent {
+  flex-wrap: wrap;
+  width: 100%;
+  font-family: var(--font-Nunito);
+}
+
+.form_items {
+  margin-bottom: 0px;
+}
+.inputA {
+  width: 100%;
+  padding: 10px;
+  border-radius: 12px 12px 0px 0px;
+  border: 1px solid var(--light-font-color) !important;
+  color: var(--light-font-color);
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.inputB {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--light-font-color) !important;
+  /* border-top-width: none !important;
+  border-bottom: none !important; */
+  border-radius: 0px;
+  color: var(--light-font-color);
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.inputC {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--light-font-color) !important;
+  /* border-bottom: none !important;
+  border-radius: 0px; */
+  color: var(--light-font-color);
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.inputD {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--light-font-color) !important;
+  height: auto;
+  border-radius: 0px 0px 12px 12px;
+  color: var(--light-font-color);
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.agreeOptionA {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 16px 0px;
+  font-weight: var(--font-Nunito);
+}
+
+.conditions_links {
+  text-decoration: none;
+}
+.conditions_links:hover {
+  color: var(--btn-background-secondary);
+}
+
+.agreeOptionB {
+  font-size: 1rem;
+  font-weight: 600;
+  font-weight: var(--font-Nunito);
+  margin: 16px 0px 0px;
+}
+
+.registerBtn {
+  width: 100%;
+  background: var(--white-font-color);
+  color: var(--btn-background-secondary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: var(--font-Nunito);
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px 0px;
+  padding: 3% 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--black-btn-color);
+}
+
+.registerBtn:hover {
+  background: var(--btn-background-secondary);
+  border: none !important;
+  letter-spacing: 0.6px;
+  color: white !important;
+}
+
+/* THREE COLUMN CONTAINER */
+
+.textColumn {
+}
+
+.threeColumnTitle {
+  font-family: var(--font-Montserrat);
+  font-style: italic;
+  font-weight: 300;
+}
+
+.threeColumnPara {
+  font-family: var(--font-Nunito);
+  color: var(--light-font-color);
+  font-weight: 400;
+}
+
+/* TEXT IN  SIDE OF IMAGE CONTAINER */
+
+.textImageParent {
+  padding: 44px 0px;
+}
+
+.hostTitle {
+  margin-bottom: 30px;
+  font-family: var(--font-Montserrat);
+  font-weight: 600;
+}
+
+.rowContentA {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 50px 0px;
+}
+
+.textTitle {
+  font-family: var(--font-Montserrat);
+  font-style: italic;
+  font-weight: 300;
+}
+
+.paragraph {
+  color: var(--light-font-color);
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  padding: 12px 0px;
+}
+
+.textParentA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+.textParentB {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  margin-top: 30px;
+}
+
+.textParentC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+.textParentD {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+.textParentE {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 30px;
+  margin-bottom: 30px;
+}
+
+.earnMoney {
+  font-weight: 600;
+  font-family: var(--font-Nunito);
+}
+
+.imageParent {
+  position: relative !important;
+  /* margin: 0px 6px; */
+  padding: 0% !important;
+}
+
+.condoImage,
+.lunchImage,
+.earnMoney,
+.beach {
+  position: relative !important;
+  border-radius: 16px;
+}
+
+/* Frequently Asked Questions */
+
+.faqRow {
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.headingSign {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sign {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  width: 24px;
+  height: 25px;
+  padding-bottom: 7px;
+}
+
+.sign:hover {
+  border: none;
+  background-color: var(--btn-background-secondary);
+}
+
+.faqTitle {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+}
+
+.faqPara {
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+}
+
+/* Go Live on now CONTAINER */
+
+.goliveRow {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.listHomeTitle {
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.goliveBtn {
+  font-weight: 500;
+  width: 40%;
+  border-radius: 4px !important;
+  font-size: 0.9rem;
+  font-family: var(--font-Nunito);
+  background: var(--btn-background-secondary);
+  border: none;
+}
+
+.goliveBtn:hover {
+  background: var(--btn-background-secondary);
+  border: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .columnA,
+  .columnB {
+    order: 0;
+  }
+  .columnB {
+    margin-top: 100px;
+  }
+
+  .imageParent {
+    padding: 20px;
+  }
+
+  .hostTitle {
+    padding: 0px 20px !important;
+  }
+}

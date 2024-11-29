@@ -1,0 +1,1353 @@
+.view_prop_bannerimg {
+  position: relative !important;
+  /* max-height: 500px; */
+  height: inherit !important;
+  object-fit: cover !important;
+  border-radius: 10px;
+  max-width: fit-content;
+}
+
+.custom-datepicker .ant-picker-cell-disabled .ant-picker-cell-inner {
+  color: red;
+}
+
+/* OVERVIEW TAB SECTION */
+.tab_overview_prop_heading {
+  font-family: var(--font-h3);
+  font-weight: 600;
+  font-size: 30px;
+  margin: 2rem 0;
+}
+
+.tab_overview_prop_small_subheading {
+  font-family: var(--font-Montserrat);
+  font-style: italic;
+  color: var(--light-font-color);
+}
+
+.tab_overview_prop_subheading {
+  font-family: var(--font-Montserrat);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.amenities_details_row {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 3rem 0;
+  border-bottom: 1px solid var(--light-font-color);
+}
+
+.heading_para {
+  margin-left: 16px;
+}
+
+.amenities_details_container {
+  display: flex;
+}
+
+.amenities_details_main_heading {
+  font-family: var(--font-Montserrat);
+  font-style: italic;
+}
+
+.amenities_details_main_subheading {
+  font-family: var(--font-Montserrat);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--light-font-color);
+}
+
+/* ABOUT SECTION STARTED HERE */
+.about_section_main_heading {
+  font-family: var(--font-Montserrat);
+  font-weight: 500;
+}
+
+.about_section_para {
+  font-family: var(--font-Nunito);
+  color: var(--light-font-color);
+  font-size: 13px;
+  margin: 2rem 0;
+  min-height: 500px !important;
+  max-height: 500px !important;
+  border: none;
+  cursor: default;
+}
+
+.about_section_para:hover {
+  border: none !important;
+}
+
+.about_section_para:focus {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.about_section_para:focus-visible {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* MAIN BANNER IMAGE SECTION  */
+.view_prop_bannerimg_main_container {
+  display: flex;
+  justify-content: center;
+}
+
+.view_prop_bannerimg_container {
+  display: grid;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.view_prop_all_image_container {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+
+.view_prop_image_div_1 {
+  grid-area: 1 / 1 / 3 / 3;
+  max-height: 540px !important;
+}
+
+.view_prop_image_div_2 {
+  grid-area: 1 / 3 / 2 / 4;
+  max-height: 270px;
+}
+
+.view_prop_image_div_3 {
+  grid-area: 2 / 3 / 3 / 4;
+  max-height: 270px;
+}
+
+.view_prop_image_div_4 {
+  grid-area: 1 / 4 / 2 / 5;
+  max-height: 270px;
+}
+
+.view_prop_image_div_5 {
+  grid-area: 2 / 4 / 3 / 0;
+  max-height: 270px;
+}
+
+.view_prop_image_div_1 div:first-child {
+  width: 100%;
+  text-align: center;
+}
+
+.view_prop_image_div_2 div:first-child {
+  width: 100%;
+  text-align: center;
+}
+
+.view_prop_image_div_3 div:first-child {
+  width: 100%;
+  text-align: center;
+}
+
+.view_prop_image_div_4 div:first-child {
+  width: 100%;
+  text-align: center;
+}
+
+.view_prop_image_div_5 div:first-child {
+  width: 100%;
+  text-align: center;
+}
+
+/* FEATURE SECTION STARTED HERE */
+.feature_section {
+  background-color: var(--light-grey);
+  padding: 3rem 0;
+}
+
+.feature_section_heading {
+  margin-bottom: 2rem;
+  font-family: var(--font-h3);
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.feature_section_div_container {
+  display: flex;
+  align-items: center;
+  margin: 0.8rem 0;
+}
+
+.feature_section_tick_icon_container {
+  display: flex;
+}
+
+.feature_section_text {
+  margin: 0 1rem;
+  font-family: var(--font-Nunito);
+}
+
+/* CARASOUL IMAGE SECTION STARTED HERE */
+.carasoul_section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.carasoul_images {
+  position: relative !important;
+  object-fit: cover;
+  margin: 10px;
+  width: 200px !important;
+  height: 200px !important;
+}
+
+.carasoul_section_inner_div {
+  display: flex !important;
+  flex-wrap: wrap;
+}
+
+/*  ------------    Total price box    ----------   */
+
+.parentRow {
+  position: relative;
+}
+
+.backgroundWhite {
+  background: var(--white-font-color);
+  bottom: 0px;
+  top: 45px;
+  height: fit-content;
+  padding: 18px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+  border-radius: 12px;
+  border: 1px solid rgb(221, 221, 221);
+  position: sticky;
+  margin-top: 45px;
+}
+
+.inner_input_date_picker_form_item {
+  margin-bottom: 0;
+}
+
+.inner_input_date_picker {
+  /* padding: 6px 24px; */
+  border-color: var(--btn-background-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  min-height: 50px;
+  font-size: 20px;
+  font-family: var(--font-Nunito);
+}
+
+.inner_input_date_picker:hover {
+  border-color: var(--black-color);
+  border-inline-end-width: 1px;
+}
+
+.inner_input_date_picker:focus {
+  border: none;
+  border-inline-end-width: 1px;
+}
+
+.inner_input_date_picker_footer_p {
+  text-align: center;
+  font-family: var(--font-Nunito);
+}
+
+.inner_input_date_picker_footer_span {
+  color: var(--btn-background-secondary);
+}
+
+.please_select_guest_text {
+  color: red;
+  font-family: var(--font-Nunito);
+  font-size: 13px;
+  margin: 0;
+}
+
+.message {
+  text-align: center;
+  font-size: 16px;
+}
+
+.final_pricing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.totalParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* padding: 14px 0px; */
+}
+
+.totalPrice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.totalTitle_h5 {
+  margin-bottom: 0px;
+}
+
+.night_price {
+  margin-left: 6px;
+  color: var(--light-font-color);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.amount {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.starting_from_text {
+  margin-bottom: 5px;
+  font-family: var(--font-Nunito);
+  font-size: 20px;
+}
+
+.review_parent {
+  display: flex;
+  gap: 6px;
+  padding-top: 6px;
+  align-items: center;
+}
+
+.review_number {
+  color: var(--light-font-color);
+  text-decoration: underline;
+}
+
+.bookParent {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.bookNow {
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color);
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 12px 50px;
+  height: auto;
+}
+
+.bookNow:hover {
+  background-color: var(--black-color);
+  color: var(--white-font-color) !important;
+  border: none;
+}
+
+.horizonaline {
+  border: 1px solid black;
+}
+
+.date_avail_text {
+  text-align: center;
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+  color: var(--success-green);
+  margin-bottom: 0;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date_not_avail_text {
+  text-align: center;
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+  color: red;
+  margin-bottom: 0;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guest {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: transparent !important;
+  color: var(--light-font-color) !important;
+  border: none;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 6px 24px;
+}
+
+.guest::after {
+  align-self: center;
+}
+
+.increaseAdult {
+  background: var(--white-font-color);
+  color: var(--btn-background-secondary);
+  border: 1px solid var(--btn-background-secondary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+}
+
+.geust_incri_btns_div {
+  margin-top: 10px;
+}
+
+.geust_save_btn_div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.geust_save_btn {
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color);
+  border: none;
+}
+
+.geust_save_btn:hover {
+  background-color: var(--black-btn-color);
+  color: var(--white-font-color) !important;
+  border: none;
+}
+
+.increasebtn {
+  transition-duration: 0.5s;
+  width: 35px;
+  line-height: 1.2;
+  align-self: center;
+  height: 100%;
+  font-size: 1.4rem;
+  /* margin-left: 20px; */
+}
+
+.increasebtn:hover {
+  background-color: var(--btn-background);
+  color: var(--white-background);
+}
+
+.guest_count_div {
+  margin: 0 5px;
+}
+
+.decreasebtn {
+  font-size: 1.4rem;
+  width: 35px;
+  line-height: 1.2;
+  align-self: center;
+  height: 100%;
+  transition-duration: 0.5s;
+}
+
+.decreasebtn:hover {
+  background-color: var(--btn-background);
+  color: var(--white-background);
+}
+
+.guest:hover,
+.guest:focus {
+  background: none !important;
+  border: none !important;
+  color: #111111 !important;
+}
+
+.guest:active {
+  background: transparent !important;
+}
+
+.increase {
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+.max_guest_text {
+  font-family: var(--font-Nunito);
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.max_guest_span {
+  font-weight: 600;
+}
+
+.total_price_main_div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12px;
+  height: 70px;
+  align-items: center;
+}
+
+.total_price_charge_main_div {
+  display: flex;
+  padding: 0 12px;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.total_charges_text {
+  font-family: var(--font-h3);
+  font-weight: 500;
+}
+
+.total_charges {
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+}
+
+.total_price_text {
+  font-family: var(--font-h3);
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.total_price_charges_text {
+  font-family: var(--font-Nunito);
+  font-size: 14px;
+}
+
+.total_price_inc_tax_text {
+  font-family: var(--font-Nunito);
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.total_price {
+  font-family: var(--font-Nunito);
+  margin-bottom: 10px;
+  text-align: end;
+  font-size: 16px;
+}
+
+.total_price_view_details {
+  color: var(--success-green);
+  margin-bottom: 10px;
+  font-family: var(--font-Nunito);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.check {
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color);
+  border: none;
+  padding: 12px 50px;
+  font-size: 1.1rem;
+  height: auto;
+  font-weight: 500;
+}
+
+.check:hover {
+  background-color: var(--black-btn-color);
+  color: var(--white-font-color) !important;
+  border: none;
+}
+
+.checkParent,
+.contactParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.paymentMainBlock {
+  padding: 0 20px;
+}
+
+.paymentMainBlock .paymentLogoPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paymentMainBlock .paymentLogoPrice .paymentPrice {
+  font-size: 18px;
+}
+
+.paymentMainBlock .paymentLogoPrice .StartingFromPrice {
+  font-size: 14px;
+}
+
+.contact {
+  background-color: var(--white-background);
+  color: var(--black-color);
+  border: 1px solid black;
+  padding: 14px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 22px;
+}
+
+.contact:hover {
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color) !important;
+  border: 1px solid var(--btn-background-secondary) !important;
+}
+
+/* --------------          REGISTER BLOCK        ---------------   */
+
+.register {
+  font-family: var(--font-h3);
+  font-weight: 600;
+  color: var(--btn-background-secondary);
+  text-decoration: underline;
+}
+
+.dont_link_parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.adultChild {
+  width: 100%;
+  padding: 0px 18px 18px;
+}
+
+.dropdown_parent:active {
+  background-color: var(--white-background) !important;
+}
+
+.ageName {
+  font-family: var(--font-h3);
+  font-weight: 600;
+}
+
+.increaseAdult {
+  background: var(--white-font-color);
+  color: var(--btn-background-secondary);
+  border: 1px solid var(--btn-background-secondary);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.increaseAdult:hover,
+.increaseAdult:focus {
+  background: var(--white-font-color) !important;
+  color: var(--btn-background-secondary) !important;
+  border: 1px solid var(--btn-background-secondary) !important;
+}
+
+.increaseAdult:active {
+  background: inherit;
+}
+
+.decreasebtn {
+  /* padding: 0px 10px; */
+  font-size: 1.4rem;
+  width: 50px;
+  /* margin-right: 20px; */
+  transition-duration: 0.5s;
+}
+
+.decreasebtn:hover {
+  background-color: var(--btn-background);
+  color: var(--white-background);
+}
+
+.increasebtn {
+  /* padding: 0px 10px; */
+  transition-duration: 0.5s;
+  width: 50px;
+  font-size: 1.4rem;
+  /* margin-left: 20px; */
+}
+
+.increasebtn:hover {
+  background-color: var(--btn-background);
+  color: var(--white-background);
+}
+
+.applyParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 14px;
+}
+
+.apply {
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color);
+  border: none;
+  /* padding: 8px 42px; */
+  height: 35px;
+  width: 108px;
+}
+
+.apply:hover {
+  background-color: var(--black-btn-color);
+  color: var(--white-font-color) !important;
+  border: none;
+}
+
+.apply:active {
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color);
+  border: none;
+}
+
+/* MAP SECTION STARTS HERE */
+.map_section {
+  padding: 3rem 0;
+}
+
+.mapParent {
+  flex: 1;
+  position: static !important;
+}
+
+.map_section_main_container {
+  position: relative;
+  /* height: 600px; */
+}
+
+.mapParent > div {
+  border: 1px solid var(--btn-background);
+}
+
+/* VIDEO SECTION */
+
+.video_section {
+  margin: 3rem 0;
+}
+
+.video_section_container {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+
+/* THINGS TO KNOW SECTION */
+
+.things_to_know_price_container {
+  display: flex;
+  align-items: center;
+}
+
+.things_to_know_section {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.things_to_know_section_rows {
+  margin: 2rem 0;
+}
+
+.things_to_know_section_cols {
+  margin: 0.4rem 0;
+  padding: 0;
+}
+
+.things_to_know_section_heading {
+  padding: 0;
+  font-family: var(--font-h3);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.things_to_know_price_icon_container {
+  display: flex;
+  align-items: center;
+}
+
+.things_to_know_price_text {
+  margin: 0 1.2rem;
+  font-family: var(--font-Nunito);
+}
+
+.things_to_know_info_span {
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+}
+
+/* Cancellation Policy */
+.things_to_know_privacy_text {
+  padding: 0;
+  font-family: var(--font-Nunito);
+
+  margin: 1rem 0;
+}
+
+/* ----------   DETAILS OPTON       ---------------   */
+
+.detailParent {
+  border: 1px solid #636363;
+  border-radius: 16px;
+  padding: 30px;
+  height: fit-content;
+}
+
+.details {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-family: var(--font-h3);
+}
+
+.tickParent {
+  display: flex;
+  flex-direction: row;
+}
+
+.tick_with_blackbg {
+  color: #111111;
+}
+
+.words {
+  margin-left: 24px;
+}
+
+/* CHECKOUT SECTION */
+
+.checkout_payment_main_div {
+  padding: 0px 20px;
+}
+
+/** CHECKOUT SECTION NEXTPAX */
+.checkout_payment_nextpax_payment_row {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkout_payment_nextpax_payment_input_div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.checkout_payment_nextpax_payment_text {
+  margin-bottom: 0;
+}
+
+.checkout_payment_nextpax_payment_form_inputs {
+  max-width: 60% !important;
+}
+
+/* TAB OVERVIEW SECTION */
+
+.tabOverviewPropHeading {
+  font-family: var(--font-Montserrat);
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.tabOverviewPropSmallSubheading {
+  font-family: var(--font-Montserrat);
+  font-style: italic;
+  color: var(--light-font-color);
+}
+
+.tabOverviewPropSubheading {
+  font-family: var(--font-Montserrat);
+  font-style: italic;
+  color: var(--light-font-color);
+}
+
+.host_name_div {
+  margin: 20px 0;
+}
+
+.owner_name {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  color: var(--black-color);
+  cursor: default;
+}
+
+.owner_name_text {
+  font-family: var(--font-Nunito);
+  color: var(--light-font-color);
+  cursor: default;
+}
+
+.owner_name_text_host {
+  font-family: var(--font-Nunito);
+  cursor: pointer;
+}
+
+.list_bullet {
+  list-style-type: none;
+  margin-top: 10px;
+  color: var(--black-btn-color);
+  font-weight: 400;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding-left: 0px;
+}
+
+.hostName {
+  font-size: 16px;
+}
+
+.list_bullet li::before {
+  content: "\2022";
+  color: var(--btn-background-secondary);
+  display: inline-block;
+  margin-right: 7px;
+}
+
+.list_bullet_lis {
+  transition-duration: 0.3s;
+  width: fit-content;
+}
+
+.list_bullet_lis:hover {
+  transition-duration: 0.3s;
+  color: var(--btn-background-secondary);
+}
+
+.modal_data_parent_div {
+  padding: 20px 30px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.modal_data_parent_div_host {
+  padding: 20px 20px 0px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.modal_golf_course_banner_div {
+  /* margin-bottom: 15px; */
+  padding: 0;
+  height: 215px !important;
+}
+
+.modal_golf_course_banner_img,
+.modal_golf_course_banner_img_host {
+  position: relative !important;
+  border-radius: 8px;
+  object-position: bottom;
+  object-fit: cover;
+}
+
+.modal_golf_course_banner_img_host {
+  margin-bottom: 16px;
+}
+
+.club_name_heading {
+  text-align: center;
+  font-weight: 400 !important;
+  margin: 15px 0;
+  margin-bottom: 25px;
+}
+
+.club_detail_member {
+  font-weight: 400 !important;
+}
+
+.club_detail_review {
+  display: flex;
+  align-items: center;
+}
+
+.title_of_modal {
+  color: var(--black-btn-color);
+  font-weight: 500;
+}
+
+.club_detail,
+.club_detail_member {
+  margin-bottom: 0.6rem;
+  /* text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap; */
+}
+
+.modal_ok_button {
+  background-color: var(--btn-background-secondary);
+  border: none;
+  color: var(--white-font-color);
+  font-weight: 400;
+}
+
+.modal_ok_button:hover {
+  color: var(--white-font-color) !important;
+  background-color: var(--black-btn-color);
+}
+
+.golfcourse_name_text {
+  font-weight: 500;
+  font-family: var(--font-Nunito);
+  color: var(--black-btn-color);
+}
+
+.more_golfcourse_text {
+  font-family: var(--font-Nunito);
+  color: var(--black-color);
+  font-weight: 500;
+}
+
+.viewGallery {
+  background-color: var(--white-font-color);
+  padding: 6px 16px;
+  position: absolute;
+  z-index: 3;
+  bottom: 13px;
+  right: 15px;
+  border: 1px solid var(--light-grey);
+  border-radius: 2px;
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  transition-duration: 0.3s;
+}
+
+.viewGallery:hover {
+  transition-duration: 0.3s;
+  background-color: #d5d5d5;
+}
+
+.showAllImages {
+  text-decoration: none;
+  color: var(--light-font-color);
+  margin-left: 8px;
+  scroll-behavior: smooth !important;
+  display: flex;
+  align-items: center;
+  padding: 16px 16px;
+  margin-top: 16px;
+  border-radius: 0;
+}
+
+.showAllImages:hover {
+  background-color: #d5d5d5;
+  border-color: #d5d5d5 !important;
+  color: var(--light-font-color) !important;
+}
+
+.showAllImagesSpan {
+  margin-left: 10px;
+}
+
+.showAllPhoto {
+  text-decoration: none;
+  color: var(--light-font-color);
+  margin-left: 8px;
+  scroll-behavior: smooth !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .carasoul_section_inner_div {
+    display: flex !important;
+    overflow: auto;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  .backgroundWhite {
+    position: relative !important;
+    margin-bottom: 30px;
+  }
+
+  .view_prop_bannerimg_container {
+    max-width: 85vw;
+  }
+
+  .view_prop_image_div_1 {
+    grid-area: 1 / 1 / 3 / 4;
+  }
+
+  .view_prop_image_div_2 {
+    grid-area: 3 / 2 / 3 / 1;
+  }
+
+  .view_prop_image_div_3 {
+    grid-area: 3 / 3 / 3 / 4;
+  }
+
+  .view_prop_image_div_4 {
+    grid-area: 1 / 4 / 4 / 5;
+    max-height: 100% !important;
+  }
+
+  .view_prop_image_div_5 {
+    grid-area: 2 / 4 / 3 / 0;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .increase,
+  .applyParent {
+    justify-content: center;
+  }
+}
+
+.modalButton {
+  width: 100%;
+  background: #c2c2c2;
+  font-weight: 600;
+  font-size: 1.4rem;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.modalButton:hover {
+  background-color: var(--black-btn-color) !important;
+  border: none;
+}
+
+/* LOGIN MODAL STYLE */
+.textParent {
+  padding: 40px 20px 20px !important;
+}
+
+.form_items_login label {
+  font-family: var(--font-Nunito);
+  color: var(--light-font-color) !important;
+}
+
+.password {
+  border: 1px solid var(--light-font-color) !important;
+  border-radius: 5px;
+  font-family: var(--font-Nunito);
+  padding: 6px 12px 6px;
+  width: 100%;
+}
+
+.form_items_login label {
+  font-family: var(--font-Nunito);
+  color: var(--light-font-color) !important;
+}
+
+.remember {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 20px;
+}
+
+.form_items_checkbox {
+  margin-bottom: 0;
+}
+
+.meBox {
+  color: var(--black-color);
+  font-weight: 500;
+  font-family: var(--font-Nunito);
+}
+
+.signIn {
+  color: var(--white-font-color);
+  background-color: var(--black-color);
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  width: 22%;
+  padding: 6px 0px;
+  float: right;
+  border: none;
+  font-family: var(--font-Nunito);
+}
+
+.signIn:hover {
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color) !important;
+  transition-duration: 0.5s;
+}
+
+.forgotActive {
+  color: var(--light-font-color);
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 0px 20px;
+}
+
+.forgot {
+  color: var(--light-font-color);
+  font-family: var(--font-Nunito);
+}
+
+.signUpBtn {
+  border: 0px;
+  box-shadow: none !important;
+  background: none;
+  padding: 0;
+  font-family: var(--font-Nunito);
+  color: var(--light-font-color);
+  font-weight: 500;
+}
+
+.signUpBtn:hover {
+  transition-duration: 0.5s;
+  color: var(--btn-background) !important;
+}
+
+.dont_link_parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.donthaveAcc {
+  font-family: var(--font-Nunito);
+  color: var(--black-color);
+  font-weight: 600;
+  margin: 0px 8px 26px 0px;
+}
+
+.registerLink {
+  text-decoration: none;
+  color: var(--light-font-color);
+  font-family: var(--font-Nunito);
+  transition-duration: 0.5s;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.register,
+.register:hover {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  color: var(--btn-background-secondary);
+  text-decoration: underline;
+  font-size: 0.9rem;
+}
+
+/* --------------          REGISTER BLOCK        ---------------   */
+
+.headerReg {
+  font-family: var(--font-Montserrat);
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.inputParent {
+  flex-wrap: wrap;
+  width: 100%;
+  font-family: var(--font-Nunito);
+  padding: 20px 20px 10px;
+}
+
+.form_items {
+  margin-bottom: 0px;
+}
+
+.form_items_checkbox {
+  margin-bottom: 0;
+}
+
+.inputA {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px 8px 0px 0px;
+  border: 1px solid var(--light-font-color) !important;
+}
+
+.inputB {
+  width: 100%;
+  padding: 10px;
+  border-radius: 0px;
+
+  border: 1px solid var(--light-font-color) !important;
+}
+
+.inputC {
+  width: 100%;
+  padding: 10px;
+  border-radius: 0px;
+
+  border: 1px solid var(--light-font-color) !important;
+  /* border-bottom: none !important; */
+}
+
+.inputD {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--light-font-color) !important;
+  height: auto;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.twoAgree {
+  padding: 0px 20px;
+}
+
+.agreeOptionA {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 10px 0px 10px;
+  font-weight: var(--font-Nunito);
+}
+
+.agreeOptionB {
+  font-size: 1rem;
+  font-weight: 400;
+  font-weight: var(--font-Nunito);
+  margin-bottom: 14px;
+}
+
+.registBtnParent {
+  margin: 20px;
+  padding: 20px 0px 10px;
+}
+
+.registerBtn {
+  width: 100%;
+  background: var(--black-color);
+  color: var(--white-font-color) !important;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-family: var(--font-Nunito);
+  text-align: center;
+  border-radius: 0% !important;
+  padding: 6% 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.registerBtn:hover {
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color);
+  transition-duration: 0.5s;
+}

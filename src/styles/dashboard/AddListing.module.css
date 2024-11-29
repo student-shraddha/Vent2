@@ -1,0 +1,139 @@
+/* BANNER IMAGE */
+
+.banner_img {
+  position: relative !important;
+}
+/*     -------------------------     TEXT AREA      ----------------------------    */
+.addListing {
+  font-family: var(--font-Montserrat);
+  font-weight: 700;
+  margin-top: 42px;
+  margin-bottom: 20px;
+}
+.info {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  margin: 30px 0px;
+}
+.parentCheckbox {
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  margin: 24px 0px;
+}
+.title {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  margin: 20px 0px;
+}
+.listing {
+  padding: 10px 12px;
+}
+.inputBox {
+  margin-bottom: 20px;
+}
+.listingA {
+  padding: 10px 12px;
+  margin-bottom: 20px;
+}
+
+.listingbed {
+  padding: 16px 0px;
+}
+.subheading {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.type {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.twobtn {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+.savebtn {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  padding: 0px 12px;
+  border-radius: 5px;
+  background: var(--white-font-color);
+  border: 1px solid #999494;
+  height: auto;
+}
+.savebtn:hover {
+  background: var(--btn-background-secondary) !important;
+  border: 1px solid var(--btn-background-secondary) !important;
+  color: var(--white-font-color);
+  font-weight: 500;
+}
+.continuebtn {
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+  padding: 10px 12px;
+  letter-spacing: 0.8px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color) !important;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid var(--btn-background-secondary);
+  height: 45px;
+}
+.continuebtn:hover {
+  background-color: var(--black-btn-color);
+  border: 1px solid var(--black-btn-color);
+}
+.para {
+  font-size: 0.9rem;
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  margin: 30px 0px 20px;
+}
+.colA {
+  width: 100%;
+  height: auto;
+  padding: 8px 12px;
+  border: 1px solid var(--dark-grey-font);
+  border-radius: 4px;
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  color: var(--dark-grey-font);
+  background-color: var(--white-btn-font-color);
+}
+.colA:hover {
+  border: 1px solid var(--btn-background-secondary);
+}
+.search_by_golf_input_search_by_tourni {
+  height: auto;
+  border-radius: 4px;
+  width: 90%;
+  justify-content: space-between;
+  color: var(--dark-grey-font);
+  padding: 10px 0px;
+}
+
+.deletebtn,
+.addbtn {
+  font-family: var(--font-Nunito);
+  height: auto;
+  font-weight: 580;
+  letter-spacing: 0.8px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color) !important;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: 1px solid var(--btn-background-secondary);
+}
+.deletebtn:hover,
+.addbtn:hover {
+  background-color: var(--black-btn-color);
+  border: 1px solid var(--black-btn-color) !important;
+}

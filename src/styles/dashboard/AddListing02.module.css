@@ -1,0 +1,128 @@
+/* BANNER IMAGE */
+
+.banner_img,
+.mount {
+  position: relative !important;
+}
+/*     -------------------------     TEXT AREA      ----------------------------    */
+.addListing {
+  font-family: var(--font-Montserrat);
+  font-weight: 600;
+  margin-top: 42px;
+  margin-bottom: 20px;
+}
+.info {
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+  margin: 40px 0px 30px;
+}
+.listing {
+  padding: 10px 12px;
+}
+.twobtn {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+.savebtn {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 5px;
+  background: var(--white-font-color);
+  border: 1px solid #999494;
+  height: auto;
+}
+.savebtn:hover {
+  background: var(--btn-background-secondary) !important;
+  border: 1px solid var(--btn-background-secondary) !important;
+  color: var(--white-font-color) !important;
+  font-weight: 500;
+}
+.addbtnparent {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 0px;
+}
+.addbtn {
+  font-family: var(--font-Nunito);
+  font-weight: 580;
+  letter-spacing: 0.8px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color) !important;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: 1px solid var(--btn-background-secondary);
+  height: auto;
+}
+.addbtn:hover,
+.select:hover {
+  background-color: var(--black-btn-color);
+  border: 1px solid var(--black-btn-color);
+}
+.imgParent {
+  border: 2px dashed var(--border-light-grey);
+  display: flex;
+  justify-content: center;
+  padding: 24px 28px 38px;
+  margin: 36px 0px;
+}
+.imageParent {
+  max-width: 100px;
+  display: flex;
+  justify-content: center;
+  border: 1px dashed var(--border-light-grey);
+  padding: 24px 18px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(200, 200, 200, 0.5),
+    /* top */ -5px 0 10px 5px rgba(200, 200, 200, 0.5),
+    /* left */ 0 -5px 10px 5px rgba(200, 200, 200, 0.5),
+    /* bottom */ 5px 0 10px 5px rgba(200, 200, 200, 0.5); /* right */
+}
+.cloudImg {
+  max-width: 26px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  right: 10px;
+}
+.para {
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.mini {
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  color: var(--light-font-color);
+  text-align: center;
+  font-size: 0.9rem;
+}
+.cloudParent {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  right: 14px;
+  margin: 18px 0px;
+}
+.select {
+  font-family: var(--font-Nunito);
+  font-weight: 580;
+  letter-spacing: 0.8px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color) !important;
+  border: none;
+  padding: 6px 12px 6px 20px;
+  border-radius: 5px;
+  border: 1px solid var(--btn-background-secondary);
+}

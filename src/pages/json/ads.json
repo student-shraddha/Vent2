@@ -1,0 +1,36 @@
+[
+  {
+    "id": 11,
+    "image": "/images/drizly.png",
+    "name": "Drizzly",
+    "link": "https://drizly.com/"
+  },
+
+  {
+    "id": 12,
+    "image": "/images/take-a-chef.png",
+    "name": "Take a Chef",
+    "link": "https://www.takeachef.com/en-us"
+  },
+
+  {
+    "id": 13,
+    "image": "/images/wish-up-a-dress.png",
+    "name": "Wish Upon a Dress",
+    "link": "https://www.wishuponadress.com/"
+  },
+
+  {
+    "id": 14,
+    "image": "/images/wish-upon-a-wedding.png",
+    "name": "Wish Upon a Wedding",
+    "link": "https://www.wishuponawedding.org/"
+  },
+
+  {
+    "id": 15,
+    "image": "/images/minted.png",
+    "name": "Minted",
+    "link": "https://www.minted.com/"
+  }
+]

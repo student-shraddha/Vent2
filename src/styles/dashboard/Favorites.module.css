@@ -1,0 +1,99 @@
+/* BANNER IMAGE */
+
+.banner_img,
+.golfhom,
+.imgChildA,
+.imgChildB {
+  position: relative !important;
+}
+
+/*     -------------------------     TEXT AREA      ----------------------------    */
+
+.reservation {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  margin-top: 42px;
+  margin-bottom: 20px;
+}
+
+.manage {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  margin: 30px 0px;
+}
+
+.bodyRow {
+  margin-bottom: 120px;
+}
+
+.heading {
+  background-color: #f7f7f7;
+  height: 90px;
+}
+
+.tableHead {
+  color: var(--black-color);
+  font-family: var(--font-Montserrat);
+  font-weight: 600;
+  font-size: 1rem;
+  vertical-align: middle;
+}
+
+.thum {
+  width: 12%;
+}
+
+.add {
+  width: 18%;
+}
+
+.type {
+  width: 8%;
+}
+
+.price {
+  width: 10%;
+}
+
+.bed,
+.guest,
+.bath,
+.action {
+  width: 10%;
+}
+
+.tableRow {
+  color: var(--light-font-color);
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  font-size: 0.9rem;
+  border-bottom: 1px solid white;
+  height: 110px;
+  vertical-align: middle;
+}
+
+.oldTown {
+  color: var(--btn-background-secondary);
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.form {
+  color: var(--btn-background-secondary);
+  font-weight: 600;
+}
+
+.imgChildB {
+  padding-top: 10px;
+}
+
+.twoImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: none;
+  width: 54px;
+  height: auto;
+  gap: 88px;
+  padding-top: 40px !important;
+}

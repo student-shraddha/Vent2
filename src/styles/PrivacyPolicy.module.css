@@ -1,0 +1,62 @@
+/*------------------------ PRIVACY POLICY TOP IMAGE------------------------ */
+.topImage {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.topImgChild {
+  position: relative !important;
+  margin-bottom: 20px;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+/*------------------------ PRIVACY POLICY TEXT CONATINER------------------------ */
+
+.privacyTitle {
+  margin: 20px 0px;
+  font-weight: 600;
+  font-family: var(--font-Montserrat);
+}
+
+.para,
+.paraA {
+  color: var(--light-font-color);
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  margin: 30px 0px;
+  font-size: 0.8rem;
+}
+
+.paraCom {
+  color: var(--light-font-color);
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
+
+.paraA {
+  margin-bottom: 100px;
+}
+
+.personal {
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+  margin: 18px 0px;
+}
+
+.subHeading {
+  font-family: var(--font-Montserrat);
+  font-style: italic;
+}
+
+.contact {
+  text-decoration: underline;
+  color: var(--btn-background-secondary);
+}
+
+.contact:hover {
+  color: var(--black-btn-color);
+}

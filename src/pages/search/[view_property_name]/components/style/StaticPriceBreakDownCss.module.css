@@ -1,0 +1,29 @@
+.total_price_charge_main_div {
+  display: flex;
+  padding: 0 12px;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+.total_price_charges_text {
+  font-family: var(--font-Nunito);
+  font-size: 14px;
+}
+.total_price {
+  font-family: var(--font-Nunito);
+  margin-bottom: 10px;
+  text-align: end;
+}
+
+.total_charges {
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.no_charges_text {
+  font-family: var(--font-Nunito);
+  text-align: center;
+  margin: 20px 0;
+  font-size: 14px;
+}

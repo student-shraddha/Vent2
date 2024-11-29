@@ -1,0 +1,60 @@
+/*======================
+    404 page
+=======================*/
+
+.page_404 {
+  padding: 40px 0;
+  background: #ffffff;
+  font-family: "Nunito", serif;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page_404 img {
+  width: 100%;
+}
+
+.heading {
+  font-family: var(--font-Nunito);
+}
+.subheading {
+  font-family: var(--font-Nunito);
+  font-size: 14px;
+}
+.four_zero_four_bg {
+  background-image: url("../../public/images/animation_404.gif");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.four_zero_four_bg_h1 {
+  font-size: 80px;
+  text-align: center;
+  font-family: var(--font-Nunito);
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+.four_zero_four_bg_btn_container {
+  text-align: center;
+  font-family: var(--font-Nunito);
+}
+
+.link_404 {
+  color: var(--white-btn-font-color) !important;
+  padding: 10px 20px;
+  background-color: var(--btn-background);
+  margin: 20px 0;
+  text-decoration: none;
+  display: inline-block;
+  font-family: var(--font-Nunito);
+  transition-duration: 0.3s;
+}
+
+.link_404:hover {
+  background-color: var(--black-btn-color);
+}

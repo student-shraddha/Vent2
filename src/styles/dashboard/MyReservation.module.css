@@ -1,0 +1,170 @@
+/* BANNER IMAGE  */
+
+.banner_img {
+  position: relative !important;
+}
+
+/*     -------------------------     TEXT AREA      ----------------------------    */
+
+.parent {
+  margin-bottom: 70px;
+  display: flex;
+}
+
+.reservation {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  margin-top: 42px;
+  margin-bottom: 20px;
+}
+
+.manage {
+  margin: 30px 0px;
+}
+
+.title,
+.manage {
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+}
+
+.formName {
+  display: flex;
+  flex-direction: row;
+}
+
+.name {
+  color: var(--btn-background-secondary);
+  text-decoration: underline;
+}
+
+.data {
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  color: var(--light-font-color);
+}
+
+.horizontal {
+  margin-bottom: 28px;
+  border: 1px solid var(--light-font-color);
+}
+
+/* ------------------  HANG RIGHT BOX   ------------------------ */
+
+.payBtn {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 30px 24px 4px;
+  justify-content: space-between;
+}
+
+.payment {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+}
+
+.subtn {
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color);
+  border: none;
+  font-size: 0.9rem;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.subtn:hover {
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color);
+}
+
+.line {
+  border: 1px solid var(--black-btn-color) !important;
+}
+
+.columnA {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: 14px;
+}
+
+.columnB {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1;
+  position: relative;
+  bottom: 93px;
+  background-color: var(--white-font-color);
+  height: fit-content;
+  box-shadow: 2px 2px 6px rgba(1, 0.6, 0.4, 0.2);
+}
+
+.pricing {
+  padding: 16px 24px 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.total,
+.dollar {
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+}
+
+.tax,
+.view {
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+}
+
+.dollar {
+  color: var(--light-font-color);
+}
+
+.view {
+  color: #4bc12d;
+}
+
+.btnParent {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0px;
+  margin-bottom: 20px;
+}
+
+.cancel {
+  color: var(--black-btn-color);
+  font-family: var(--font-Nunito);
+  font-weight: 700;
+  background-color: var(--white-font-color);
+  border: 1px solid var(--black-btn-color);
+  width: 72%;
+  height: auto;
+  padding: 14px 0px;
+  text-align: center;
+}
+
+.cancel:hover {
+  background-color: var(--white-font-color);
+  border: 1px solid var(--black-btn-color);
+  color: var(--black-btn-color);
+}
+
+@media only screen and (max-width: 900px) {
+  .parent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .columnB {
+    order: -1;
+  }
+}

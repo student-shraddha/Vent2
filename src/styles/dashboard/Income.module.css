@@ -1,0 +1,96 @@
+.income_page_heading {
+  margin: 2rem 0;
+  font-family: var(--font-Montserrat);
+  font-weight: 600;
+}
+.income_page_cards_cols {
+  margin-bottom: 4rem;
+}
+.income_page_cards_container {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.178);
+  padding: 20px 25px;
+}
+.income_page_cards_text_container {
+  min-height: 200px;
+}
+.income_page_cards_heading {
+  font-family: var(--font-Montserrat);
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.income_page_cards_subheading {
+  color: var(--light-font-color);
+  font-family: var(--font-Montserrat);
+  font-style: italic;
+  font-size: 15px;
+}
+.income_page_cards_btn {
+  background-color: var(--btn-background-secondary);
+  border: none;
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+  height: 40px;
+  width: 130px;
+  border-radius: 4px;
+}
+.income_page_cards_btn:hover {
+  background-color: var(--black-btn-color);
+}
+/* PAYOUT SECTION  */
+.income_page_payout_section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+}
+.income_page_payout_rows {
+  width: 100%;
+  max-width: 49%;
+}
+.income_page_payout_heading_container {
+  padding: 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.income_page_payout_subheading_container {
+  padding: 20px 15px;
+}
+.income_page_payout_subheading {
+  font-family: var(--font-Montserrat);
+  font-style: italic;
+  font-size: 13px;
+  color: var(--light-font-color);
+}
+.income_page_payout_heading {
+  font-family: var(--font-Montserrat);
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.income_page_payout_method {
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+  margin-bottom: 0;
+  font-size: 20px;
+  color: var(--btn-background-secondary);
+}
+.income_page_payout_hr {
+  margin: 0;
+}
+.income_page_payout_cols {
+  width: 100%;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.178);
+}
+.income_page_payout_subheading {
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 768px) {
+  .income_page_payout_rows {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+}

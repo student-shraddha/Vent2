@@ -1,0 +1,775 @@
+/*    ------------------------------------   NAVBAR SECTION  --------------------------------   */
+.search_bar_img_div {
+  height: 100vh;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.videoPlay {
+  width: 100%;
+  height: 100vh !important;
+  object-fit: cover;
+  border-radius: 0px !important;
+  border-radius: 12px;
+  height: 300px;
+}
+.videoPlay_in_card {
+  border-radius: 16px !important;
+  object-fit: cover;
+  width: 100%;
+  height: 40vh;
+}
+.inner_icon_container {
+  position: relative;
+}
+.search_bar_main_container {
+  position: absolute;
+  width: 100%;
+  top: 500px;
+  display: flex;
+  justify-content: center;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.search_bar_container {
+  background-color: var(--white-background);
+  border-radius: 15px;
+  width: 100%;
+}
+.searchBar {
+  padding: 1rem;
+  padding-right: 0px;
+  border-radius: 15px;
+  background: var(--white-font-color);
+  min-height: 130px;
+}
+.search_cols_4,
+.search_cols_45 {
+  display: flex;
+  align-items: center;
+  border-right: 2px dashed var(--dash-border-color);
+}
+.search_btn_col {
+  display: flex;
+  justify-content: center !important;
+}
+.search_btn_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.buttonParent {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+.search_btn {
+  height: auto;
+  padding: 7px 3rem;
+  border-radius: 100px;
+  background-color: var(--btn-background);
+  color: var(--white-font-color);
+  font-size: 20px;
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+}
+.search_bar_nights_col {
+  border: 0;
+}
+.search_btn:hover {
+  background-color: var(--black-btn-color) !important;
+  color: var(--white-font-color) !important;
+}
+.image_destination {
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.input_skeleton {
+  width: 100% !important;
+}
+.inner_main_container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.inner_input_container,
+.inner_input_containerNight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10px;
+  width: 100%;
+  height: 100%;
+}
+.inner_input_box {
+  font-size: 15px;
+  font-family: var(--font-Nunito);
+  border-color: var(--btn-background) !important;
+}
+.inner_input_box:focus {
+  border: 1px solid;
+  border-color: var(--btn-background);
+}
+.inner_input_guest_selector {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.inner_input_date_picker:hover {
+  border-color: var(--btn-background);
+  border-inline-end-width: 1px;
+}
+.inner_input_date_picker:focus {
+  border-color: var(--btn-background);
+  border-inline-end-width: 1px;
+}
+.geust_incri_btns_div {
+  margin-top: 10px;
+}
+.geust_incri_btns_p {
+  margin-bottom: 5px;
+  font-family: var(--font-Nunito);
+  font-size: 13px;
+  color: var(--black-color);
+  font-weight: 500;
+  text-align: center;
+}
+.destination {
+  color: var(--dark-grey-color);
+  margin-bottom: 0px;
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+}
+.guest {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: none;
+  color: #111111;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.adultChild {
+  width: 100%;
+  padding: 18px;
+}
+.increase {
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+.increaseAdult {
+  background: var(--white-font-color);
+  color: var(--btn-background-secondary);
+  border: 1px solid var(--btn-background-secondary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 95px;
+  padding: 0;
+}
+.important_input_mark {
+  color: var(--btn-background);
+}
+.decreasebtn {
+  font-size: 1.4rem;
+  width: 35px;
+  line-height: 1.2;
+  align-self: center;
+  height: 100%;
+  transition-duration: 0.5s;
+}
+.decreasebtn:hover {
+  background-color: var(--btn-background);
+  color: var(--white-background);
+}
+.increasebtn {
+  transition-duration: 0.5s;
+  width: 35px;
+  line-height: 1.2;
+  align-self: center;
+  height: 100%;
+  font-size: 1.4rem;
+  /* margin-left: 20px; */
+}
+.increasebtn:hover {
+  background-color: var(--btn-background);
+  color: var(--white-background);
+}
+.ageName {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+}
+/*     ----------------------------------  SWIPER CONTAINER  -----------------------------  */
+.golfCourses {
+  margin: 3rem 0;
+}
+.main_golfHeading {
+  font-family: var(--font-Montserrat);
+  font-weight: 600;
+}
+.golfHeading {
+  color: var(--btn-background-secondary);
+  margin-top: 16px;
+  margin-bottom: 30px;
+  font-family: var(--font-Montserrat);
+  text-transform: capitalize;
+}
+.para {
+  line-height: 26px;
+  font-weight: 400;
+  /* font-family: var(--font-Nunito); */
+}
+.sliderImage {
+  position: relative !important;
+  border-radius: 16px;
+  height: 86.6% !important;
+  box-shadow: 0px 0px 5px 3px #d5d3d3;
+  width: 100%;
+  left: 0;
+  object-fit: cover;
+  top: 65px !important;
+}
+.parentImage {
+  padding-bottom: 34px;
+}
+.countryName {
+  position: relative;
+  left: 0px;
+  padding: 10px 15px;
+  background: linear-gradient(45deg, black, #0000004d);
+  bottom: 17px;
+  border-radius: 0px 0px 16px 16px;
+  color: var(--white-font-color);
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  font-size: 20px;
+  cursor: pointer;
+}
+.viewallBtnParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  text-decoration: none !important;
+}
+.viewallBtn {
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  text-decoration: none !important;
+  width: 110px;
+  height: 45px;
+  justify-content: center;
+}
+.viewallBtn_link {
+  text-decoration: none;
+}
+.viewallBtn:hover {
+  background-color: var(--black-btn-color);
+  color: var(--white-font-color) !important;
+  text-decoration: none !important;
+}
+/* --------------------------------------- SEARCH CONTAINER ----------------------------------  */
+.search_by_golf_input_container_tourni {
+  width: 100%;
+}
+.searchPart {
+  display: flex;
+  justify-content: space-evenly;
+}
+.textArea {
+  border: none;
+  padding: 10px;
+  margin: 12px 36px 15px 0px;
+  border-radius: 3px;
+  width: 100%;
+}
+.boxes {
+  gap: 42px;
+  display: flex;
+}
+.box {
+  border: none;
+  padding: 10px;
+  margin: 12px 36px 15px 0px;
+  border-radius: 3px;
+  width: 75%;
+}
+.btn {
+  padding: 8px 38px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  color: var(--white-font-color);
+  background-color: var(--btn-background);
+  border: none;
+}
+.ant-dropdown-menu-item,
+.ant-dropdown-menu-item-only-child {
+  background-color: var(--light-grey-background) !important;
+}
+/* ------------------------------        Hottest New Arrivals         ------------------------------       */
+.hottest_new_arrival_section {
+  margin: 5rem 0;
+}
+.hottest_new_arrival__heading {
+  margin-bottom: 2rem;
+  font-family: var(--font-Montserrat);
+  font-weight: 600;
+}
+.subHeading {
+  font-family: var(--font-Montserrat);
+  font-style: italic;
+  font-size: 15px;
+}
+.explore_more_container {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.image_Parent {
+  height: 280px;
+}
+.arrivalContainer {
+  display: flex;
+  align-items: center;
+  width: auto;
+  white-space: break-spaces;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  height: auto;
+  transition: all 0.2 linear;
+}
+.newyork {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url(/images/settingArea.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  align-items: self-end;
+  border-radius: 12px;
+  justify-content: flex-start;
+  padding-bottom: 30px;
+  font-family: var(--font-Montserrat);
+  padding-left: 24px;
+}
+.midImage {
+  display: flex;
+  place-self: self-end;
+  cursor: pointer;
+}
+.midImgTitle {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
+    url("https://golf-hom-latest-assets.s3.amazonaws.com/images/pool.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  align-items: self-end;
+  border-radius: 12px;
+  justify-content: flex-start;
+  font-family: var(--font-Montserrat);
+  padding-bottom: 30px;
+  width: 100%;
+  padding-left: 24px;
+}
+.twoImgContainer {
+  display: grid;
+  place-self: end;
+  cursor: pointer;
+}
+.madridImg {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
+    url("https://golf-hom-latest-assets.s3.amazonaws.com/images/madrid.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 34.5vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  align-items: self-end;
+  border-radius: 12px;
+  justify-content: flex-start;
+  padding-bottom: 30px;
+  padding-left: 24px;
+  font-family: var(--font-Montserrat);
+}
+.resortImg {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
+    url("https://golf-hom-latest-assets.s3.amazonaws.com/images/gaintwheel.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 34.5vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  align-items: self-end;
+  border-radius: 12px;
+  justify-content: flex-start;
+  padding-bottom: 30px;
+  padding-left: 24px;
+  font-family: var(--font-Nunito);
+}
+/* ------------------------------        CARD SECTION         ------------------------------       */
+.cardHeading {
+  font-weight: 600;
+  font-family: var(--font-Montserrat);
+  /* text-transform: capitalize; */
+}
+.cardImgTitle {
+  font-family: var(--font-Montserrat);
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 1.3rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  transition-duration: 0.3s;
+}
+
+.cardImgTitle:hover {
+  transition-duration: 0.3s;
+  color: var(--btn-background-secondary);
+}
+.cardBg {
+  background: linear-gradient(rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.01));
+  padding: 40px 0px;
+}
+.saddle {
+  font-family: var(--font-Nunito);
+  color: var(--light-font-color);
+  margin-bottom: 0.6rem;
+  font-size: 14px;
+}
+.MainCard {
+  margin: 20px;
+  max-width: 400px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.MainCard:hover {
+  transition-duration: 0.3s;
+  transform: translateY(-10px);
+}
+.cardImg {
+  min-height: 300px;
+  object-fit: cover;
+}
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--light-font-color);
+  margin-bottom: 0.6rem;
+}
+.iconImg {
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+.iconImg_spans {
+  font-size: 12px;
+  margin: 0 7px;
+  font-family: var(--font-Nunito);
+  padding-top: 4px;
+}
+.parking {
+  color: var(--light-font-color);
+}
+.rightArrow {
+  display: flex;
+  float: right;
+  margin: 5px;
+}
+.exclusive_btn {
+  background-color: #9e7b74;
+  color: var(--white-font-color);
+  border: none;
+  padding: 10px 30px;
+  margin: 20px;
+  border-radius: 5px;
+  font-family: var(--font-Nunito);
+}
+/* ------------------------------        GOLFING AND TRAVELING     ----------------------------------  */
+.ads {
+  padding: 40px;
+  background: linear-gradient(rgb(0 0 0 / 50%), rgba(0, 0, 0, 0.01));
+}
+.adsTitle {
+  font-family: var(--font-Montserrat);
+  font-weight: 600;
+  padding: 30px 0px;
+}
+.bigDiv {
+  padding: 30px 0 !important;
+}
+.parentAds {
+  transition: all;
+  transition-duration: 0.3s;
+}
+.adsImage {
+  object-fit: contain;
+}
+.logo {
+  background-color: #9e7b74;
+}
+/* ------------------------------------        TRAINING VIDEOS       --------------------------------           */
+.golf_training_heading {
+  font-family: var(--font-Montserrat);
+  font-weight: 600;
+}
+.paraBtn {
+  display: flex;
+  justify-content: space-between;
+}
+.paratext {
+  line-height: 2rem;
+  font-family: var(--font-Nunito);
+  max-width: 800px;
+}
+.account_link {
+  text-decoration: none;
+}
+.viewAll {
+  color: var(--btn-background-secondary);
+  background-color: white;
+  border: none;
+  font-family: var(--font-Nunito);
+}
+.parentVideo {
+  padding: 40px 0px;
+}
+.videoParentdiv {
+  margin-bottom: 26px;
+}
+.videoImg {
+  border-radius: 12px;
+}
+.videoData {
+  border: none;
+  margin-bottom: 2rem;
+}
+.titleShadow {
+  position: relative;
+  bottom: 38px;
+  left: 36px;
+  color: var(--white-font-color);
+  width: fit-content;
+  font-size: 21px;
+  font-weight: 500;
+}
+/* -----------------------------------        STAFF N WRITERS       -------------------------------              */
+.staffCard_title_main_container {
+  display: flex;
+  justify-content: space-between;
+}
+.staffCard_title {
+  font-weight: 600;
+  font-family: var(--font-Montserrat);
+  text-transform: capitalize;
+}
+.parentOf_img_textCard {
+  position: relative;
+  cursor: pointer;
+}
+.parentReview {
+  padding: 40px 0px 200px 0px;
+}
+.swiper_container {
+  display: flex;
+}
+.swiper_img {
+  height: 260px;
+  object-fit: cover;
+}
+.cardReview {
+  border-radius: 16px;
+  position: relative !important;
+  object-fit: cover;
+}
+.cardTextParent {
+  overflow: hidden;
+  background: var(--white-background);
+  width: 70%;
+  padding: 16px;
+  position: absolute;
+  border-radius: 0 5px 0 0;
+  top: 206px;
+}
+.contact_div {
+  margin-bottom: 3px;
+  position: relative;
+  right: 4px;
+}
+.bookmarkDiv {
+  position: relative;
+  right: 1px;
+}
+.card_title {
+  font-weight: 700;
+  font-family: var(--font-Montserrat);
+  font-size: 15px;
+}
+.card_title:hover {
+  transition-duration: 0.5s;
+  color: var(--btn-background-secondary);
+}
+.byAdmin {
+  color: var(--card-text-color);
+  font-size: 0.9rem;
+  font-family: var(--font-Nunito);
+  font-size: 12px;
+}
+.bookmark_text {
+  font-family: var(--font-Nunito);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--btn-background-secondary);
+}
+.learnbtn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.learnbtn_text {
+  color: var(--card-text-secondary);
+  margin-right: 10px;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.learnIcon {
+  position: relative;
+  top: 5px;
+}
+/*    ---------------------------------         MEDIA QUERY        ---------------------------------             */
+@media only screen and (max-width: 331px) {
+  .inner_input_guest_selector {
+    justify-content: center !important;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .parentOf_img_textCard {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1920px) {
+  .parentOf_img_textCard {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .search_btn_col {
+    margin-top: 20px;
+  }
+  .search_cols_45 {
+    margin-bottom: 0.7rem;
+    border-right: none;
+  }
+  .parentOf_img_textCard {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .search_bar_main_container {
+    top: 440px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .search_cols_4 {
+    margin-bottom: 0.7rem;
+    border-right: none;
+  }
+  .search_bar_img_div {
+    height: 65vh;
+  }
+  .search_bar_container {
+    max-width: 360px;
+  }
+  .search_bar_main_container {
+    padding-left: 3rem;
+    top: 155px;
+    padding-right: 3rem;
+  }
+  .inner_main_container {
+    width: 100%;
+  }
+  .parentOf_img_textCard {
+    width: 100%;
+  }
+  .search_cols_4,
+  .search_cols_45 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .search_btn_col {
+    margin-top: 0px;
+  }
+  .arrivalContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .videoPlay {
+    height: 65vh !important;
+  }
+  .para {
+    margin-bottom: 1rem !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .search_btn_col {
+    margin-top: 0px;
+  }
+  .searchBar {
+    gap: 0px;
+    padding-right: 20px;
+  }
+  .inner_input_containerNight {
+    gap: 8px;
+  }
+  .videoPlay,
+  .search_bar_img_div {
+    height: 80vh !important;
+  }
+}
+@media only screen and (max-width: 412px) {
+  .searchBar {
+    gap: 8px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .search_bar_main_container {
+    top: 108px !important;
+  }
+}

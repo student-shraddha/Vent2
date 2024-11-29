@@ -1,0 +1,37 @@
+[
+  {
+    "id": 5,
+    "src": "https://ventify.s3.amazonaws.com/images/LA.jpg",
+    "name": "Los Angeles, USA",
+    "next": "/images/vector/forwardArrow.svg",
+    "lat": 34.0549076,
+    "lng": -118.242643
+  },
+
+  {
+    "id": 6,
+    "src": "https://ventify.s3.amazonaws.com/images/CHARLESTON.jpg",
+    "name": "Charleston, USA",
+    "next": "/images/vector/forwardArrow.svg",
+    "lat": 32.7764749,
+    "lng": -79.9310512
+  },
+
+  {
+    "id": 7,
+    "src": "https://ventify.s3.amazonaws.com/images/MIAMI.jpg",
+    "name": "Miami, USA",
+    "next": "/images/vector/forwardArrow.svg",
+    "lat": 25.7616798,
+    "lng": -80.1917902
+  },
+
+  {
+    "id": 8,
+    "src": "https://ventify.s3.amazonaws.com/images/CHICAGO.jpg",
+    "name": "Chicago, USA",
+    "next": "/images/vector/san_francisco_citi.webp",
+    "lat": 41.8781136,
+    "lng": -87.6297982
+  }
+]

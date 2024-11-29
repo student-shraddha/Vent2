@@ -1,0 +1,67 @@
+.billing_form_heading {
+  font-family: var(--font-Montserrat);
+  color: var(--btn-background-secondary);
+  font-size: 20px;
+}
+
+.checkout_btn_main_div {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.checkout_btn {
+  background-color: var(--success-green);
+  color: var(--white-font-color);
+  padding: 6px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  height: auto;
+}
+
+.checkout_btn:hover {
+  background-color: var(--btn-background-secondary);
+  border-color: var(--white-font-color) !important;
+  color: var(--white-font-color) !important;
+}
+
+.parentForm {
+  max-height: 800px;
+  margin-top: 20px;
+}
+
+/* Card Holder Name */
+.labelName {
+  margin-bottom: 4px;
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--black-btn-color);
+}
+
+.inputName {
+  border-radius: 6px;
+  border: 1px solid #c2c2c2;
+  height: 46px;
+  width: 100% !important;
+}
+.checkout_payment_nextpax_payment_pay_btn_div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.checkout_payment_nextpax_payment_pay_btn {
+  background-color: var(--success-green);
+
+  color: var(--white-btn-font-color);
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 6px 40px;
+  height: auto;
+}
+.checkout_payment_nextpax_payment_pay_btn:hover {
+  background-color: var(--btn-background-secondary);
+  color: var(--white-btn-font-color) !important;
+}

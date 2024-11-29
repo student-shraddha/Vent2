@@ -1,0 +1,268 @@
+/* BANNER IMAGE  */
+.banner_img,
+.imageChild {
+  position: relative !important;
+}
+/*     -------------------------     TEXT AREA      ----------------------------    */
+.introParent {
+  background-color: var(--header-background-color);
+  padding: 20px 0px;
+  text-align: center;
+  margin-top: 50px 0px 100px;
+}
+.title_words {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  color: var(--black-color);
+  padding-top: 10px;
+}
+.price {
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  color: var(--black-color);
+}
+.subHeading {
+  color: var(--btn-background-secondary);
+  font-weight: 400;
+  font-family: var(--font-Nunito);
+}
+.reservation {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  margin: 30px 0px;
+}
+.loader_main_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+}
+.heading {
+  background-color: #f7f7f7;
+  height: 90px;
+}
+.bodyRow {
+  margin-bottom: 20px;
+}
+.imgChild {
+  position: relative !important;
+  height: 40px;
+  max-width: 70px;
+}
+.blank {
+  width: 6%;
+}
+.id,
+.guest,
+.pet,
+.subtotal {
+  width: 8%;
+}
+.date {
+  min-width: 102px;
+}
+.status,
+.checkin {
+  min-width: 100px;
+}
+.checkout {
+  min-width: 130px;
+}
+.address {
+  min-width: 200px;
+}
+.action {
+  width: 12%;
+}
+.tableHead {
+  font-family: var(--font-Nunito);
+  vertical-align: middle;
+}
+
+.oldTown {
+  color: var(--btn-background-secondary);
+  text-decoration: underline;
+  font-weight: 500;
+}
+.detailBtn {
+  background-color: var(--btn-background-secondary) !important;
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+  border: none;
+  padding: 6px 18px !important;
+  border-radius: 4px;
+}
+.detailBtn:hover {
+  background-color: var(--black-color) !important;
+}
+.under {
+  color: var(--white-font-color);
+  background: #eca600 !important;
+  border-radius: 20px;
+  padding: 4px 7px !important;
+  border: none;
+}
+.form {
+  color: var(--btn-background-secondary);
+  font-weight: 600;
+}
+
+/*     -------------------------     TEXT AREA      ----------------------------    */
+.reservation {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  margin-top: 42px;
+  margin-bottom: 20px;
+}
+.manage {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  margin: 30px 0px;
+}
+.heading {
+  background-color: #f7f7f7;
+  height: 90px;
+}
+.bodyRow {
+  text-align: center;
+}
+
+.reservation_table_td_others {
+  min-width: 80px;
+}
+
+.blank {
+  width: 6%;
+}
+.id,
+.guest,
+.pet,
+.subtotal {
+  width: 10%;
+}
+.address {
+  width: 16%;
+}
+.status,
+.checkin {
+  min-width: 100px;
+}
+.checkout {
+  min-width: 130px;
+}
+.address {
+  min-width: 200px;
+}
+.action {
+  width: 12%;
+}
+.tableHead {
+  color: var(--black-color);
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  font-size: 1rem;
+  vertical-align: middle;
+}
+.tableRow {
+  color: var(--light-font-color);
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  font-size: 0.9rem;
+  /* border-bottom: 1px solid var(--dark-grey-color); */
+  height: 70px;
+  vertical-align: middle;
+}
+.oldTown {
+  color: var(--btn-background-secondary);
+  text-decoration: underline;
+  font-weight: 500;
+}
+.detailBtn {
+  background-color: var(--btn-background-secondary) !important;
+  color: var(--white-font-color);
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+  border: none;
+  padding: 6px 18px !important;
+  border-radius: 4px;
+}
+.under {
+  color: var(--white-font-color);
+  background: #eca600 !important;
+  border-radius: 20px;
+  padding: 4px 7px !important;
+  border: none;
+}
+.Completed {
+  color: var(--success-green);
+  background: var(--white-font-color) !important;
+  border-radius: 20px;
+  font-weight: 600;
+  border: none;
+  cursor: default;
+}
+.expired {
+  color: red;
+  background: var(--white-font-color) !important;
+  border-radius: 20px;
+  font-weight: 600;
+  border: none;
+  cursor: default;
+}
+.no_reservation_text {
+  margin-top: 20px;
+  font-family: var(--font-Nunito);
+}
+.table_date {
+  color: var(--btn-background-secondary);
+  font-weight: 600;
+  min-width: 70px;
+}
+.dollar {
+  font-weight: 600;
+}
+
+.show_more_btn {
+  background-color: var(--btn-background-secondary);
+  border: none;
+  font-family: var(--font-Nunito);
+  font-size: 15px;
+}
+
+.show_more_btn:hover {
+  background-color: var(--black-color);
+}
+
+/* ------------------------------        GOLFING AND TRAVELING     ----------------------------------  */
+.ads {
+  padding: 60px 40px;
+}
+.adsTitle {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  padding: 30px 0px;
+}
+
+.postProperty {
+  text-decoration: none;
+  color: var(--light-font-color);
+  font-family: var(--font-Nunito);
+  transition-duration: 0.5s;
+  font-size: 14px;
+  padding: 10px 15px;
+  border-radius: 6px;
+
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color);
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  justify-content: center;
+}
+
+.postProperty:hover {
+  background-color: var(--black-btn-color);
+  color: var(--white-font-color) !important;
+  text-decoration: none !important;
+}

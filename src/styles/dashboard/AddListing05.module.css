@@ -1,0 +1,131 @@
+/* BANNER IMAGE */
+
+.banner_img {
+  position: relative !important;
+}
+/*     -------------------------     TEXT AREA      ----------------------------    */
+.input_divs {
+  margin: 20px 0;
+}
+.addListing {
+  font-family: var(--font-Montserrat);
+  font-weight: 600;
+  margin-top: 42px;
+  margin-bottom: 20px;
+}
+.info {
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+  margin: 40px 0px 30px;
+}
+.title {
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+  margin: 20px 0px;
+}
+.checkbox_div {
+  margin: 20px 0;
+}
+.select_input_checkin > div {
+  height: 44px !important;
+  padding-top: 5px !important;
+}
+.checkbox {
+  font-family: var(--font-Nunito);
+  font-size: 15px;
+}
+.listing {
+  padding: 10px 12px;
+}
+.savebtn {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 5px;
+  background: var(--white-font-color);
+  border: 1px solid #999494;
+  height: auto;
+}
+.savebtn:hover {
+  background: var(--btn-background-secondary) !important;
+  border: 1px solid var(--btn-background-secondary) !important;
+  color: var(--white-font-color) !important;
+}
+.addbtnparent {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 0px;
+}
+.twobtn {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+.addbtn {
+  font-family: var(--font-Nunito);
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--btn-background-secondary);
+  color: var(--white-font-color) !important;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 5px;
+  border: 1px solid var(--btn-background-secondary);
+  height: auto;
+}
+.addbtn:hover {
+  background-color: var(--black-btn-color);
+  border: 1px solid var(--black-btn-color);
+}
+.radio_section_main_row {
+  margin: 50px 0;
+}
+.radio_cols {
+  margin-bottom: 20px;
+}
+.radio_group_div {
+  width: 100% !important;
+}
+.radio_main_div,
+.radio_cols {
+  display: flex;
+  justify-content: space-between;
+}
+.radioA {
+  width: 100%;
+  border: 1px solid var(--dark-grey-font);
+  border-radius: 5px;
+  padding: 20px 12px !important;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.radioA_inputs_main_heading_container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.radioA_inputs_main_heading_p {
+  margin: 0;
+  font-family: var(--font-Nunito);
+  font-size: 16px;
+}
+.radioA_inputs {
+  width: 100% !important;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  font-family: var(--font-Nunito);
+}
+.daily {
+  margin-bottom: 0px;
+  color: var(--dark-grey-font);
+  font-weight: 400;
+  font-family: var(--font-Nunito);
+}
+.text_area {
+  font-family: var(--font-Nunito);
+  /* min-height: 150px !important; */
+  padding-top: 15px;
+}

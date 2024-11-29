@@ -1,0 +1,237 @@
+/* TOP IMAGE OF VIEW ALL PROPERTY PAGE */
+.headImage {
+  height: auto;
+}
+
+.imageChild {
+  position: relative !important;
+}
+
+.heading {
+  font-family: var(--font-Montserrat);
+  font-style: italic;
+  color: #2f2f2f;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.golfCourse {
+  color: var(--btn-background-secondary);
+}
+
+.textContainer {
+  margin: 30px 0px;
+}
+.view_prop_cards_Container {
+  margin: 30px 0;
+}
+.loader_main_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+}
+.no_property_main_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  justify-content: center;
+}
+
+.no_property_text {
+  margin-top: 20px;
+  font-family: var(--font-Nunito);
+}
+
+.para {
+  font-family: var(--font-Nunito);
+}
+
+/* COLUMNS SECTION */
+
+.columnParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.columnsA,
+.columnsB,
+.columnsC,
+.columnsD {
+  width: 100%;
+  max-width: 300px;
+  height: 265px;
+  position: relative !important;
+  margin: 25px 0px;
+  cursor: pointer;
+}
+
+.card_image {
+  object-fit: cover;
+  border-radius: 16px;
+  filter: brightness(0.8);
+}
+
+.countryName {
+  position: relative;
+  width: max-content;
+  top: 200px;
+  left: -12px;
+  max-width: 300px;
+  color: var(--white-font-color);
+  font-family: var(--font-Nunito);
+  font-size: 18px;
+  padding: 7px 10px;
+  background-color: rgb(0 0 0 / 63%);
+  height: 64px;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: 0 0px 16px 16px;
+  margin-bottom: 0;
+  padding-top: 18px;
+  padding-right: 90px;
+}
+
+/*  -----------------     PAGINATION CONTAINER     -----------------   */
+
+.pagination_container {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.pagination {
+}
+
+/* ---------------     DETAIL OPTION      --------------------  */
+
+.detailParent {
+  border: 1px solid #636363;
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.details {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-family: var(--font-Nunito);
+}
+
+.tickParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tick_with_blackbg {
+  color: #111111;
+}
+
+.words {
+  margin-left: 24px;
+}
+
+/* ************ SILDER CARDS ********************* */
+
+.carouselBlock {
+  margin: 40px 0px;
+}
+
+.carouselParent {
+  border-radius: 16px;
+  height: auto;
+}
+
+.carouselImage {
+  position: relative !important;
+  object-fit: cover;
+  border-radius: 16px;
+  height: 235px !important;
+  filter: brightness(0.8);
+  cursor: pointer;
+}
+
+.heartParent {
+  width: 10px;
+  height: auto;
+}
+
+.heart {
+  position: absolute;
+  height: 28% !important;
+  width: 8% !important;
+  left: 356px !important;
+  top: 0;
+  right: 0px;
+  bottom: 0px;
+  color: transparent;
+}
+
+.dot {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.imageGap {
+  position: relative;
+}
+.image_container {
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.carouselHeading {
+  font-family: var(--font-Nunito);
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 10px 0;
+  color: var(--black-color);
+  text-decoration: none !important;
+}
+
+.discribeOfCard {
+  font-family: var(--font-Nunito);
+  font-weight: 400;
+  color: var(--light-font-color);
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
+
+.price_of_property {
+  margin-top: 10px;
+  font-size: 17px;
+  font-family: var(--font-Nunito);
+}
+
+.price_of_property_text_from {
+  font-family: var(--font-Nunito);
+  margin: 10px 0;
+  font-weight: 500;
+  font-size: 17px;
+}
+.price_of_property_text {
+  color: var(--btn-background);
+}
+
+.mapParent {
+  flex: 1;
+  height: 695px;
+}
+
+.map {
+  position: relative !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .columnParent {
+    justify-content: center;
+  }
+}

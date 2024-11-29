@@ -1,0 +1,94 @@
+{
+    "blogs": [
+        {
+          "id": "1",
+          "img": "/images/upShot.svg",
+          "heading": "Golfhōm Gear Review – The Circle 15 Genesis Golf Glove...",
+          "contact": "/images/vector/contact.svg",
+          "name": "By T Admin",
+          "golfline": " Golf, Golf Travel, Vacation Rentals",
+          "naming": "shot"
+        },
+
+        {
+            "id": "2",
+            "img": "/images/upShot.svg",
+            "heading": "Golfhōm Gear Review – The Circle 15 Genesis Golf Glove...",
+            "contact": "/images/vector/contact.svg",
+            "name": "By T Admin",
+            "golfline": " Golf, Golf Travel, Vacation Rentals",
+            "naming": "shot"
+          },
+
+          {
+            "id": "3",
+            "img": "/images/upShot.svg",
+            "heading": "Golfhōm Gear Review – The Circle 15 Genesis Golf Glove...",
+            "contact": "/images/vector/contact.svg",
+            "name": "By T Admin",
+            "golfline": " Golf, Golf Travel, Vacation Rentals",
+            "naming": "shot"
+          },
+
+          {
+            "id": "4",
+            "img": "/images/upShot.svg",
+            "heading": "Golfhōm Gear Review – The Circle 15 Genesis Golf Glove...",
+            "contact": "/images/vector/contact.svg",
+            "name": "By T Admin",
+            "golfline": " Golf, Golf Travel, Vacation Rentals",
+            "naming": "shot"
+          },
+
+          {
+            "id": "5",
+            "img": "/images/upShot.svg",
+            "heading": "Golfhōm Gear Review – The Circle 15 Genesis Golf Glove...",
+            "contact": "/images/vector/contact.svg",
+            "name": "By T Admin",
+            "golfline": " Golf, Golf Travel, Vacation Rentals",
+            "naming": "shot"
+          },
+
+          {
+            "id": "6",
+            "img": "/images/upShot.svg",
+            "heading": "Golfhōm Gear Review – The Circle 15 Genesis Golf Glove...",
+            "contact": "/images/vector/contact.svg",
+            "name": "By T Admin",
+            "golfline": " Golf, Golf Travel, Vacation Rentals",
+            "naming": "shot"
+          },
+
+          {
+            "id": "7",
+            "img": "/images/upShot.svg",
+            "heading": "Golfhōm Gear Review – The Circle 15 Genesis Golf Glove...",
+            "contact": "/images/vector/contact.svg",
+            "name": "By T Admin",
+            "golfline": " Golf, Golf Travel, Vacation Rentals",
+            "naming": "shot"
+          },
+
+          {
+            "id": "8",
+            "img": "/images/upShot.svg",
+            "heading": "Golfhōm Gear Review – The Circle 15 Genesis Golf Glove...",
+            "contact": "/images/vector/contact.svg",
+            "name": "By T Admin",
+            "golfline": " Golf, Golf Travel, Vacation Rentals",
+            "naming": "shot"
+          },
+
+          {
+            "id": "9",
+            "img": "/images/upShot.svg",
+            "heading": "Golfhōm Gear Review – The Circle 15 Genesis Golf Glove...",
+            "contact": "/images/vector/contact.svg",
+            "name": "By T Admin",
+            "golfline": " Golf, Golf Travel, Vacation Rentals",
+            "naming": "shot"
+          }
+      ]
+  
+}

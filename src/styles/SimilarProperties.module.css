@@ -1,0 +1,14 @@
+/* ----------   SIMILAR PROPERTIES SECTION - START       ---------------   */
+.similar_props_section {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.similar_props_section_heading {
+  padding: 0;
+  font-family: var(--font-h3);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* ----------   SIMILAR PROPERTIES SECTION - END       ---------------   */

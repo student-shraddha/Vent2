@@ -1,0 +1,155 @@
+.footer {
+  background-color: var(--header-background-color);
+  padding-top: 35px;
+}
+
+.footer_cols {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_cols_text {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer_divs_unorderdlist {
+  display: flex;
+  margin-right: 24px;
+}
+
+.footer_div_email {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_row {
+  justify-content: space-between;
+}
+
+.footer_container {
+}
+
+.copyright_section {
+  border-top: 1px solid #c7c7c7;
+  margin-top: 2rem;
+}
+.copyright_section_row {
+  /* margin-top: 1rem !important; */
+
+  align-items: center;
+  padding: 20px 0;
+}
+.copyright_section_col_icon {
+  display: flex;
+  justify-content: flex-end;
+}
+.icons_container {
+  display: flex;
+}
+
+.copyright_section_p {
+  font-family: var(--font-Nunito);
+  margin-bottom: 0;
+}
+
+.icons_spans {
+  margin: 0 0.6rem;
+}
+.social_icons {
+  position: relative !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.footer_logo_container {
+  margin-bottom: 1rem;
+}
+.footer_desc_p {
+  color: var(--footer-font-color);
+  font-family: var(--font-Nunito);
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.footer_headings {
+  font-family: var(--font-Nunito);
+}
+
+.footer_headings {
+  font-family: var(--font-Nunito);
+  font-size: 18px;
+  margin: 2rem 0;
+}
+
+.nav_link_ul {
+  list-style-type: none;
+  padding: 0;
+}
+.nav_link_li {
+  margin: 1rem 0;
+}
+
+.nav_link_li_blog {
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav_link_a {
+  font-family: var(--font-Nunito);
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--dark-grey-font);
+  transition-duration: 0.5s;
+}
+
+.nav_link_a:hover {
+  transition-duration: 0.5s;
+  color: var(--btn-background);
+}
+.input_title {
+  font-family: var(--font-Nunito);
+  color: var(--footer-font-color);
+}
+.inputs {
+  margin-bottom: 0.5rem;
+}
+
+.inputs:hover {
+  border: 1px solid var(--btn-background-secondary) !important;
+}
+
+.sub_btn_conatiner {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.sub_btn {
+  font-family: var(--font-Nunito);
+  height: auto;
+  background-color: var(--btn-background-secondary);
+  padding: 6px 20px;
+  border-radius: 10px;
+  font-weight: 590;
+}
+
+.sub_btn:hover {
+  background-color: var(--black-btn-color) !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .icons_container {
+    justify-content: center;
+  }
+  .copyright_section_col_icon {
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .copyright_section_p {
+    text-align: center;
+  }
+}
