@@ -18,7 +18,7 @@ COPY . .
 RUN npm run build
 
 # Expose the app on port 3030
-EXPOSE 3001
+EXPOSE 3030
 
 # Start the Next.js app in production mode
 CMD ["npm", "start"]
