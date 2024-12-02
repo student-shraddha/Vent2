@@ -26,3 +26,4 @@ RUN npm i -g pm2
 RUN pm2 start "npm start" --name "new"
 RUN pm2 startup 
 RUN pm2 save
+RUN pm2 ls -la
