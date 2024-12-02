@@ -14,7 +14,10 @@ RUN npm install
 # Copy the rest of the application
 COPY . .
 
-# Build the Next.js app for production
+
+# Build the Next.js app for production# Copy the .env file into the container
+COPY /home/ubuntu/.env /app/.env
+
 RUN npm run build
 
 # Expose the app on port 3030
