@@ -16,7 +16,7 @@ COPY . .
 
 
 # Build the Next.js app for production# Copy the .env file into the container
-COPY /home/ubuntu/.env /app/.env
+COPY /home/ubuntu/.env /vent2/.env
 
 RUN npm run build
 
